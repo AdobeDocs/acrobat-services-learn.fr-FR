@@ -1,6 +1,6 @@
 ---
-user-guide-title: "[!DNL Adobe Acrobat Services]"
-breadcrumb-title: "[!DNL Acrobat Services]"
+user-guide-title: »[!DNL Adobe Acrobat Services] »
+breadcrumb-title: »[!DNL Acrobat Services] »
 user-guide-description: En savoir plus sur [!DNL Adobe Acrobat Services]
 solution: Acrobat Services
 feature-set: Acrobat Services
@@ -8,10 +8,10 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
+source-git-commit: c64f1519438addb4081469afaed811fbf03ac88e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 5%
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 5%
    + [Utilisation de l’API Adobe PDF Services pour la reconnaissance optique des caractères des fichiers du PDF](pdfservices/ocr.md)
 + API Document Generation {#docgen}
    + [Présentation](docgen/overview-docgen.md)
-   + Créer des modèles {#docgentemplates}
+   + [Automatisation de la génération des documents](docgen/automate-doc-gen.md)
+   + Création de modèles {#docgentemplates}
       + [Présentation de la balise Adobe Document Generation](docgen/taggeroverview.md)
       + [Ajout de balises de texte](docgen/taggeraddtexttags.md)
       + [Ajout de balises d’image](docgen/taggeraddimagetags.md)
@@ -42,7 +43,7 @@ ht-degree: 5%
 + API PDF Embed {#pdfembed}
    + [Présentation](pdfembed/overview-embed.md)
    + [Contrôlez l’expérience en ligne de votre PDF et collectez des analyses](pdfembed/controlpdfexperience.md)
-+ API Acrobat Sign {#acrobatsign}
++ API ACROBAT SIGN {#acrobatsign}
    + [Présentation](acrobatsign/overview-sign.md)
    + [Prise en main de l’API Adobe Sign](acrobatsign/signapi.md)
    + Partenaire OEM/intégré {#oem}

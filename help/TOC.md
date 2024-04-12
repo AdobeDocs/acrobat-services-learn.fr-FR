@@ -8,9 +8,9 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: 073dc25717c22ef238bc81338223945b9fee2ef7
+source-git-commit: 794e4418a6cbff45b75775121404f239aa41f8e0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,9 @@ ht-degree: 3%
 + API PDF Extract {#pdfextract}
    + [Présentation](pdfextract/overview-extract.md)
    + [Automatisation de l’extraction de contenu](pdfextract/automate-content-extraction.md)
++ API de cachet électronique PDF {#eseal}
+   + [Présentation](pdfelectronicseal/overview-electronic-seal.md)
+   + [Appliquer automatiquement le cachet électronique](pdfelectronicseal/automatically-apply-electronic-seal.md)
 + API PDF Embed {#pdfembed}
    + [Présentation](pdfembed/overview-embed.md)
    + [Contrôlez l’expérience en ligne de votre PDF et collectez des analyses](pdfembed/controlpdfexperience.md)

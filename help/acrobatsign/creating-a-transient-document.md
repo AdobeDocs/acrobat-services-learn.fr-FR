@@ -1,6 +1,6 @@
 ---
 title: Création d’un document temporaire
-description: Découvrez comment créer un document temporaire pouvant être utilisé avec l’API Acrobat Sign
+description: Découvrez comment créer un document temporaire utilisable avec l’API Acrobat Sign
 feature: Acrobat Sign API
 role: Developer
 level: Beginner
@@ -16,10 +16,10 @@ ht-degree: 0%
 
 # Création d’un document temporaire
 
-Découvrez comment créer un document temporaire pouvant être utilisé avec l’API Acrobat Sign.
+Découvrez comment créer un document temporaire utilisable avec l’API Acrobat Sign.
 
 >[!NOTE]
 >
->Ce tutoriel est spécialement conçu pour les partenaires OEM qui créent et intègrent un processus de signature dans leur application.
+>Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
 >[!VIDEO](https://video.tv.adobe.com/v/347351?hidetitle=true)

@@ -1,6 +1,6 @@
 ---
 title: Création de votre application
-description: Création d’une application dans Acrobat Sign
+description: Découvrez comment créer une application dans Acrobat Sign
 feature: Acrobat Sign API
 role: Developer
 level: Beginner
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ---
 
-# Création de votre application
+# Création de l’application
 
 Découvrez comment créer une application dans Acrobat Sign.
 
 >[!NOTE]
 >
->Ce tutoriel est spécialement conçu pour les partenaires OEM qui créent et intègrent un processus de signature dans leur application.
+>Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
 >[!VIDEO](https://video.tv.adobe.com/v/347348?hidetitle=true)

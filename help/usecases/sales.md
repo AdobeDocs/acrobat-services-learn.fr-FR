@@ -1,5 +1,5 @@
 ---
-title: Gestion des propositions de vente et des contrats
+title: Gestion des devis et des contrats
 description: Découvrez comment créer un workflow efficace pour automatiser et simplifier les propositions commerciales
 feature: Use Cases
 role: Developer
@@ -10,26 +10,26 @@ thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
 source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 2%
+source-wordcount: '1306'
+ht-degree: 0%
 
 ---
 
-# Gestion des devis et des contrats
+# Gestion des propositions de vente et des contrats
 
-![Utiliser la bannière Case Hero](assets/UseCaseSalesHero.jpg)
+![Bannière principale de cas d&#39;utilisation](assets/UseCaseSalesHero.jpg)
 
-Les propositions de vente sont la première étape du parcours d&#39;une entreprise vers l&#39;acquisition de clients. Comme pour tout, les premières impressions durent. Ainsi, votre première interaction avec les clients définit leurs attentes pour votre entreprise. Votre proposition doit être concise, précise et pratique.
+Les propositions de vente sont la première étape d&#39;une entreprise vers l&#39;acquisition de clients. Comme toujours, les premières impressions durent. Ainsi, votre première interaction avec les clients définit leurs attentes pour votre entreprise. Votre proposition doit être concise, précise et pratique.
 
-Les contrats et les propositions contiennent différents types de données dans leur structure documentaire. Ils contiennent à la fois des données dynamiques (nom du client, montant du devis, etc.) et des données statiques (texte standard, telles que les capacités de l’entreprise, les profils d’équipe et les conditions standard de l’énoncé des travaux). La création de documents de modèle, tels que des devis, implique souvent des tâches monotones, telles que le remplacement manuel des détails du projet dans un modèle standard. Dans ce tutoriel, vous utiliserez des données dynamiques et des workflows pour créer un processus efficace pour [création de propositions commerciales](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html).
+Les contrats et les propositions contiennent différents types de données dans leur structure documentaire. Ils contiennent à la fois des données dynamiques (nom du client, montant du devis, etc.) et des données statiques (texte standard tel que les capacités de l’entreprise, les profils d’équipe et les conditions générales standard). La création de documents modèles, tels que des devis, implique souvent des tâches monotones, comme le remplacement manuel des détails du projet dans un modèle standard. Dans ce tutoriel, vous allez utiliser des données et des workflows dynamiques pour créer un processus efficace de [création de devis](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html).
 
 ## Ce que vous pouvez apprendre
 
-Dans ce tutoriel pratique, découvrez comment mettre en oeuvre des données dynamiques et des workflows à l’aide de plusieurs outils, dont les plus importants sont [!DNL Adobe Acrobat Services] API. Ces API sont utilisées pour faciliter les propositions commerciales et les contrats pour vous et votre entreprise. Ce tutoriel explique comment créer, fusionner et afficher automatiquement des documents PDF à l&#39;aide de techniques pratiques. Effectuer ces tâches manuellement est long et fastidieux. En profitant de [!DNL Acrobat Services] API, vous pouvez réduire le temps passé sur ces tâches.
+Dans ce tutoriel pratique, découvrez comment implémenter des données et des workflows dynamiques à l&#39;aide de plusieurs outils, dont les plus importants sont les API [!DNL Adobe Acrobat Services]. Ces API sont utilisées pour rendre les propositions de vente et les contrats plus pratiques pour vous et votre entreprise. Ce tutoriel présente des techniques pratiques pour apprendre à créer, fusionner et afficher automatiquement des documents de PDF. L’exécution manuelle de ces tâches est longue et fastidieuse. En tirant parti des API [!DNL Acrobat Services], vous pouvez raccourcir le temps passé sur ces tâches.
 
-## API et ressources pertinentes
+## Ressources et API pertinentes
 
-* [Microsoft Word](https://www.office.com/)
+* [Microsoft Word](https://www.office.com/)
 
 * [Node.js](https://nodejs.org/en/)
 
@@ -37,63 +37,63 @@ Dans ce tutoriel pratique, découvrez comment mettre en oeuvre des données dyna
 
 * [[!DNL Acrobat Services] API](https://www.adobe.io/apis/documentcloud/dcsdk/)
 
-* [API de génération de documents Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [API Document Generation Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
 
-* [API Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
+* [API Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
 
-* [Adobe du marqueur de génération de document](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
+* [Balisage de génération de document Adobe](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
-## Résolution du problème
+## Résoudre le problème
 
-Maintenant que vous avez les outils installés, vous pouvez commencer à résoudre le problème. Les propositions ont à la fois un contenu statique et un contenu dynamique propre à chaque client. Des goulets d&#39;étranglement se produisent car les deux types de données sont nécessaires chaque fois que vous faites une proposition. La saisie de texte statique prend du temps. Vous allez donc l’automatiser et n’utiliser manuellement que les données dynamiques de chaque client.
+Maintenant que les outils sont installés, vous pouvez commencer à résoudre le problème. Les propositions ont à la fois un contenu statique et un contenu dynamique unique à chaque client. Des goulots d&#39;étranglement se produisent parce que les deux types de données sont nécessaires chaque fois que vous faites une proposition. La saisie de texte statique prend beaucoup de temps. Vous allez donc l’automatiser et ne traiter que manuellement les données dynamiques de chaque client.
 
-Tout d’abord, créez un formulaire de capture de données dans [Microsoft Forms](https://www.office.com/launch/forms?auth=1) (ou votre outil de création de formulaires préféré). Ce formulaire concerne les données dynamiques des clients qui sont ajoutées à une proposition de vente. Remplissez ce formulaire en y ajoutant des questions pour obtenir des clients les informations dont vous avez besoin (nom de l&#39;entreprise, date, adresse, portée du projet, tarification, etc.). Pour créer le vôtre, utilisez cette [formulaire](https://forms.office.com/Pages/ShareFormPage.aspx id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAN__rtiGj5UNElTR0pCQ09ZNkJRUlowSjVQWDNYUEg2RC4u&amp;sharetoken=1AJeMavBAzzxuISRKmUy). L’objectif est que les clients potentiels remplissent le formulaire, puis exportent leurs réponses sous forme de fichiers JSON, qui sont transmis à la partie suivante de votre workflow.
+Tout d&#39;abord, créez un formulaire de capture de données dans [Microsoft Forms](https://www.office.com/launch/forms?auth=1) (ou l&#39;outil de création de formulaire de votre choix). Ce formulaire concerne les données dynamiques des clients qui sont ajoutées à une proposition de vente. Remplissez ce formulaire avec des questions pour obtenir les détails dont vous avez besoin des clients, par exemple, le nom de l&#39;entreprise, la date, l&#39;adresse, la portée du projet, le prix et des commentaires supplémentaires. Pour créer le vôtre, utilisez ce [formulaire](https://forms.office.com/Pages/ShareFormPage.aspx id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAN__rtiGj5UNElTR0pCQ09ZNkJRUlowSjVQWDNYUEg2RC4u&amp;sharetoken=1AJeMavBAzzxuISRKmUy). L’objectif est que les clients potentiels remplissent le formulaire, puis exportent leurs réponses au format JSON, qui sont transmises à la partie suivante de votre workflow.
 
-Certains outils de création de formulaires permettent uniquement d’exporter des données au format CSV. Donc, vous pourriez trouver utile de [convertir](http://csvjson.com/csv2json) Transformez le fichier CSV généré en fichier JSON.
+Certains créateurs de formulaires vous permettent uniquement d’exporter des données au format CSV. Il peut donc être utile de [convertir](http://csvjson.com/csv2json) le fichier CSV généré en fichier JSON.
 
-Les données statiques sont réutilisées dans chaque proposition de vente. Vous pouvez donc utiliser un modèle de devis dans Microsoft Word pour fournir le texte statique. Vous pouvez utiliser cette [modèle](https://1drv.ms/w/s!AiqaN2pp7giKkmhVu2_2pId9MiPa?e=oeqoQ2), mais vous pouvez créer le vôtre ou utiliser un fichier [Modèle Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Les données statiques sont réutilisées dans chaque proposition de vente. Vous pouvez donc utiliser un modèle de devis dans Microsoft Word pour fournir le texte statique. Vous pouvez utiliser ce [modèle](https://1drv.ms/w/s!AiqaN2pp7giKkmhVu2_2pId9MiPa?e=oeqoQ2), mais vous pouvez créer le vôtre ou utiliser un [modèle Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-Il vous faut maintenant quelque chose qui prenne à la fois les données dynamiques des clients au format JSON et le texte statique dans le modèle Microsoft Word pour créer une proposition de vente unique pour un client. La [!DNL Acrobat Services] Les API sont utilisées pour fusionner les deux et générer un PDF pouvant être signé.
+Désormais, vous avez besoin d’un élément qui prend à la fois les données dynamiques des clients au format JSON et le texte statique du modèle Microsoft Word pour créer une proposition de vente unique pour un client. Les API [!DNL Acrobat Services] sont utilisées pour fusionner les deux et générer un PDF pouvant être signé.
 
-Pour ce faire, vous devez utiliser des balises. Les balises sont des chaînes faciles à utiliser qui peuvent représenter des nombres, des mots, des tableaux ou même des objets complexes. Les balises servent de marque de réservation pour les données dynamiques, qui dans ce cas sont des données client saisies dans le formulaire. Une fois les balises insérées dans le modèle, vous pouvez mapper les champs de formulaire du fichier JSON au modèle Word.
+Pour que cela fonctionne, utilisez des balises. Les balises sont des chaînes faciles à utiliser qui peuvent représenter des nombres, des mots, des tableaux ou même des objets complexes. Les balises font office de marques de réservation pour les données dynamiques, qui sont dans ce cas des données client saisies dans le formulaire. Une fois les balises insérées dans le modèle, vous pouvez mapper les champs de formulaire du fichier JSON au modèle Word.
 
-## Utilisation de balises
+## Utilisation des balises
 
-Ouvrez votre modèle de devis et sélectionnez le fichier **Insérer** . Dans le **Add-ins** , sélectionnez **Obtenir des compléments**. Ensuite, sélectionnez **Complément Génération de document Adobe** pour l’ajouter. Une fois ajouté, le Baliseur de génération de document s’affiche sur la **Accueil** dans la boîte de dialogue **Adobe** groupe.
+Ouvrez votre modèle de devis et sélectionnez l&#39;onglet **Insérer**. Dans le groupe **Compléments**, sélectionnez **Obtenir des compléments**. Ensuite, sélectionnez **Complément Adobe de la génération de documents** pour l&#39;ajouter. Une fois ajouté, le balisage Document Generation apparaît sur l&#39;onglet **Accueil** dans le groupe **Adobe**.
 
-Dans le **Accueil** dans la boîte de dialogue **Adobe** , sélectionnez **Génération de documents** pour commencer à baliser le document. Une vidéo de démonstration utile apparaît dans un panneau sur le côté droit de la fenêtre.
+Dans l&#39;onglet **Accueil** du groupe **Adobe**, sélectionnez **Génération de document** pour commencer à baliser le document. Une vidéo de démonstration utile s’affiche dans un panneau à droite de la fenêtre.
 
-![Capture d&#39;écran du complément Baliseur de document dans Word](assets/sales_1.png)
+![Capture d&#39;écran du complément Document Tagger dans Word](assets/sales_1.png)
 
-Sélectionner **Prise en main**. Vous êtes ensuite invité à fournir des exemples de données. Collez ou chargez le fichier JSON de réponse au formulaire comme indiqué ci-dessous.
+Sélectionnez **Commencer**. Vous êtes ensuite invité à fournir des exemples de données. Collez ou chargez le fichier JSON de réponse au formulaire comme indiqué ci-dessous.
 
-![Capture d’écran du collage d’exemple de code](assets/sales_2.png)
+![Capture d&#39;écran du collage d&#39;un exemple de code](assets/sales_2.png)
 
-Sélectionner **Générer des balises** pour obtenir une liste des champs du fichier JSON que vous avez collé ou chargé. Les balises sont affichées ci-dessous, dans la barre latérale droite.
+Sélectionnez **Générer des balises** pour obtenir une liste des champs à partir du fichier JSON que vous avez collé ou téléchargé. Les balises sont affichées ci-dessous, sur la barre latérale droite.
 
-![Capture d’écran des balises disponibles](assets/sales_3.png)
+![Capture d&#39;écran des balises disponibles](assets/sales_3.png)
 
-Après avoir généré les balises, vous pouvez les insérer dans le document. Des balises sont ajoutées au document à l’emplacement du curseur. Comme indiqué ci-dessus, vous devez ajouter le fichier **Portée du projet** juste en dessous de la balise **Portée du projet** sous-titre. De cette façon, lorsqu’un client entre dans la portée du projet dans le formulaire, sa réponse passe sous le **Portée du projet** , en remplaçant la balise que vous venez d’ajouter. Une fois l’ajout de balises terminé, une partie de votre document doit ressembler à la capture d’écran ci-dessous.
+Après avoir généré les balises, vous pouvez les insérer dans le document. Les balises sont ajoutées au document à l’emplacement du curseur. Comme indiqué ci-dessus, vous devez ajouter la balise **Étendue du projet** directement sous le sous-titre **Étendue du projet**. Ainsi, lorsqu&#39;un client entre la portée du projet dans le formulaire, sa réponse passe sous le sous-titre **Portée du projet**, en remplaçant la balise que vous venez d&#39;ajouter. Une fois les balises ajoutées, une partie du document doit ressembler à la capture d’écran ci-dessous.
 
 ![Capture d&#39;écran de l&#39;ajout de balises au document Word](assets/sales_4.png)
 
 ## Utilisation des API
 
-Accédez à l’onglet [!DNL Acrobat Services] API [homepage](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html). Pour commencer à utiliser [!DNL Acrobat Services] API, vous avez besoin d’informations d’identification pour votre application. Faites défiler la liste jusqu’au bout et sélectionnez **Commencer l’essai gratuit** pour créer des identifiants. Vous pouvez utiliser ces services [gratuit pendant six mois, puis avec paiement à l&#39;unité](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) pour seulement 0,05 $ par transaction, vous ne payez que pour ce dont vous avez besoin.
+Accédez à la [page d&#39;accueil](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) des API [!DNL Acrobat Services]. Pour commencer à utiliser les API [!DNL Acrobat Services], vous devez disposer des informations d&#39;identification pour votre application. Faites défiler l&#39;écran jusqu&#39;en bas et sélectionnez **Commencer l&#39;essai gratuit** pour créer des informations d&#39;identification. Vous pouvez utiliser ces services [gratuitement pendant six mois, puis payer au fur et à mesure](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) pour seulement 0,05 $ par transaction de document, de sorte que vous ne payez que ce dont vous avez besoin.
 
-Sélectionner **API PDF Services** comme votre service de choix et remplissez les autres détails comme indiqué ci-dessous.
+Sélectionnez **API des services de PDF** comme service de votre choix et renseignez les autres détails comme indiqué ci-dessous.
 
-![Capture d’écran des identifiants](assets/sales_5.png)
+![Capture d&#39;écran de l&#39;obtention des informations d&#39;identification](assets/sales_5.png)
 
-Une fois vos informations d’identification créées, vous obtenez des exemples de code. Sélectionnez la langue de votre choix (ce tutoriel utilise Node.js). Vos identifiants d’API se trouvent dans un fichier zip. Extrayez les fichiers dans PDFToolsSDK-Node.jsSamples.
+Une fois vos informations d’identification créées, vous obtenez des exemples de code. Sélectionnez la langue de votre choix (ce tutoriel utilise Node.js). Vos identifiants d’API se trouvent dans un fichier zip. Extrayez les fichiers vers PDFToolsSDK-Node.jsSamples.
 
-Pour commencer, créez un dossier vide nommé auto-doc\*\*.\*\* Dans le dossier, exécutez la commande suivante pour initialiser un projet Node.js : `npm init`. Nommez votre projet &quot;auto-doc&quot;*.*
+Pour commencer, créez un dossier vide appelé auto-doc\*\*.\*\* Dans le dossier, exécutez la commande suivante pour initialiser un projet Node.js : `npm init`. Nommez votre projet « auto-doc »*.*
 
-Dans le dossier ./PDFToolsSDK-Node.jsSamples/adobe-dc-pdf-tools-sdk-node-samples, il existe un fichier nommé pdftools-api-credentials.json. Déplacez-le et private.key dans le dossier auto-doc. Il contient vos identifiants d’API. Dans le dossier de documentation automatique, créez également un sous-dossier appelé &quot;resources&quot;. Il contient les données formatées JSON reçues des clients chaque fois que vous générez une proposition de vente. Dans le même dossier, enregistrez le modèle de devis depuis Microsoft Word.
+Dans le dossier ./PDFToolsSDK-Node.jsSamples/adobe-dc-pdf-tools-sdk-node-samples, il existe un fichier appelé pdftools-api-credentials.json. Déplacez-le avec private.key dans le dossier auto-doc. Il contient vos identifiants d’API. En outre, dans le dossier auto-doc, créez un sous-dossier appelé « resources ». Il contient les données au format JSON reçues des clients chaque fois que vous générez une proposition de vente. Dans le même dossier, enregistrez le modèle de devis à partir de Microsoft Word.
 
-Maintenant, vous êtes prêt à faire de la magie ! Comme vous utilisez Node.js dans ce tutoriel, vous devez installer Node.js [!DNL Acrobat Services] SDK. Pour ce faire, dans le dossier auto-doc, exécutez yarn add @adobe/documentservices-pdftools-node-sdk.
+Maintenant, vous êtes prêt à faire de la magie ! Étant donné que vous utilisez Node.js dans ce tutoriel, vous devez installer le SDK [!DNL Acrobat Services] Node.js. Pour ce faire, dans le dossier auto-doc, exécutez yarn add @adobe/documentservices-pdftools-node-sdk.
 
-Créez maintenant un fichier appelé merge.js et collez le code suivant dans celui-ci.
+Créez maintenant un fichier appelé merge.js et collez-y le code suivant.
 
 ```
 javascript
@@ -135,14 +135,14 @@ console.log('Exception encountered while executing operation', err);
 }
 ```
 
-Ce code obtient votre fichier JSON à partir du formulaire Microsoft à l’aide des balises que vous avez créées à l’aide de [!DNL Acrobat Services]. Il fusionne ensuite les données avec le modèle de devis que vous avez créé dans Microsoft Word pour générer un tout nouveau PDF. Le PDF est enregistré dans le fichier nouvellement créé ./dossier de sortie.
+Ce code obtient votre fichier JSON à partir du formulaire Microsoft à l’aide des balises que vous avez créées à l’aide de [!DNL Acrobat Services]. Il fusionne ensuite les données avec le modèle de devis que vous avez créé dans Microsoft Word pour générer un tout nouveau PDF. Le PDF est enregistré dans le fichier nouvellement créé.dossier /output.
 
-En outre, le code utilise [API Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html) pour que les deux sociétés signent la proposition de vente générée. Consultez cet article de blog pour une explication détaillée de cette API.
+En outre, le code utilise l&#39;[API Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html) pour que les deux sociétés signent la proposition de vente générée. Consultez cet article de blog pour obtenir une explication détaillée de cette API.
 
 ## Marche à suivre
 
-Vous avez commencé avec un processus inefficace et fastidieux qui nécessitait une automatisation. Vous êtes passé de la création manuelle de documents pour chaque client à la création d’un workflow rationalisé pour automatiser et simplifier [le processus de proposition de vente](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html).
+Vous avez commencé avec un processus inefficace et fastidieux qui nécessitait une automatisation. Vous êtes passé de la création manuelle de documents pour chaque client à la création d&#39;un workflow rationalisé pour automatiser et simplifier [le processus de devis](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html).
 
-Grâce à Microsoft Forms, vos clients vous ont fourni des données stratégiques qu’ils auraient pu exploiter dans le cadre de leurs offres spéciales. Vous avez créé un modèle de devis dans Microsoft Word pour fournir le texte statique que vous ne vouliez pas recréer à chaque fois. Vous avez ensuite utilisé [!DNL Acrobat Services] des API pour fusionner les données du formulaire et du modèle afin de créer plus efficacement un PDF de devis de vente pour vos clients ;
+En utilisant Microsoft Forms, vous obteniez de vos clients des données critiques qui entraient dans leurs propositions uniques. Vous avez créé un modèle de devis dans Microsoft Word pour fournir le texte statique que vous ne vouliez pas recréer à chaque fois. Vous avez ensuite utilisé les API [!DNL Acrobat Services] pour fusionner les données du formulaire et du modèle afin de créer un PDF de devis pour vos clients de manière plus efficace.
 
-Ce tutoriel pratique n’est qu’un aperçu de ce qui est possible avec ces API. Pour découvrir d’autres solutions, consultez la page [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) page API. Utilisez tous ces outils gratuitement pendant six mois. Puis, payez seulement 0,05 $ par transaction de document sur le [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) pour que vous ne payiez que lorsque votre équipe ajoute des prospects à votre pipeline de ventes.
+Ce tutoriel pratique n’est qu’un aperçu de ce qui est possible avec ces API. Pour découvrir d&#39;autres solutions, consultez la page des API [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Utilisez tous ces outils gratuitement pendant six mois. Ensuite, ne payez que 0,05 $ par transaction documentaire sur la formule [paiement à l&#39;utilisation](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html), afin de ne payer que lorsque votre équipe ajoute des prospects à votre pipeline de ventes.

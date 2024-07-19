@@ -1,6 +1,6 @@
 ---
-title: Définition des étiquettes de calcul numérique
-description: Découvrez comment définir des balises de calcul numériques dans les modèles Microsoft Word à l’aide du marqueur de génération de document Adobe pour calculer des agrégations ou des calculs arithmétiques de valeurs de données à l’aide de l’API de génération de document Adobe
+title: Définition des balises de calcul numériques
+description: Découvrez comment définir des balises de calcul numériques dans les modèles Microsoft Word à l’aide de la balise Adobe Document Generation pour calculer les agrégations ou l’arithmétique des valeurs de données à l’aide de l’API Adobe Document Generation
 feature: Document Generation API
 role: Developer
 level: Beginner
@@ -13,8 +13,8 @@ ht-degree: 0%
 
 ---
 
-# Définition d’étiquettes de calcul numérique
+# Définition de balises de calcul numériques
 
-Découvrez comment définir des balises de calcul numériques dans les modèles Microsoft Word à l’aide de l’option Etiquette de génération de document Adobe pour calculer des agrégations ou des calculs arithmétiques de valeurs de données à l’aide de l’API de génération de document Adobe.
+Découvrez comment définir des balises de calcul numériques dans les modèles Microsoft Word à l’aide de la balise Adobe Document Generation pour calculer des agrégations ou l’arithmétique de valeurs de données à l’aide de l’API Adobe Document Generation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332118?hidetitle=true)

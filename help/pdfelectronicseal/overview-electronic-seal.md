@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Tutorials d’API de cachet électronique Adobe PDF
 
-L’API de cachet électronique d’Adobe PDF appose un cachet électronique sur les documents à grande échelle à l’aide d’un certificat émis par certains fournisseurs de services de confiance (TSP) sur [Liste de confiance approuvée de l’Adobe (AATL)](https://helpx.adobe.com/acrobat/kb/approved-trust-list1.html). Le cachet électronique permet de vérifier l’identité et l’intégrité des documents. Il peut être utilisé pour créer des cachets électroniques de documents à grande échelle et est inclus dans l’API des services de PDF.
+L&#39;API de cachet électronique Adobe PDF appose un cachet électronique aux documents à grande échelle à l&#39;aide d&#39;un certificat émis par certains fournisseurs de services de confiance (TSP) sur la [liste de confiance approuvée (AATL)](https://helpx.adobe.com/acrobat/kb/approved-trust-list1.html) d&#39;Adobe. Le cachet électronique permet de vérifier l’identité et l’intégrité des documents. Il peut être utilisé pour créer des cachets électroniques de documents à grande échelle et est inclus dans l’API des services de PDF.
 
 <table style="table-layout:fixed">
 <tr>

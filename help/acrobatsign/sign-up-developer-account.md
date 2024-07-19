@@ -1,6 +1,6 @@
 ---
-title: S’inscrire à un compte Développeur
-description: Découvrez comment créer un compte développeur pour Acrobat Sign, qui est entièrement activé avec les fonctionnalités Sign et API
+title: Ouvrir un compte développeur
+description: Découvrez comment créer un compte Développeur pour Acrobat Sign, qui est entièrement activé avec les fonctionnalités Sign et API
 feature: Acrobat Sign API
 role: Developer
 level: Beginner
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ---
 
-# S’inscrire à un compte Développeur
+# Ouvrir un compte développeur
 
-Découvrez comment créer un compte développeur pour Acrobat Sign, qui est entièrement activé avec les fonctionnalités Sign et API.
+Découvrez comment créer un compte Développeur pour Acrobat Sign, qui est entièrement activé avec les fonctionnalités Sign et API.
 
 >[!NOTE]
 >
->Ce tutoriel est spécialement conçu pour les partenaires OEM qui créent et intègrent un processus de signature dans leur application.
+>Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
 >[!VIDEO](https://video.tv.adobe.com/v/347347?hidetitle=true)

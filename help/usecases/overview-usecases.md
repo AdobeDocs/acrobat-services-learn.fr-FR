@@ -1,6 +1,6 @@
 ---
-title: »[!DNL Adobe Acrobat Services] Cas d’utilisation de l’API »
-description: Page Présentation pour [!DNL Adobe Acrobat Services] Cas d’utilisation des API
+title: « [!DNL Adobe Acrobat Services] cas d'utilisation de l'API »
+description: Page Présentation des  [!DNL Adobe Acrobat Services] cas d’utilisation des API
 feature: Use Cases
 role: Developer
 level: Beginner, Intermediate, Experienced
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Acrobat Services] Cas d’utilisation des API
+# [!DNL Adobe Acrobat Services] cas d’utilisation de l’API
 
-## Que peut-il [!DNL Adobe Acrobat Services] Les API font pour moi ?
+## Que peuvent faire les API [!DNL Adobe Acrobat Services] ?
 
-Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre entreprise avec ces cas d’utilisation pratiques.
+Découvrez comment les API [!DNL Adobe Acrobat Services] peuvent changer votre entreprise grâce à ces cas d&#39;utilisation pratiques.
 
 ### [!DNL Acrobat Services] API
 
@@ -60,9 +60,9 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
         <img alt="Gestion des propositions de vente et des contrats" src="assets/sales_thumb.png" />
       </a>
       <div>
-      <a href="sales.md"><strong>Gestion des propositions de vente et des contrats</strong></a>
+      <a href="sales.md"><strong>Gestion des devis et des contrats</strong></a>
       </div>
-      <em>Découvrez comment créer un workflow efficace pour automatiser et simplifier les propositions commerciales</em>
+      <em>Découvrez comment créer un workflow efficace pour automatiser et simplifier les devis</em>
       <br>
     </td>
 </tr>
@@ -72,7 +72,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
       <img alt="Création d’un accord de confidentialité" src="assets/nda_thumb.png" />
     </a>
     <div>
-    <a href="nda.md"><strong>Création d’un accord de confidentialité</strong></a>
+    <a href="nda.md"><strong>Création d'un accord de confidentialité</strong></a>
     </div>
     <em>Découvrez comment créer un PDF NDA dynamique pour la collaboration</em>
     <br>
@@ -92,9 +92,9 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
       <img alt="Gestion des lettres d’offre des employés" src="assets/offer_thumb.png" />
     </a>
     <div>
-    <a href="offer.md"><strong>Gestion des lettres d’offre des employés</strong></a>
+    <a href="offer.md"><strong>Gestion des lettres d’offre aux employés</strong></a>
     </div>
-    <em>Découvrez comment générer une lettre d’offre qui peut être remise à un nouvel employé pour signature.</em>
+    <em>Découvrez comment générer une lettre d'offre qui peut être remise à un nouvel employé pour signature</em>
     <br>
   </td>
   <td>
@@ -104,7 +104,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
     <div>
     <a href="searching.md"><strong>Recherche et indexation</strong></a>
     </div>
-    <em>Découvrez comment créer des fichiers de PDF pouvant faire l’objet de recherches à partir de documents numérisés</em>
+    <em>Découvrez comment créer des fichiers de PDF pouvant faire l'objet de recherches à partir de documents numérisés</em>
     <br>
   </td>
 </tr>
@@ -116,7 +116,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
     <div>
     <a href="reviews.md"><strong>Révisions et approbations</strong></a>
     </div>
-    <em>Découvrez comment créer un workflow de révision et d’approbation de documents pour la collaboration entre les équipes</em>
+    <em>Découvrez comment créer un workflow de révision et d’approbation de documents pour la collaboration entre équipes</em>
     <br>
   </td>
   <td>
@@ -136,7 +136,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
     <div>
     <a href="jobposting.md"><strong>Offre d’emploi</strong></a>
     </div>
-    <em>Apprenez à offrir une expérience Web fluide et uniforme aux postulants et aux employeurs</em>
+    <em>Découvrez comment développer une expérience web fluide et cohérente pour les candidats à l’emploi et les employeurs</em>
     <br>
   </td>
   <td>
@@ -144,9 +144,9 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
       <img alt="Collaboration Étudiant-Enseignant" src="assets/edu_thumb.png" />
     </a>
     <div>
-    <a href="educationcollab.md"><strong>Collaboration étudiant-enseignant</strong></a>
+    <a href="educationcollab.md"><strong>Collaboration entre étudiants et enseignants</strong></a>
     </div>
-    <em>Découvrez comment créer une plateforme d’apprentissage en ligne qui permet aux enseignants et aux étudiants de partager facilement des ressources en PDF</em>
+    <em>Découvrez comment créer une plateforme d’apprentissage en ligne qui permet aux enseignants et aux étudiants de partager facilement des ressources dans PDF</em>
     <br>
   </td>
 </tr>
@@ -158,7 +158,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
     <div>
     <a href="AgreementWorkflowsNodejs.md"><strong>Workflows d’accord dans Node.js</strong></a>
     </div>
-    <em>[!DNL Adobe Acrobat Services] Les API intègrent facilement des fonctionnalités de PDF dans vos applications web</em>
+    Les API <em>[!DNL Adobe Acrobat Services] intègrent facilement des fonctionnalités de PDF dans vos applications web</em>
     <br>
   </td>
   <td>
@@ -168,7 +168,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
     <div>
     <a href="HRAgreementWorkflowsJava.md"><strong>Workflows de document de RH en Java</strong></a>
     </div>
-    <em>[!DNL Adobe Acrobat Services] Les API intègrent facilement des fonctionnalités de PDF dans vos applications Web de RH</em>
+    Les API <em>[!DNL Adobe Acrobat Services] incorporent facilement des fonctionnalités de PDF dans vos applications Web de RH</em>
     <br>
   </td>
   <td>
@@ -178,7 +178,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
     <div>
     <a href="FinanceWorkflowsJava.md"><strong>Gestion des workflows de documents financiers en Java</strong></a>
     </div>
-    <em>[!DNL Adobe Acrobat Services] fournit tous les outils, services et fonctionnalités nécessaires au traitement et à l’extraction de données à partir de documents financiers PDF</em>
+    <em>[!DNL Adobe Acrobat Services] fournit tous les outils, services et fonctionnalités nécessaires au traitement et à l'extraction de données à partir de documents financiers PDF</em>
     <br>
   </td>
   <td>
@@ -200,7 +200,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] Les API peuvent changer votre e
     <div>
     <a href="invoices.md"><strong>Gestion des factures</strong></a>
     </div>
-    <em>Découvrez comment générer, protéger par mot de passe et envoyer automatiquement des factures client.</em>
+    <em>Découvrez comment générer, protéger par mot de passe et remettre automatiquement les factures client</em>
     <br>
   </td>
   <td>

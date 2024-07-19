@@ -37,7 +37,7 @@ Déverrouillez les éléments de structure et de contenu de n’importe quel PDF
     <div>
    <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/parsing-pdf.html"><strong>Analyse du PDF : aussi facile que de travailler avec des données JSON avec l’API d’extraction de PDF</strong></a>
     </div>
-    <em>Découvrez comment le service d’extraction de PDF de l’API Adobe PDF Services peut rendre l’analyse du PDF aussi simple que l’analyse du fichier JSON</em>
+    <em>Découvrez comment le service d'extraction de PDF de l'API Adobe PDF Services peut rendre l'analyse de PDF aussi simple que l'analyse de JSON</em>
     <br>
   </td>
   <td>

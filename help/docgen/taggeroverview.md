@@ -1,6 +1,6 @@
 ---
 title: Présentation
-description: Présentation du marqueur de génération de document Adobe conçu pour être utilisé avec l’API de génération de document Adobe
+description: Présentation de la balise Adobe Document Generation conçue pour être utilisée avec l’API Adobe Document Generation
 feature: Document Generation API
 role: Developer
 level: Beginner
@@ -15,8 +15,8 @@ ht-degree: 2%
 
 ---
 
-# Présentation du marqueur de génération de document Adobe
+# Présentation de la balise Adobe Document Generation
 
-Obtenez un aperçu du marqueur de génération de document Adobe conçu pour être utilisé avec l’API de génération de document Adobe.
+Obtenez un aperçu du Baliseur Adobe Document Generation conçu pour être utilisé avec l’API Adobe Document Generation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332120?hidetitle=true)

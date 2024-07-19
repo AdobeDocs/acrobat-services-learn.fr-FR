@@ -1,6 +1,6 @@
 ---
-title: Ajout De Balises Image
-description: Découvrez comment ajouter des balises d’image aux modèles Microsoft Word à l’aide du marqueur de génération de document Adobe pour envoyer dynamiquement des images dans les documents à l’aide de l’API de génération de document Adobe
+title: Ajout de balises d’image
+description: Découvrez comment ajouter des balises d’image aux modèles Microsoft Word à l’aide du Baliseur de génération de documents Adobe pour insérer dynamiquement des images dans les documents à l’aide de l’API Adobe Document Generation
 feature: Document Generation API
 role: Developer
 level: Beginner
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 # Ajout de balises d’image
 
-Découvrez comment ajouter des balises d’image aux modèles Microsoft Word à l’aide de l’outil Adobe Document Generation Tagger pour envoyer dynamiquement des images dans les documents à l’aide de l’API Adobe Document Generation.
+Découvrez comment ajouter des balises d’image aux modèles Microsoft Word à l’aide du Baliseur de génération de documents Adobe pour insérer dynamiquement des images dans des documents à l’aide de l’API Adobe Document Generation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332114?hidetitle=true)

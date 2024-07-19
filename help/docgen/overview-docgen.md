@@ -61,9 +61,9 @@ L’API Document Generation accepte un modèle de document (avec des balises de 
       <img alt="Présentation de la balise Adobe Document Generation" src="assets/Taggeroverview_thumb.png" />
    </a>
     <div>
-   <a href="taggeroverview.md"><strong>Présentation de la balise Adobe Document Generation</strong></a>
+   <a href="taggeroverview.md"><strong>Vue d'ensemble de la balise de génération de document Adobe</strong></a>
     </div>
-    <em>Obtenez une vue d’ensemble du déclencheur Adobe Document Generation conçu pour être utilisé avec l’API Adobe Document Generation</em>
+    <em>Obtenez un aperçu du déclencheur Adobe Document Generation conçu pour être utilisé avec l’API Adobe Document Generation</em>
     <br>
   </td>
   <td>
@@ -73,7 +73,7 @@ L’API Document Generation accepte un modèle de document (avec des balises de 
     <div>
    <a href="taggeraddtexttags.md"><strong>Ajout de balises de texte</strong></a>
     </div>
-    <em>Découvrez comment ajouter des balises de texte aux modèles Microsoft Word à l’aide d’Adobe Document Generation Tagger à utiliser avec l’API Adobe Document Generation</em>
+    <em>Découvrez comment ajouter des balises de texte aux modèles Microsoft Word à l’aide du déclencheur Génération de document Adobe pour une utilisation avec l’API Génération de document Adobe</em>
     <br>
   </td>
   <td>
@@ -81,9 +81,9 @@ L’API Document Generation accepte un modèle de document (avec des balises de 
       <img alt="Ajout de balises d’image" src="assets/Taggerimagetags_thumb.png" />
    </a>
     <div>
-   <a href="taggeraddimagetags.md"><strong>Ajout de balises d’image</strong></a>
+   <a href="taggeraddimagetags.md"><strong>Ajout de balises d'image</strong></a>
     </div>
-    <em>Découvrez comment ajouter des balises d’image aux modèles Microsoft Word à l’aide du Baliseur de génération de documents Adobe pour insérer dynamiquement des images dans les documents à l’aide de l’API Adobe Document Generation</em>
+    <em>Découvrez comment ajouter des balises d’image aux modèles Microsoft Word à l’aide du déclencheur Génération de document Adobe pour insérer dynamiquement des images dans des documents à l’aide de l’API Adobe Document Generation</em>
     <br>
   </td>
   <td>
@@ -93,7 +93,7 @@ L’API Document Generation accepte un modèle de document (avec des balises de 
     <div>
    <a href="taggertables.md"><strong>Ajout de tableaux et de balises de liste</strong></a>
     </div>
-    <em>Découvrez comment ajouter des tableaux et des balises de liste à des modèles Microsoft Word à l’aide du Baliseur de génération de document Adobe pour ajouter dynamiquement des lignes de tableau ou de liste en fonction des données à l’aide de l’API Adobe Document Generation</em>
+    <em>Découvrez comment ajouter des tableaux et des balises de liste à des modèles Microsoft Word à l’aide du déclencheur Génération de document Adobe pour ajouter dynamiquement des lignes de tableau ou de liste en fonction des données à l’aide de l’API Adobe Document Generation</em>
     <br>
   </td>
 </tr>
@@ -105,7 +105,7 @@ L’API Document Generation accepte un modèle de document (avec des balises de 
     <div>
    <a href="taggercalculations.md"><strong>Définition de balises de calcul numériques</strong></a>
     </div>
-    <em>Découvrez comment définir des balises de calcul numériques dans les modèles Microsoft Word à l’aide de la balise Adobe Document Generation pour calculer les agrégations ou l’arithmétique des valeurs de données à l’aide de l’API Adobe Document Generation</em>
+    <em>Découvrez comment définir des balises de calcul numériques dans les modèles Microsoft Word à l'aide de la balise Adobe Document Generation pour calculer des agrégations ou l'arithmétique des valeurs de données à l'aide de l'API Adobe Document Generation</em>
     <br>
   </td>
   <td>
@@ -115,7 +115,7 @@ L’API Document Generation accepte un modèle de document (avec des balises de 
     <div>
    <a href="taggerconditional.md"><strong>Définition du contenu conditionnel</strong></a>
     </div>
-    <em>Découvrez comment définir des sections dans les modèles Microsoft Word à l’aide du Baliseur de génération de document Adobe pour inclure ou exclure dynamiquement des sections d’un document en fonction de données à l’aide de l’API Adobe Document Generation</em>
+    <em>Découvrez comment définir des sections dans les modèles Microsoft Word à l'aide du Baliseur de génération de document Adobe pour inclure ou exclure dynamiquement des sections d'un document en fonction de données à l'aide de l'API Adobe Document Generation</em>
     <br>
   </td>
   <td>

@@ -21,6 +21,6 @@ Découvrez comment générer un jeton d’accès qui peut être utilisé avec l�
 
 >[!NOTE]
 >
->Ce tutoriel est spécialement conçu pour les partenaires OEM qui créent et intègrent un processus de signature dans leur application.
+>Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
 >[!VIDEO](https://video.tv.adobe.com/v/347350?hidetitle=true)

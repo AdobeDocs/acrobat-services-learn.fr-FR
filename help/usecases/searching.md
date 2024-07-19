@@ -1,6 +1,6 @@
 ---
 title: Recherche et indexation
-description: Apprenez à créer des fichiers de PDF interrogeables à partir de documents numérisés
+description: Découvrez comment créer des fichiers de PDF pouvant faire l’objet de recherches à partir de documents numérisés
 feature: Use Cases
 role: Developer
 level: Intermediate
@@ -10,38 +10,38 @@ thumbnail: KT-8095.jpg
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
 source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 1%
+source-wordcount: '1298'
+ht-degree: 0%
 
 ---
 
 # Recherche et indexation
 
-![Utiliser la bannière Case Hero](assets/UseCaseSearchingHero.jpg)
+![Bannière principale de cas d&#39;utilisation](assets/UseCaseSearchingHero.jpg)
 
-Les entreprises doivent souvent numériser leurs documents imprimés et fichiers numérisés. Considérez ceci [scénario](https://docs.google.com/document/d/11jZdVQAw-3fyE3Y-sIqFFTlZ4m02LsCC/edit). Un cabinet d’avocats a scanné des milliers de contrats juridiques pour créer des fichiers digitaux. Ils veulent déterminer si l&#39;un de ces contrats juridiques comporte une clause particulière ou un supplément qu&#39;ils doivent réviser. La précision est nécessaire à des fins de conformité. La solution consiste à inventorier les documents numériques, à rendre le texte indexable et à créer un index pour retrouver ces informations.
+Les entreprises doivent souvent numériser leurs documents papier et leurs fichiers numérisés. Considérez ce [scénario](https://docs.google.com/document/d/11jZdVQAw-3fyE3Y-sIqFFTlZ4m02LsCC/edit). Un cabinet d&#39;avocats a des milliers de contrats juridiques qu&#39;il a scannés pour créer des fichiers numériques. Ils veulent déterminer si certains de ces contrats juridiques comportent une clause ou un supplément particulier qu&#39;ils doivent réviser. L’exactitude est nécessaire à des fins de conformité. La solution consiste à faire l’inventaire des documents numériques, à rendre le texte consultable et à créer un index pour trouver ces informations.
 
-La création d&#39;archives numériques pour extraire des informations en vue de leur édition ou de leurs opérations en aval représente un véritable cauchemar pour la plupart des entreprises.
+La création d’archives numériques permettant de récupérer des informations à des fins de montage ou d’opérations en aval représente un véritable cauchemar pour la plupart des entreprises.
 
 ## Ce que vous pouvez apprendre
 
-Ce tutoriel pratique vous explique comment [!DNL Adobe Acrobat Services] Les fonctionnalités et fonctionnalités des API peuvent facilement être utilisées pour archiver et numériser des documents. Vous explorez ces fonctionnalités en créant une application NodeJS Express, puis en intégrant [!DNL Acrobat Services] API pour l&#39;archivage, la numérisation et la transformation documentaire.
+Ce tutoriel pratique explique comment utiliser les fonctionnalités des API [!DNL Adobe Acrobat Services] pour archiver et numériser facilement des documents. Vous explorez ces fonctionnalités en créant une application Express NodeJS, puis en intégrant [!DNL Acrobat Services] API pour l’archivage, la numérisation et la transformation des documents.
 
-Pour suivre, vous devez [Node.js](https://nodejs.org/) installé et une compréhension de base de Node.js et [Syntaxe ES6](https://www.w3schools.com/js/js_es6.asp).
+Pour suivre, vous devez avoir installé [Node.js](https://nodejs.org/) et une compréhension de base de Node.js et de la syntaxe [ES6](https://www.w3schools.com/js/js_es6.asp).
 
-## API et ressources pertinentes
+## Ressources et API pertinentes
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Code du projet](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git)
+* [Code de projet](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git)
 
 ## Configuration du projet
 
-Commencez par configurer la structure de dossiers de l’application. Vous pouvez récupérer le code source [ici](https://github.com/agavitalis/AdobeDocumentAPI.git).
+Tout d’abord, configurez la structure de dossiers pour l’application. Vous pouvez récupérer le code source [ici](https://github.com/agavitalis/AdobeDocumentAPI.git).
 
 ## Structure de répertoire
 
-Créez un dossier appelé AdobeDocumentServicesAPIs et ouvrez-le dans l’éditeur de votre choix. Créez une application NodeJS de base avec le `npm init` en utilisant cette structure de dossiers :
+Créez un dossier appelé AdobeDocumentServicesAPIs et ouvrez-le dans l’éditeur de votre choix. Créez une application NodeJS de base avec la commande `npm init` à l&#39;aide de cette structure de dossiers :
 
 ```
 AdobeDocumentServicesAPIs
@@ -73,9 +73,9 @@ Vous utilisez MongoDB comme base de données pour cette application. Par conséq
 { "DBHost": "YOUR_DB_URI" }
 ```
 
-## Installation du package
+## Installation du pack
 
-Maintenant, installez certains packages à l&#39;aide de la commande npm install comme indiqué dans l&#39;extrait de code ci-dessous :
+Maintenant, installez certains packs à l’aide de la commande npm install comme indiqué dans l’extrait de code ci-dessous :
 
 ```
 {
@@ -121,9 +121,9 @@ Ensure that the content of your package.json file is similar to this code snippe
 {
 ```
 
-Ces fragments de code installent les dépendances de l&#39;application, y compris le moteur de modèles de guidons pour la vue. Dans la balise scripts, vous configurez les paramètres d&#39;exécution de l&#39;application.
+Ces fragments de code installent les dépendances de l’application, y compris le moteur de modèle Handlebars pour la vue. Dans la balise scripts, vous configurez les paramètres d’exécution de l’application.
 
-## Intégration [!DNL Acrobat Services] API
+## Intégration de [!DNL Acrobat Services] API
 
 [!DNL Acrobat Services] comprend trois API :
 
@@ -131,29 +131,29 @@ Ces fragments de code installent les dépendances de l&#39;application, y compri
 
 * API Adobe PDF Embed
 
-* API de génération de documents Adobe
+* API Adobe Document Generation
 
-Ces API automatisent la génération, la manipulation et la transformation du contenu d’un PDF via un ensemble de services web dans le cloud.
+Ces API automatisent la génération, la manipulation et la transformation du contenu des PDF par le biais d’un ensemble de services web basés sur le cloud.
 
-Pour obtenir les informations d’identification dont vous avez besoin : [registre](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) et terminez le workflow. L’API PDF Embed est gratuite. Les API PDF Services et Document Generation sont gratuites pendant six mois. À la fin de votre période d’essai, vous pouvez [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) à seulement 0,05 $ par transaction documentaire. Vous ne payez que lorsque votre entreprise se développe et traite davantage de contrats.
+Pour obtenir les informations d&#39;identification, vous devez [vous inscrire](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) et terminer le workflow. L’API PDF Embed est gratuite. Les API PDF Services et Document Generation sont gratuites pendant six mois. À la fin de votre période d&#39;essai, vous pouvez [payer à l&#39;utilisation](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) à seulement 0,05 $ par transaction de document. Vous ne payez qu&#39;au fur et à mesure que votre entreprise se développe et traite davantage de contrats.
 
-![Capture d’écran de création des identifiants](assets/searching_1.png)
+![Capture d&#39;écran de la création des informations d&#39;identification](assets/searching_1.png)
 
-Une fois que vous avez terminé l&#39;inscription, un exemple de code est téléchargé sur votre PC qui contient vos identifiants d&#39;API. Extrayez cet exemple de code et placez les fichiers private.key et pdftools-api-credentials.json dans le répertoire racine de votre application.
+Une fois l’inscription terminée, un exemple de code est téléchargé sur votre ordinateur et contient vos identifiants d’API. Extrayez cet exemple de code et placez les fichiers private.key et pdftools-api-credentials.json dans le répertoire racine de votre application.
 
-Maintenant, installez [SDK Node.js des services de PDF](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) en exécutant le fichier ` npm install --save @adobe/documentservices-pdftools-node-sdk ` en utilisant le terminal dans le répertoire racine de l’application.
+Maintenant, installez le [SDK des services PDF Node.js](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) en exécutant la commande ` npm install --save @adobe/documentservices-pdftools-node-sdk ` à l&#39;aide du terminal dans le répertoire racine de l&#39;application.
 
 ## Création d’un PDF
 
-[!DNL Acrobat Services] prend en charge la création de PDF à partir de documents Microsoft Office (Word, Excel et PowerPoint) et d’autres [formats de fichier pris en charge](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) comme .txt, .rtf, .bmp, .jpg, .gif, .tiff et .png.
+[!DNL Acrobat Services] prend en charge la création de mots de PDF à partir de documents Microsoft Office (Word, Excel et PowerPoint) et d&#39;autres [formats de fichiers pris en charge](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) tels que .txt, .rtf, .bmp, .jpg, .gif, .tiff et .png.
 
-Pour créer des documents PDF à partir des formats de fichiers pris en charge, utilisez ce formulaire pour télécharger les documents. Vous pouvez accéder aux fichiers HTML et CSS du formulaire dans [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
+Pour créer des documents de PDF à partir des formats de fichiers pris en charge, utilisez ce formulaire pour charger les documents. Vous pouvez accéder aux fichiers HTML et CSS du formulaire sur [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
 
 ![Capture d’écran du formulaire web](assets/searching_2.png)
 
-Maintenant, ajoutez les fragments de code suivants au fichier controllers/createPDFController.js. Ce code récupère le document et le transforme en PDF.
+Ajoutez maintenant les fragments de code suivants au fichier controllers/createPDFController.js. Ce code récupère le document et le transforme en PDF.
 
-Les fichiers d’origine et le fichier transformé sont enregistrés dans un dossier au sein de votre application.
+Les fichiers d’origine et le fichier transformé sont enregistrés dans un dossier de votre application.
 
 ```
 const PDFToolsSdk = require('@adobe/documentservices-pdftools-node-sdk');
@@ -209,27 +209,27 @@ console.log('Exception encountered while executing operation', err);
 module.exports = { createPDF, createPDFPost };
 ```
 
-Ce fragment de code requiert [SDK Node.js des services de PDF](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk). Utilisez les fonctions suivantes :
+Ce fragment de code nécessite le [SDK Node.js des services PDF](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk). Utilisez les fonctions suivantes :
 
 * createPDF, qui affiche le formulaire de téléchargement de document
 
 * createPDFPost, qui transforme le document chargé en PDF
 
-Les documents PDF transformés sont enregistrés dans le répertoire de sortie, tandis que le fichier d’origine est enregistré dans le répertoire de téléchargements.
+Les documents transformés du PDF sont enregistrés dans le répertoire de sortie, tandis que le fichier d’origine est enregistré dans le répertoire de téléchargement.
 
 ## Utilisation de la reconnaissance de texte
 
-La reconnaissance optique de caractères (ROC) convertit les images et les documents numérisés en fichiers indexables. Vous pouvez convertir [!DNL Acrobat Services] Des API, des images et des documents numérisés dans des PDF indexables. Après avoir effectué une opération OCR, le fichier devient modifiable et indexable. Vous pouvez stocker le contenu du fichier dans un magasin de données à des fins d&#39;indexation et autres.
+La reconnaissance optique des caractères convertit les images et les documents numérisés en fichiers pouvant faire l’objet de recherches. Vous pouvez convertir [!DNL Acrobat Services] API, images et documents numérisés en PDF interrogeables. Après avoir effectué une opération de ROC, le fichier devient modifiable et indexable. Vous pouvez stocker le contenu du fichier dans un magasin de données à des fins d’indexation et autres.
 
-Rappelez-vous que la recherche et l’indexation des documents numérisés sont essentielles dans de nombreuses entreprises où la gestion des fichiers et le traitement des informations sont essentiels. La fonction OCR élimine ces défis.
+Rappelez-vous que la recherche et l’indexation des documents numérisés sont essentielles pour de nombreuses entreprises où la gestion des fichiers et le traitement de l’information sont essentiels. La fonctionnalité ROC permet d’éliminer ces problèmes.
 
-Pour implémenter cette fonctionnalité, vous devez concevoir un formulaire de chargement similaire à celui ci-dessus. Cette fois, vous limitez le formulaire aux fichiers PDF, car vous pouvez utiliser la fonction OCR uniquement sur les documents PDF.
+Pour mettre en œuvre cette fonctionnalité, vous devez concevoir un formulaire de téléchargement similaire à celui ci-dessus. Cette fois, limitez le formulaire aux fichiers du PDF, car vous ne pouvez utiliser la fonction ROC que sur les documents du PDF.
 
 Voici le formulaire de téléchargement pour cet exemple :
 
-![Capture d&#39;écran du formulaire pour télécharger des fichiers](assets/searching_3.png)
+![Capture d&#39;écran du formulaire pour charger des fichiers](assets/searching_3.png)
 
-Maintenant, pour manipuler le PDF chargé et effectuer certaines opérations OCR, ajoutez le fragment de code ci-dessous au fichier controllers/makeOCRController.js. Ce code implémente le processus OCR sur un fichier chargé, puis enregistre le fichier dans le système de fichiers de votre application.
+Maintenant, pour manipuler le PDF chargé et effectuer certaines opérations de ROC, ajoutez l’extrait de code ci-dessous au fichier controllers/makeOCRController.js. Ce code implémente le processus de reconnaissance optique des caractères sur un fichier chargé, puis enregistre le fichier dans le système de fichiers de votre application.
 
 ```
 const fs = require('fs')
@@ -317,19 +317,19 @@ console.log('Exception encountered while executing operation', err);
 module.exports = { makeOCR, makeOCRPost };
 ```
 
-Vous avez besoin du [!DNL Acrobat Services] Node SDK et les modules mongoose, pdf-parse et fs, ainsi que votre schéma de modèle de document. Ces modules sont nécessaires pour enregistrer le contenu du fichier transformé dans une base de données MongoDB.
+Vous avez besoin du SDK de nœud [!DNL Acrobat Services] et des modules mongoose, pdf-parse et fs, ainsi que de votre schéma de modèle de document. Ces modules sont nécessaires pour enregistrer le contenu du fichier transformé dans une base de données MongoDB.
 
-Créez maintenant deux fonctions : makeOCR pour afficher le formulaire chargé, puis makeOCRost pour traiter le document chargé. Enregistrez le formulaire d’origine dans une base de données, puis enregistrez le formulaire transformé dans le dossier de sortie de votre application.
+Créez maintenant deux fonctions : makeOCR pour afficher le formulaire chargé, puis makeOCRPost pour traiter le document chargé. Enregistrez le formulaire d’origine dans une base de données, puis enregistrez le formulaire transformé dans le dossier de sortie de votre application.
 
-Les informations d’identification fournies par l’Adobe à partir du fichier pdftools-api-credentials.json sont chargées dans chaque cas avant la transformation du fichier.
+Les informations d’identification fournies par l’Adobe du fichier pdftools-api-credentials.json sont chargées dans chaque cas avant la transformation du fichier.
 
 >[!NOTE]
 >
->La fonction OCR prend uniquement en charge les documents PDF.
+>La fonction ROC ne prend en charge que les documents PDF.
 
 Ajoutez également le fragment de code ci-dessous au fichier Modes/Document.js de votre application.
 
-Dans le fragment de code, définissez un modèle de mangouste, puis décrivez les propriétés du document à enregistrer dans la base de données. En outre, indexez le champ documentContent pour rendre la recherche de texte facile et efficace.
+Dans le fragment de code, définissez un modèle de mangouste, puis décrivez les propriétés du document à enregistrer dans la base de données. En outre, indexez le champ DocumentContent pour faciliter et optimiser la recherche de texte.
 
 ```
 const mongoose = require("mongoose");
@@ -357,17 +357,17 @@ documentContent: "text",
 module.exports = mongoose.model("document", DocumentSchema);
 ```
 
-## Recherche de textes
+## Recherche de texte
 
-Vous implémentez maintenant une fonction de recherche simple pour permettre aux utilisateurs d’effectuer des recherches textuelles simples. Vous pouvez également ajouter une fonctionnalité de téléchargement pour activer le téléchargement de fichiers de PDF.
+Vous implémentez maintenant une fonction de recherche simple pour permettre aux utilisateurs d’effectuer des recherches de texte simples. Vous ajoutez également une fonctionnalité de téléchargement pour permettre le téléchargement de fichiers de PDF.
 
-Cette fonctionnalité nécessite un formulaire simple et des cartes pour afficher le résultat de la recherche. Vous pouvez trouver les designs du formulaire et des cartes sur [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
+Cette fonctionnalité nécessite un formulaire et des cartes simples pour afficher les résultats de la recherche. Vous pouvez trouver les designs pour le formulaire et les cartes sur [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
 
-La capture d’écran ci-dessous illustre la fonction de recherche et les résultats de recherche. Vous pouvez télécharger les résultats de la recherche.
+La capture d’écran ci-dessous illustre la fonction de recherche et les résultats de la recherche. Vous pouvez télécharger n’importe lequel des résultats de recherche.
 
-![Capture d&#39;écran des fonctions de recherche](assets/searching_4.png)
+![Capture d&#39;écran des fonctionnalités de recherche](assets/searching_4.png)
 
-Pour implémenter la fonction de recherche, créez un fichier searchController.js dans le dossier du contrôleur de votre application et collez le fragment de code ci-dessous :
+Pour implémenter la fonction de recherche, créez un fichier searchController.js dans le dossier controller de votre application et collez le fragment de code ci-dessous :
 
 ```
 const fs = require('fs')
@@ -402,11 +402,11 @@ res.render('search', { response })
 module.exports = { search, searchPost, downloadPDF };
 ```
 
-Mettez maintenant en oeuvre une fonction de téléchargement pour activer le téléchargement des documents renvoyés par la recherche d&#39;un utilisateur.
+Mettez désormais en œuvre une fonction de téléchargement pour permettre le téléchargement des documents retournés par la recherche d’un utilisateur.
 
 ## Téléchargement de documents
 
-L’implémentation d’une fonction de téléchargement est similaire à ce que vous avez déjà fait. Ajoutez le fragment de code suivant après la fonction searchPost dans le fichier controllers/earchController.js :
+La mise en œuvre d’une fonctionnalité de téléchargement est similaire à ce que vous avez déjà fait. Ajoutez l’extrait de code suivant après la fonction searchPost dans le fichier controllers/earchController.js :
 
 ```
 /*
@@ -422,13 +422,13 @@ res.download(download.link);
 
 ## Marche à suivre
 
-Dans ce tutoriel pratique, vous avez intégré [!DNL Acrobat Services] API dans une application Node.js et également utilisé l&#39;API pour mettre en oeuvre une transformation de document qui convertit les fichiers en PDF. Vous avez ajouté une fonction OCR qui permet de rechercher des images et des fichiers numérisés. Ensuite, vous avez enregistré les fichiers dans un dossier afin qu’ils puissent être téléchargés.
+Dans ce tutoriel pratique, vous avez intégré des API [!DNL Acrobat Services] dans une application Node.js et utilisé l&#39;API pour mettre en œuvre une transformation de document qui convertit les fichiers en PDF. Vous avez ajouté une fonction de ROC qui rend les images et les fichiers numérisés consultables. Vous avez ensuite enregistré les fichiers dans un dossier afin de pouvoir les télécharger.
 
-Vous avez ensuite ajouté une fonction de recherche pour rechercher les documents convertis en texte par OCR. Enfin, vous avez implémenté une fonction de téléchargement pour faciliter le téléchargement de ces fichiers. Votre demande dûment remplie permet à une société juridique de localiser et de traiter plus facilement du texte spécifique.
+Ensuite, vous avez ajouté une fonction de recherche pour rechercher les documents convertis en texte par ROC. Enfin, vous avez implémenté une fonction de téléchargement pour faciliter le téléchargement de ces fichiers. Une fois votre demande complétée, il sera beaucoup plus facile pour une société juridique de localiser et de traiter un texte spécifique.
 
-Utilisation [!DNL Acrobat Services] pour la transformation de documents est fortement recommandé en raison de sa robustesse et de sa facilité d&#39;utilisation par rapport à d&#39;autres services. Vous pouvez rapidement créer un compte pour commencer à profiter des fonctionnalités de [!DNL Acrobat Services] API pour la gestion et la transformation de documents.
+L&#39;utilisation de [!DNL Acrobat Services] pour la transformation de documents est fortement recommandée en raison de sa robustesse et de sa facilité d&#39;utilisation par rapport à d&#39;autres services. Vous pouvez rapidement créer un compte pour commencer à profiter des fonctionnalités des API [!DNL Acrobat Services] pour la transformation et la gestion des documents.
 
-Maintenant que vous avez une bonne compréhension de la façon d&#39;utiliser [!DNL Acrobat Services] Grâce aux API, vous pourrez approfondir vos compétences grâce à la pratique. Vous pouvez cloner le référentiel utilisé dans ce tutoriel et tester certaines des compétences que vous venez d&#39;apprendre. Mieux encore, vous pouvez tenter de reconstruire cette application tout en explorant les possibilités illimitées de [!DNL Acrobat Services] API.
+Maintenant que vous avez une bonne compréhension de l&#39;utilisation des API [!DNL Acrobat Services], vous pouvez perfectionner vos compétences en vous entraînant. Vous pouvez cloner le référentiel utilisé dans ce tutoriel et mettre à l’essai certaines des compétences que vous venez d’acquérir. Mieux encore, vous pouvez tenter de reconstruire cette application tout en explorant les possibilités illimitées des API [!DNL Acrobat Services].
 
-Prêt à activer le partage de documents et la révision dans votre propre application ? Inscrivez-vous pour [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
-compte développeur. Profitez d&#39;une version d&#39;essai gratuite de six mois, puis [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) pour seulement \$0.05 par transaction de document à mesure que votre entreprise se développe.
+Prêt à activer le partage et la révision de documents dans votre propre application ? S&#39;abonner à [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
+compte développeur. Profitez d&#39;un essai gratuit de six mois, puis d&#39;[un paiement à l&#39;utilisation](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) pour seulement \$0,05 par transaction de document à mesure que votre entreprise se développe.

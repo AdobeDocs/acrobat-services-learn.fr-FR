@@ -1,6 +1,6 @@
 ---
 title: Ajout de tableaux et de balises de liste
-description: Découvrez comment ajouter des tableaux et des balises de liste à des modèles Microsoft Word à l’aide de l’outil Adobe Document Generation Tagger pour ajouter dynamiquement des lignes de tableau ou de liste en fonction des données à l’aide de l’API Adobe Document Generation
+description: Découvrez comment ajouter des tableaux et des balises de liste à des modèles Microsoft Word à l’aide du Baliseur de génération de document Adobe pour ajouter dynamiquement des lignes de tableau ou de liste en fonction des données à l’aide de l’API Adobe Document Generation
 feature: Document Generation API
 role: Developer
 level: Beginner
@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # Ajout de tableaux et de balises de liste
 
-Découvrez comment ajouter des tableaux et des balises de liste à des modèles Microsoft Word à l’aide de l’outil Adobe Document Generation Tagger pour ajouter dynamiquement des lignes de tableau ou de liste en fonction des données à l’aide de l’API Adobe Document Generation.
+Découvrez comment ajouter des tableaux et des balises de liste à des modèles Microsoft Word à l’aide du Baliseur de génération de document Adobe pour ajouter dynamiquement des lignes de tableau ou de liste en fonction des données à l’aide de l’API Adobe Document Generation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332115?hidetitle=true)

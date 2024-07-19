@@ -1,6 +1,6 @@
 ---
-user-guide-title: »[!DNL Adobe Acrobat Services] »
-breadcrumb-title: »[!DNL Acrobat Services] »
+user-guide-title: « [!DNL Adobe Acrobat Services] »
+breadcrumb-title: « [!DNL Acrobat Services] »
 user-guide-description: En savoir plus sur [!DNL Adobe Acrobat Services]
 solution: Acrobat Services
 feature-set: Acrobat Services
@@ -16,10 +16,10 @@ ht-degree: 3%
 ---
 
 
-# [!DNL Adobe Acrobat Services] TUTORIALS API {#tutorials}
+# [!DNL Adobe Acrobat Services] Tutorials API {#tutorials}
 
 + [Présentation](overview.md)
-+ API PDF Services {#pdfservices}
++ API des services de PDF {#pdfservices}
    + [Présentation](pdfservices/overview-pdfservices.md)
    + [Obtention des informations d’identification pour Microsoft Power Automate](pdfservices/getting-credentials-power-automate.md)
    + [Création de votre premier flux dans Microsoft Power Automate](pdfservices/create-workflow-power-automate.md)
@@ -38,10 +38,10 @@ ht-degree: 3%
       + [Ajout de tableaux et de balises de liste](docgen/taggertables.md)
       + [Définition de balises de calcul numériques](docgen/taggercalculations.md)
       + [Définition du contenu conditionnel](docgen/taggerconditional.md)
-+ API de balisage automatique d’accessibilité du PDF {#pdfaccessibility}
++ API de balisage automatique d&#39;accessibilité du PDF {#pdfaccessibility}
    + [Présentation](pdfaccessibility/overview-accessibility.md)
    + [Balisage automatique des documents pour l’accessibilité](pdfaccessibility/automatically-add-tags.md)
-+ API PDF Extract {#pdfextract}
++ API d&#39;extraction de mot de PDF {#pdfextract}
    + [Présentation](pdfextract/overview-extract.md)
    + [Automatisation de l’extraction de contenu](pdfextract/automate-content-extraction.md)
 + API de cachet électronique PDF {#eseal}
@@ -50,7 +50,7 @@ ht-degree: 3%
 + API PDF Embed {#pdfembed}
    + [Présentation](pdfembed/overview-embed.md)
    + [Contrôlez l’expérience en ligne de votre PDF et collectez des analyses](pdfembed/controlpdfexperience.md)
-+ API ACROBAT SIGN {#acrobatsign}
++ API Acrobat Sign {#acrobatsign}
    + [Présentation](acrobatsign/overview-sign.md)
    + [Prise en main de l’API Adobe Sign](acrobatsign/signapi.md)
    + Partenaire OEM/intégré {#oem}
@@ -59,7 +59,7 @@ ht-degree: 3%
       + [Création d’un lien incorporé](acrobatsign/creating-an-embed-link.md)
       + [Génération d’un jeton d’accès](acrobatsign/generating-an-access-token.md)
       + [Création d’un document temporaire](acrobatsign/creating-a-transient-document.md)
-+ Cas d’utilisation {#usecases}
++ Cas d&#39;utilisation {#usecases}
    + [Présentation](usecases/overview-usecases.md)
    + [Automatisation des workflows juridiques](usecases/automatelegalworkflows.md)
    + [Modernisation de l’intégration des employés](usecases/employeeonboarding.md)

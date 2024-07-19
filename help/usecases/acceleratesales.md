@@ -1,6 +1,6 @@
 ---
 title: Accélérez votre processus de vente
-description: Découvrez comment accélérer vos ventes en intégrant les expériences documentaires avec [!DNL Adobe Acrobat Services]
+description: Découvrez comment accélérer les ventes en intégrant des expériences documentaires à  [!DNL Adobe Acrobat Services]
 feature: Use Cases
 role: Developer
 level: Intermediate
@@ -10,49 +10,49 @@ thumbnail: KT-10222.jpg
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
 source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
 
 # Accélérez votre processus de vente
 
-![Utiliser la bannière Case Hero](assets/UseCaseAccelerateSalesHero.jpg)
+![Bannière principale de cas d&#39;utilisation](assets/UseCaseAccelerateSalesHero.jpg)
 
-Des articles techniques aux contrats en passant par les accords, de nombreux documents sont nécessaires tout au long d’un parcours d’achat. Dans ce tutoriel, découvrez comment [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/) Vous pouvez intégrer des expériences documentaires tout au long de ce parcours pour accélérer vos ventes.
+Des livres blancs aux contrats et accords, de nombreux documents sont nécessaires tout au long d&#39;un parcours d&#39;achat. Dans ce tutoriel, découvrez comment [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/) peut intégrer des expériences documentaires tout au long de ce parcours pour accélérer les ventes.
 
-## Générer des accords et des commandes client à partir des données
+## Générer des accords et des commandes client à partir de données
 
-Les contrats de vente et autres documents peuvent varier considérablement en fonction de critères spécifiques. Par exemple, un contrat de vente peut uniquement inclure certains termes basés sur des critères uniques, tels que le fait d’être dans un pays ou un état spécifique, ou l’inclusion de certains produits dans le cadre du contrat. La création manuelle de ces documents ou le maintien de nombreuses variantes de modèles peuvent augmenter considérablement les coûts juridiques liés à la révision manuelle des modifications.
+Les commandes ouvertes, les contrats et autres documents peuvent varier considérablement en fonction de critères spécifiques. Par exemple, un contrat de vente peut inclure uniquement certains termes basés sur des critères uniques, comme le fait d’être dans un pays ou un état spécifique ou d’inclure certains produits dans le cadre de l’accord. La création manuelle de ces documents ou la gestion de nombreuses variantes de modèle peuvent augmenter considérablement les coûts juridiques associés à la révision manuelle des modifications.
 
-[API de génération de documents Adobe](https://developer.adobe.com/document-services/apis/doc-generation/) vous permet de récupérer des données de votre CRM ou autre système de données pour générer dynamiquement des documents de vente basés sur ces données.
+L&#39;[API Adobe Document Generation](https://developer.adobe.com/document-services/apis/doc-generation/) vous permet de prendre des données de votre système CRM ou d&#39;un autre système de données pour générer dynamiquement des documents commerciaux en fonction de ces données.
 
-## Obtenir des informations
+## Obtenir les informations d’identification
 
-Commencez par vous inscrire aux informations d’identification gratuites des services Adobe PDF :
+Commencez par vous inscrire pour obtenir des informations d’identification Adobe PDF Services gratuites :
 
-1. Navigation [ici](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) pour enregistrer vos identifiants.
+1. Accédez [ici](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) pour enregistrer vos informations d&#39;identification.
 1. Connectez-vous à l’aide de votre Adobe ID.
-1. Définissez le nom de vos informations d&#39;identification (par exemple, Démonstration des commandes ouvertes).
+1. Définissez votre nom d’identification (par exemple, Démonstration de commandes ouvertes).
 
-   ![Capture d’écran de la définition de votre identifiant](assets/accsales_1.png)
+   ![Capture d’écran de la définition de votre nom d’identification](assets/accsales_1.png)
 
 1. Choisissez une langue pour télécharger votre exemple de code (par exemple, Node.js).
-1. Cochez cette case pour accepter **[!UICONTROL conditions du développeur]**.
-1. Sélectionner **[!UICONTROL Créer des identifiants]**.
-Un fichier ZIP contenant les fichiers d’exemple, pdfservices-api-credentials.json et private.key pour l’authentification est téléchargé sur votre ordinateur.
+1. Vérifiez pour accepter les **[!UICONTROL conditions du développeur]**.
+1. Sélectionnez **[!UICONTROL Créer des identifiants]**.
+Un fichier est téléchargé sur votre ordinateur à l’aide d’un fichier ZIP contenant les fichiers d’exemple pdfservices-api-credentials.json et private.key pour l’authentification.
 
-   ![Capture d’écran des identifiants](assets/accsales_2.png)
+   ![Capture d&#39;écran des informations d&#39;identification](assets/accsales_2.png)
 
-1. Sélectionner **[!UICONTROL Télécharger le complément Microsoft Word]** ou accéder à [AppSource](https://appsource.microsoft.com/en-cy/product/office/WA200002654) pour installer.
+1. Sélectionnez **[!UICONTROL Obtenir le complément Microsoft Word]** ou accédez à [AppSource](https://appsource.microsoft.com/en-cy/product/office/WA200002654) pour l’installer.
 
    >[!NOTE]
    >
-   >L’installation du complément Word nécessite que vous soyez autorisé à installer des compléments dans Microsoft 365. Si vous ne disposez pas des autorisations nécessaires, contactez votre administrateur Microsoft 365.
+   >Pour installer le complément Word, vous devez être autorisé à installer des compléments dans Microsoft 365. Si vous ne disposez pas des autorisations nécessaires, contactez votre administrateur Microsoft 365.
 
 ## Vos données
 
-Si vous extrayez des données d’un système de données spécifique, vous devez générer ces données en tant que données JSON ou générer votre propre schéma. Ce scénario utilise l&#39;exemple de jeu de données précréé suivant :
+Si vous extrayez des données d’un système de données spécifique, vous devez les exporter en tant que données JSON ou générer votre propre schéma. Ce scénario utilise l’ensemble de données d’exemple précréé suivant :
 
 ```
 {
@@ -108,29 +108,29 @@ Si vous extrayez des données d’un système de données spécifique, vous deve
 }
 ```
 
-## Ajout de balises de base au document
+## Ajout de balises de base à un document
 
-Ce scénario utilise un document de commande client, qui peut être téléchargé [ici](https://github.com/benvanderberg/adobe-document-generation-samples/blob/main/SalesOrder/Exercise/SalesOrder_Base.docx?raw=true).
+Ce scénario utilise un document de bon de commande qui peut être téléchargé [ici](https://github.com/benvanderberg/adobe-document-generation-samples/blob/main/SalesOrder/Exercise/SalesOrder_Base.docx?raw=true).
 
 ![Capture d&#39;écran d&#39;un exemple de document de commande client](assets/accsales_3.png)
 
-1. Ouvrez le *SalesOrder.docx* exemple de document dans Microsoft Word.
-1. Si votre plug-in Génération de document est installé, sélectionnez **[!UICONTROL Génération de documents]** dans le ruban. Si Génération de document n’est pas visible dans le ruban, suivez ces instructions.
-1. Sélectionner **[!UICONTROL Prise en main]**.
-1. Copiez les données d’exemple JSON écrites ci-dessus dans le fichier *Données JSON* .
+1. Ouvrez le document d&#39;exemple *SalesOrder.docx* dans Microsoft Word.
+1. Si votre module externe Document Generation est installé, sélectionnez **[!UICONTROL Document Generation]** dans le ruban. Si vous ne voyez pas Génération de document dans votre ruban, suivez ces instructions.
+1. Sélectionnez **[!UICONTROL Commencer]**.
+1. Copiez les données d&#39;exemple JSON écrites ci-dessus dans le champ *Données JSON*.
 
-   ![Capture d’écran de la copie de données JSON](assets/accsales_4.png)
+   ![Capture d’écran de copie de données JSON](assets/accsales_4.png)
 
-Accédez ensuite au panneau Balises de génération de document pour placer des balises dans le document.
+Ensuite, accédez au panneau Balises de génération de document pour placer des balises dans le document.
 
-1. Sélectionnez le texte que vous souhaitez remplacer (par exemple, *NOM DE SOCIÉTÉ*).
-1. Dans le *Baliseur de génération de document* , recherchez &quot;nom&quot;.
-1. Dans la liste des balises, sélectionnez le nom sous société.
-1. Sélectionner **[!UICONTROL Insérer du texte]**.
+1. Sélectionnez le texte à remplacer (par exemple, *NOM DE L&#39;ENTREPRISE*).
+1. Dans le panneau *Balisage de génération de document*, recherchez « name ».
+1. Dans la liste des balises, sélectionnez le nom sous Société.
+1. Sélectionnez **[!UICONTROL Insérer du texte]**.
 
-   ![Capture d’écran de l’insertion](assets/accsales_5.png)
+   ![Capture d&#39;écran de l&#39;insertion de la balise](assets/accsales_5.png)
 
-   Ce processus place une balise appelée {{company.name}} car la balise se trouve sous le chemin dans le fichier JSON.
+   Ce processus place une balise appelée {{company.name}}, car la balise se trouve sous le chemin dans le fichier JSON.
 
    ```
    {
@@ -147,13 +147,13 @@ Répétez ces actions pour certaines balises supplémentaires du document, telle
 
 ## Aperçu du document généré
 
-Directement dans Microsoft Word, vous pouvez prévisualiser votre document généré à partir des exemples de données JSON.
+Directement dans Microsoft Word, vous pouvez prévisualiser votre document généré en fonction des exemples de données JSON.
 
-1. Dans le *Baliseur de génération de document* , sélectionnez **[!UICONTROL Générer le document]**. La première fois que vous serez invité à vous connecter avec votre Adobe ID. Sélectionner **[!UICONTROL Se connecter]** et complétez les invites de connexion avec vos identifiants.
+1. Dans le panneau *Balise Document Generation*, sélectionnez **[!UICONTROL Générer le document]**. La première fois, vous serez peut-être invité à vous connecter avec votre Adobe ID. Sélectionnez **[!UICONTROL Se connecter]** et remplissez les invites pour vous connecter avec vos informations d&#39;identification.
 
-   ![Capture d’écran montrant comment prévisualiser le document généré](assets/accsales_6.png)
+   ![Capture d&#39;écran de l&#39;aperçu du document généré](assets/accsales_6.png)
 
-1. Sélectionner **[!UICONTROL Afficher le document]**.
+1. Sélectionnez **[!UICONTROL Afficher le document]**.
 
    ![Capture d&#39;écran du bouton Afficher le document](assets/accsales_7.png)
 
@@ -163,34 +163,34 @@ Directement dans Microsoft Word, vous pouvez prévisualiser votre document gén�
 
 Vous pouvez voir les balises du document qui ont été remplacées par les données des exemples de données d’origine.
 
-![Capture d’écran des balises remplacées par des données](assets/accsales_9.png)
+![Capture d&#39;écran des balises remplacées par des données](assets/accsales_9.png)
 
-## Ajouter un tableau à un modèle
+## Ajouter un tableau au modèle
 
-Dans le scénario suivant, ajoutez une liste de produits à un tableau du document.
+Dans le scénario suivant, ajoutez une liste de produits à un tableau dans le document.
 
 1. Insérez votre curseur à l’endroit où le tableau doit être placé.
-1. Dans le *Baliseur de génération de document* , sélectionnez **[!UICONTROL Avancé]**.
-1. Développer **[!UICONTROL Tables et listes]**.
-1. Dans le *Enregistrements de table* , sélectionnez *referencesOrder*, qui est un tableau qui répertorie tous les éléments de produit.
-1. Dans le champ Sélectionner les enregistrements de colonne, saisissez les éléments à inclure *description* et *totalPaymentDue.price* .
-1. Sélectionner **[!UICONTROL Insérer un tableau]**.
+1. Dans le panneau *Balisage de génération de document*, sélectionnez **[!UICONTROL Avancé]**.
+1. Développez **[!UICONTROL Tableaux et listes]**.
+1. Dans le champ *Enregistrements de table*, sélectionnez *referencesOrder*, qui est un tableau qui répertorie tous les éléments du produit.
+1. Dans le champ Sélectionner les enregistrements de colonne, saisissez pour inclure le champ *description* et *totalPaymentDue.price*.
+1. Sélectionnez **[!UICONTROL Insérer un tableau]**.
 
-   ![Capture d&#39;écran du tableau](assets/accsales_10.png)
+   ![Capture d&#39;écran de l&#39;insertion du tableau](assets/accsales_10.png)
 
-Modifiez le tableau pour ajuster les styles, tailles et autres paramètres comme vous le feriez pour n’importe quel autre tableau dans Microsoft Word.
+Modifiez le tableau pour l’ajuster aux styles, tailles et autres paramètres comme tout autre tableau dans Microsoft Word.
 
 ## Ajouter un calcul numérique
 
-Les calculs numériques vous permettent de calculer des sommes et d&#39;autres calculs à partir d&#39;une collection de données, telle qu&#39;un tableau. Dans ce scénario, ajoutez un champ pour calculer le sous-total.
+Les calculs numériques permettent de calculer des sommes et d&#39;autres calculs à partir d&#39;une collection de données, telle qu&#39;une matrice. Dans ce scénario, ajoutez un champ pour calculer le sous-total.
 
-1. Sélectionnez le fichier *0,00 $* en regard du titre du sous-total.
-1. Dans le *[!UICONTROL Baliseur de génération de document]* , développez **[!UICONTROL Calculs numériques]**.
+1. Sélectionnez *$0.00* en regard du titre du sous-total.
+1. Dans le panneau *[!UICONTROL Balise Document Generation]*, développez **[!UICONTROL Calculs numériques]**.
 1. Sous *[!UICONTROL Sélectionner le type de calcul]*, choisissez **[!UICONTROL Agrégation]**.
-1. Sous *[!UICONTROL Sélectionner un type]*, choisissez **[!UICONTROL Somme]**.
-1. Sous *[!UICONTROL Sélectionner des enregistrements]*, choisissez **[!UICONTROL ReferencesOrder]**.
-1. Sous *[!UICONTROL Sélectionner l&#39;élément à agréger]**, choisissez **[!UICONTROL totalPaymentsDue.price]**.
-1. Sélectionner **[!UICONTROL Insérer un calcul]**.
+1. Sous *[!UICONTROL Sélectionner le type]*, choisissez **[!UICONTROL Somme]**.
+1. Sous *[!UICONTROL Sélectionner des enregistrements]*, choisissez **[!UICONTROL Ordre des références]**.
+1. Sous *[!UICONTROL Sélectionner l&#39;élément pour effectuer l&#39;agrégation]**, choisissez **[!UICONTROL totalPaymentsDue.price]**.
+1. Sélectionnez **[!UICONTROL Insérer un calcul]**.
 
 Ce processus insère une balise de calcul qui fournit la somme des valeurs. Des calculs plus avancés peuvent être effectués à l’aide de calculs JSONata. Par exemple :
 
@@ -198,96 +198,96 @@ Ce processus insère une balise de calcul qui fournit la somme des valeurs. Des 
 Calcule la somme de referencesOrder.totalPaymentDue.price.
 
 * Taxe de vente : `${{expr($sum(referencesOrder.totalPaymentDue.price)*0.08)}}`
-Calcule le prix et le multiplie par 8 % pour calculer la taxe.
+Calcule le prix et multiplie par 8 % pour calculer la taxe.
 
 * Total dû : `${{expr($sum(referencesOrder.totalPaymentDue.price)*1.08)}}`
-Calcule le prix et les multiples de 1,08 pour calculer le sous-total + taxe.
+Calcule le prix et les multiples de 1,08 pour calculer le sous-total + la taxe.
 
-## Ajout de conditions
+## Ajouter des conditions conditionnelles
 
-Les sections conditionnelles vous permettent d’inclure une phrase ou un paragraphe uniquement lorsqu’une condition est remplie. Dans ce scénario, seule une section est incluse si elle correspond à un certain état.
+Les sections conditionnelles vous permettent d’inclure une phrase ou un paragraphe uniquement lorsqu’une certaine condition est remplie. Dans ce scénario, seule une section est incluse si elle correspond à un certain état.
 
-1. Dans le document, recherchez la section appelée *DÉCLARATIONS DE CONFIDENTIALITÉ CALIFORNIE*.
+1. Dans le document, recherchez la section intitulée *DÉCLARATIONS DE CONFIDENTIALITÉ EN CALIFORNIE*.
 1. Sélectionnez la section avec votre curseur.
 
    ![Capture d&#39;écran de la sélection](assets/accsales_11.png)
 
-1. Dans le *[!UICONTROL Baliseur de génération de document]*, sélectionnez **[!UICONTROL Avancé]**.
-1. Développer **[!UICONTROL Contenu conditionnel]**.
-1. Dans le *[!UICONTROL Sélectionner des enregistrements]* , recherchez et sélectionnez **[!UICONTROL customer.address.state]**.
-1. Dans le *[!UICONTROL Sélectionner un opérateur]* , sélectionnez **=**.
-1. Dans le *[!UICONTROL Champ Valeur]*, saisissez *CA*.
-1. Sélectionner **[!UICONTROL Insérer une condition]**.
+1. Dans le *[!UICONTROL Balisage de génération de document]*, sélectionnez **[!UICONTROL Avancé]**.
+1. Développez **[!UICONTROL Contenu conditionnel]**.
+1. Dans le champ *[!UICONTROL Sélectionner des enregistrements]*, recherchez et sélectionnez **[!UICONTROL customer.address.state]**.
+1. Dans le champ *[!UICONTROL Sélectionner l&#39;opérateur]*, sélectionnez **=**.
+1. Dans le champ *[!UICONTROL Valeur]*, saisissez *CA*.
+1. Sélectionnez **[!UICONTROL Insérer une condition]**.
 
-La section Californie n&#39;apparaît dans le document généré que si customer.address.state = CA.
+La section Californie apparaît uniquement dans le document généré si customer.address.state = CA.
 
-Ensuite, sélectionnez la section pour WASHINGTON PRIVACY STATEMENTS et répétez les étapes ci-dessus, en remplaçant la valeur CA par WA.
+Ensuite, sélectionnez la section pour DÉCLARATIONS DE CONFIDENTIALITÉ WASHINGTON et répétez les étapes ci-dessus, en remplaçant la valeur CA par WA.
 
-## Ajout d’une image dynamique
+## Ajouter une image dynamique
 
-L’API Document Generation vous permet d’insérer des images de manière dynamique à partir des données. Cette fonction est utile lorsque vous avez différentes sous-marques et que vous souhaitez modifier des logos, des portraits ou des images pour les rendre plus pertinents pour un secteur d’activité donné.
+L’API Document Generation vous permet d’insérer des images de manière dynamique à partir de données. Cette fonction est utile lorsque vous avez différentes sous-marques et que vous souhaitez modifier des logos, des portraits ou des images pour les rendre plus pertinents pour un secteur d’activité donné.
 
-Les images peuvent être transmises par une URL dans le contenu data ou base64. Cet exemple utilise une URL.
+Les images peuvent être transmises par une URL dans les données ou le contenu base64. Cet exemple utilise une URL.
 
-1. Placez votre curseur à l’endroit où vous souhaitez inclure une image.
-1. Dans le *[!UICONTROL Baliseur de génération de document]* , sélectionnez **[!UICONTROL Avancé]**.
-1. Développer **[!UICONTROL Images]**.
-1. Dans le *[!UICONTROL Sélectionner des balises]* , sélectionnez **[!UICONTROL logo]**.
-1. Dans le *[!UICONTROL Texte de remplacement facultatif]* , fournissez une description (par exemple, logo). Ce processus insère un espace réservé à une image qui ressemble à ceci :
+1. Placez le curseur à l’endroit où vous souhaitez inclure une image.
+1. Dans le panneau *[!UICONTROL Balisage de génération de document]*, sélectionnez **[!UICONTROL Avancé]**.
+1. Développez **[!UICONTROL Images]**.
+1. Dans le champ *[!UICONTROL Sélectionner des balises]*, choisissez **[!UICONTROL logo]**.
+1. Dans le champ *[!UICONTROL Texte de remplacement facultatif]*, fournissez une description (c&#39;est-à-dire un logo). Ce processus insère un espace réservé pour l’image qui se présente comme suit :
 
-   ![Capture d&#39;écran de l&#39;image](assets/accsales_12.png)
+   ![Capture d&#39;écran de l&#39;image temporaire](assets/accsales_12.png)
 
-Toutefois, vous souhaitez définir l’image de manière dynamique sur une image qui se trouve déjà dans la mise en page, ce que vous pouvez faire en procédant comme suit :
+Cependant, vous souhaitez définir l’image de manière dynamique sur une image qui se trouve déjà dans la mise en page, ce qui peut être fait comme suit :
 
-1. Cliquez avec le bouton droit de la souris sur l’image de substitution insérée.
+1. Cliquez avec le bouton droit de la souris sur l’image d’espace réservé insérée.
 
-   ![Capture d&#39;écran de l&#39;image](assets/accsales_13.png)
+   ![Capture d&#39;écran de l&#39;image temporaire](assets/accsales_13.png)
 
-1. Sélectionner **[!UICONTROL Modifier le texte alternatif]**.
+1. Sélectionnez **[!UICONTROL Modifier le texte alternatif]**.
 1. Dans le panneau, copiez le texte comme suit :
    `{ "location-path": "logo", "image-props": { "alt-text": "Logo" }}`
-1. Sélectionnez une autre image dans votre document que vous souhaitez rendre dynamique.
+1. Sélectionnez dans le document une autre image à rendre dynamique.
 
-   ![Capture d&#39;écran de la nouvelle image du document](assets/accsales_14.png)
+   ![Capture d&#39;écran de la nouvelle image dans le document](assets/accsales_14.png)
 
-1. Cliquez avec le bouton droit sur l’image et sélectionnez **[!UICONTROL Modifier le texte alternatif]**.
+1. Cliquez avec le bouton droit sur l&#39;image et sélectionnez **[!UICONTROL Modifier le texte de remplacement]**.
 1. Collez la valeur dans le panneau.
 
-Ce processus remplace l’image par une image qui se trouve dans la variable du logo dans les données.
+Ce processus remplace l’image par une image qui se trouve dans la variable de logo dans les données.
 
 ## Ajout de balises pour Acrobat Sign
 
-Adobe Acrobat Sign vous permet de recueillir des signatures électroniques sur vos documents. Acrobat Sign permet de faire glisser et déposer facilement des champs dans l’interface web, mais vous pouvez également contrôler la signature et le placement d’autres champs à l’aide d’une balise de texte. Avec l’Adobe de l’étiquette de génération de document, vous pouvez facilement placer ces champs de balise de texte.
+Adobe Acrobat Sign vous permet de capturer des signatures électroniques sur vos documents. Acrobat Sign offre un moyen simple de faire glisser et déposer des champs dans l’interface web. Vous pouvez également contrôler le placement des champs de signature et autres à l’aide d’une balise de texte. Grâce à la balise Adobe Document Generation, vous pouvez facilement placer ces champs de balise de texte.
 
-1. Accédez à l’endroit où une signature est requise dans le document d’exemple.
+1. Accédez à l’emplacement où une signature est requise dans le document type.
 1. Insérez votre curseur à l’endroit où la signature est nécessaire.
-1. Dans le *[!UICONTROL Adobe du marqueur de génération de document]* , sélectionnez **[!UICONTROL Adobe Sign]**.
-1. Dans le *[!UICONTROL Spécifier le nombre de destinataires]* , définissez le nombre de destinataires (dans cet exemple, il s’agit d’un seul).
-1. Dans le *[!UICONTROL Destinataires]* , sélectionnez **[!UICONTROL Signer-1]**.
-1. Dans le *[!UICONTROL Champ]* tapez, sélectionnez **[!UICONTROL Signature]**.
-1. Sélectionner **[!UICONTROL Insérer une balise de texte Adobe Sign]**.
+1. Dans le panneau *[!UICONTROL Adobe Document Generation Tagger]*, sélectionnez **[!UICONTROL Adobe Sign]**.
+1. Dans le champ *[!UICONTROL Spécifier le nombre de destinataires]*, définissez le nombre de destinataires (dans cet exemple, il s&#39;agit d&#39;un destinataire).
+1. Dans le champ *[!UICONTROL Destinataires]*, sélectionnez **[!UICONTROL Signataire-1]**.
+1. Dans le type *[!UICONTROL Champ]*, sélectionnez **[!UICONTROL Signature]**.
+1. Sélectionnez **[!UICONTROL Insérer une balise de texte Adobe Sign]**.
 
 Une balise est insérée dans le document.
 
-![Capture d’écran de la balise de signature dans le document](assets/accsales_15.png)
+![Capture d&#39;écran de la balise de signature dans le document](assets/accsales_15.png)
 
 Acrobat Sign propose plusieurs autres types de champs que vous pouvez placer, tels que les champs de date.
-1. Dans le *Champ* tapez, sélectionnez **[!UICONTROL Date]**.
-1. Déplacez le curseur au-dessus de l’emplacement Date dans le document.
-1. Sélectionner **[!UICONTROL Insérer une balise de texte Adobe Sign]**.
+1. Dans le type *Champ*, sélectionnez **[!UICONTROL Date]**.
+1. Déplacez le curseur sur l’emplacement Date dans le document.
+1. Sélectionnez **[!UICONTROL Insérer une balise de texte Adobe Sign]**.
 
-![Capture d&#39;écran de la date dans le document](assets/accsales_16.png)
+![Capture d&#39;écran de la balise de date dans le document](assets/accsales_16.png)
 
 ## Génération de votre accord
 
-Vous avez maintenant balisé votre document et vous êtes prêt. La section suivante explique comment générer un document à l’aide des exemples d’API de génération de document pour Node.js, qui fonctionneront toutefois dans toutes les langues.
+Vous avez balisé votre document et êtes prêt à commencer. Cette section explique comment générer un document à l’aide des exemples d’API Document Generation pour Node.js, mais ceux-ci fonctionneront dans toutes les langues.
 
-Ouvrez le fichier pdfservices-node-sdk-samples-master téléchargé lors de l&#39;enregistrement de vos informations d&#39;identification. Les fichiers pdfservices-api-credentials.json et private.key doivent être inclus dans ces fichiers.
+Ouvrez le fichier pdfservices-node-sdk-samples-master qui a été téléchargé lors de l’enregistrement de vos informations d’identification. Les fichiers pdfservices-api-credentials.json et private.key doivent être inclus dans ces fichiers.
 
-1. Ouvrez un Terminal pour installer les dépendances à l&#39;aide de npm install.
-1. Copiez l’exemple data.json dans le dossier resources .
+1. Ouvrez un Terminal pour installer des dépendances à l’aide de l’installation npm.
+1. Copiez le fichier d’exemple data.json dans le dossier resources.
 1. Copiez le modèle Word dans le dossier des ressources.
-1. Créez un fichier dans le répertoire racine du dossier d&#39;exemples nommé generate-salesOrder.js.
+1. Créez un nouveau fichier dans le répertoire racine du dossier d’exemples appelé generate-salesOrder.js.
 
 ```
 const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
@@ -336,41 +336,42 @@ documentMergeOperation.execute(executionContext)
 });
 ```
 
-1. Remplacer `<INSERT JSON FILE>` avec le nom du fichier JSON dans /resources.
-1. Remplacer `<INSERT DOCX>` portant le nom du fichier DOCX.
-1. Pour l&#39;exécuter, utilisez Terminal pour exécuter le noeud generate-salesOrder.js.
+1. Remplacez `<INSERT JSON FILE>` par le nom du fichier JSON dans /resources.
+1. Remplacez `<INSERT DOCX>` par le nom du fichier DOCX.
+1. Pour l’exécuter, utilisez le Terminal pour exécuter le nœud generate-salesOrder.js.
 
 Le fichier de sortie doit se trouver dans le dossier /output avec le document généré correctement.
 
 ## Autres options
 
-Une fois le document généré, vous pouvez effectuer d’autres actions, telles que :
+Une fois votre document généré, vous pouvez effectuer des actions supplémentaires, telles que :
 
-* Protection des documents par mot de passe
+* Protection par mot de passe d’un document
 * Compresser le PDF s’il y a de grandes images
-* Recueillir des signatures électroniques sur le document
+* Capture de signatures électroniques sur le document
 
-Pour en savoir plus sur d&#39;autres actions disponibles, consultez les scripts du dossier /src dans les fichiers d&#39;exemple. Vous pouvez également en savoir plus en consultant la documentation des différentes actions.
+Pour en savoir plus sur certaines des autres actions disponibles, consultez les scripts du dossier /src dans les fichiers d’exemple. Vous pouvez également en savoir plus en consultant la documentation des différentes actions.
 
-## Autres cas d’utilisation
+## Cas d’utilisation supplémentaires
 
-[!DNL Adobe Acrobat Services] Les workflows documentaires digitaux peuvent vous aider à rationaliser de nombreux aspects d’un cycle de vente :
+[!DNL Adobe Acrobat Services] peut aider à rationaliser de nombreuses parties d&#39;un cycle de vente grâce aux workflows de documents numériques :
 
-* Utilisez l’API Adobe PDF Embed pour incorporer des articles techniques et d’autres contenus dans des sites web, tout en mesurant et en collectant des analyses sur le nombre de visiteurs
-* Utilisez Acrobat Sign pour recueillir des signatures électroniques sur vos accords générés
-* Extrayez les données d’accord de vos documents de PDF à l’aide de l’API Adobe PDF Extract
+* Utilisez l’API Adobe PDF Embed pour intégrer des livres blancs et d’autres contenus sur les sites web, tout en mesurant et en collectant des analyses sur l’audience
+* Utilisation d’Acrobat Sign pour capturer des signatures électroniques sur vos accords générés
+* Extraction des données d’accord de vos documents de PDF à l’aide de l’API Adobe PDF Extract
 
-## Apprentissage ultérieur
+## Formation continue
 
-Vous souhaitez en savoir plus ? Jetez un oeil à quelques autres façons d&#39;utiliser [!DNL Adobe Acrobat Services]:
+Vous souhaitez en savoir plus ? Jetez un œil à quelques autres façons d&#39;utiliser [!DNL Adobe Acrobat Services] :
 
-* En savoir plus sur [documentation](https://developer.adobe.com/document-services/docs/overview/)
-* Voir plus de tutoriels sur Adobe Experience League
-* Utilisez les exemples de scripts du dossier /src pour découvrir comment exploiter PDF
-* Suivre [Blog Adobe Tech](https://medium.com/adobetech/tagged/adobe-document-cloud) pour obtenir les derniers conseils et astuces
-* S&#39;abonner [Clips papier (flux mensuel en direct)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) pour en savoir plus sur l&#39;automatisation [!DNL Adobe Acrobat Services]. =======
-* En savoir plus sur [documentation](https://developer.adobe.com/document-services/docs/overview/)
-* Voir plus de tutoriels sur Adobe Experience League
-* Utilisez les exemples de scripts du dossier /src pour découvrir comment exploiter PDF
-* Suivre [Blog Adobe Tech](https://medium.com/adobetech/tagged/adobe-document-cloud) pour obtenir les derniers conseils et astuces
-* S&#39;abonner [Clips papier (flux mensuel en direct)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) pour en savoir plus sur l&#39;automatisation [!DNL Adobe Acrobat Services]
+* En savoir plus sur la [documentation](https://developer.adobe.com/document-services/docs/overview/)
+* Voir d’autres tutoriels sur Adobe Experience League
+* Utilisez les exemples de scripts du dossier /src pour voir comment tirer parti de PDF
+* Suivez le [Blog sur les technologies d&#39;Adobe](https://medium.com/adobetech/tagged/adobe-document-cloud) pour obtenir les derniers conseils et astuces
+* Abonnez-vous à [Paper Clips (diffusion mensuelle en direct)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) pour en savoir plus sur l&#39;automatisation à l&#39;aide de [!DNL Adobe Acrobat Services].
+=======
+* En savoir plus sur la [documentation](https://developer.adobe.com/document-services/docs/overview/)
+* Voir d’autres tutoriels sur Adobe Experience League
+* Utilisez les exemples de scripts du dossier /src pour voir comment tirer parti de PDF
+* Suivez le [Blog sur les technologies d&#39;Adobe](https://medium.com/adobetech/tagged/adobe-document-cloud) pour obtenir les derniers conseils et astuces
+* Abonnez-vous à [Paper Clips (diffusion mensuelle en direct)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) pour en savoir plus sur l&#39;automatisation à l&#39;aide de [!DNL Adobe Acrobat Services]

@@ -1,6 +1,6 @@
 ---
-title: Ajout De Balises De Texte
-description: Découvrez comment ajouter des balises de texte aux modèles Microsoft Word à l’aide de l’étiquette de génération de document Adobe à utiliser avec l’API de génération de document Adobe
+title: Ajout de balises de texte
+description: Découvrez comment ajouter des balises de texte aux modèles Microsoft Word à l’aide d’Adobe Document Generation Tagger à utiliser avec l’API Adobe Document Generation
 feature: Document Generation API
 role: Developer
 level: Beginner
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 # Ajout de balises de texte
 
-Découvrez comment ajouter des balises de texte à des modèles Microsoft Word à l’aide du marqueur de génération de document Adobe à utiliser avec l’API de génération de document Adobe.
+Découvrez comment ajouter des balises de texte aux modèles Microsoft Word à l’aide du Baliseur de génération de documents Adobe à utiliser avec l’API Adobe Document Generation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)

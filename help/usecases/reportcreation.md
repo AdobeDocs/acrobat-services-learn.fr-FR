@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8093
 thumbnail: KT-8093.jpg
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c74a36116349490af29e66fd81ad59c93174c258
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Voyons maintenant comment publier les rapports.
 
 Pour simplifier, utilisez uniquement le chargement et le traitement basés sur le système de fichiers ici. Dans Express.js, vous pouvez utiliser le module fs pour répertorier tous les fichiers disponibles dans un répertoire.
 
-Sur la même page, activez l’option permettant à l’administrateur de télécharger des fichiers de rapport sur le serveur afin que les clients puissent les consulter. Ces fichiers peuvent être dans de nombreux formats différents, tels que Microsoft Word, Microsoft Excel, HTML et [d&#39;autres formats de données]https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf), y compris des fichiers graphiques. La page d’administration se présente comme suit :
+Sur la même page, activez l’option permettant à l’administrateur de télécharger des fichiers de rapport sur le serveur afin que les clients puissent les consulter. Ces fichiers peuvent être dans de nombreux formats différents, tels que Microsoft Word, Microsoft Excel, HTML et [autres formats de données](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf), y compris les fichiers graphiques. La page d’administration se présente comme suit :
 
 ![Capture d&#39;écran de la fonctionnalité d&#39;administration](assets/report_2.png)
 

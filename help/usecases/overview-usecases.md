@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8115
 thumbnail: KT-8115.jpg
 exl-id: 4188897e-f6e6-41ea-be6f-359a3ef0e040
-source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
+source-git-commit: ad13c28a0c218fc0027afc02445e5ed532c2340d
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -152,31 +152,31 @@ Découvrez comment les API [!DNL Adobe Acrobat Services] peuvent changer votre e
 </tr>
 <tr>
   <td>
-    <a href="AgreementWorkflowsNodejs.md">
+    <a href="agreementworkflowsnodejs.md">
       <img alt="Workflows d’accord dans Node.js" src="assets/AWNjs_thumb.png" />
     </a>
     <div>
-    <a href="AgreementWorkflowsNodejs.md"><strong>Workflows d’accord dans Node.js</strong></a>
+    <a href="agreementworkflowsnodejs.md"><strong>Workflows d’accord dans Node.js</strong></a>
     </div>
     Les API <em>[!DNL Adobe Acrobat Services] intègrent facilement des fonctionnalités de PDF dans vos applications web</em>
     <br>
   </td>
   <td>
-    <a href="HRAgreementWorkflowsJava.md">
+    <a href="hragreementworkflowsjava.md">
       <img alt="Workflows de document de RH en Java" src="assets/HRWJ_thumb.png" />
     </a>
     <div>
-    <a href="HRAgreementWorkflowsJava.md"><strong>Workflows de document de RH en Java</strong></a>
+    <a href="hragreementworkflowsjava.md"><strong>Workflows de document de RH en Java</strong></a>
     </div>
     Les API <em>[!DNL Adobe Acrobat Services] incorporent facilement des fonctionnalités de PDF dans vos applications Web de RH</em>
     <br>
   </td>
   <td>
-    <a href="FinanceWorkflowsJava.md">
+    <a href="financeworkflowsjava.md">
       <img alt="Gestion des workflows de documents financiers en Java" src="assets/FAWJ_thumb.png" />
     </a>
     <div>
-    <a href="FinanceWorkflowsJava.md"><strong>Gestion des workflows de documents financiers en Java</strong></a>
+    <a href="financeworkflowsjava.md"><strong>Gestion des workflows de documents financiers en Java</strong></a>
     </div>
     <em>[!DNL Adobe Acrobat Services] fournit tous les outils, services et fonctionnalités nécessaires au traitement et à l'extraction de données à partir de documents financiers PDF</em>
     <br>

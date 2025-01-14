@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-9247
 thumbnail: KT-9247.jpg
 exl-id: db340959-e7dc-4e46-939d-3b8c29749ebd
-source-git-commit: 9235b07277fe642adebc00fade4c10245d4b04bf
+source-git-commit: 0f62890207722245f33be41ad4c77ba68bf7a0fc
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -23,37 +23,43 @@ Déverrouillez les éléments de structure et de contenu de n’importe quel PDF
 >
 >L’API PDF Extract est incluse dans l’API PDF Services.
 
-<table style="table-layout:fixed">
-<tr>
-  <td>
-    <a href="automate-content-extraction.md">
-      <img alt="Automatisation de l’extraction de contenu" src="assets/automate-content-extraction.png" />
-    </a>
-    <div>
-      <a href="automate-content-extraction.md"><strong>Automatisation de l'extraction de contenu</strong></a>
-      </div>
-      Découvrez comment automatiser l’extraction de contenu d’un document de PDF à l’aide de l’API d’extraction de PDF
-      <br>
-  </td>
- <td>
-    <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/parsing-pdf">
-      <img alt="Analyse du PDF : aussi facile que de travailler avec des données JSON avec l’API d’extraction de PDF" src="assets/ParsingPDF_1280.png" />
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/parsing-pdf"><strong>Analyse du PDF : aussi facile que de travailler avec des données JSON avec l’API d’extraction de PDF</strong></a>
-      </div>
-      Découvrez comment le service d’extraction de PDF de l’API Adobe PDF Services peut rendre l’analyse du PDF aussi simple que l’analyse du fichier JSON
-      <br>
-  </td>
- <td>
-       <img alt="Espaceur" src="../assets/WhiteBanner_Placeholder.png">
-       <div>
-       <br>
- </td>
- <td>
-       <img alt="Espaceur" src="../assets/WhiteBanner_Placeholder.png">
-       <div>
-       <br>
- </td>
-</tr>
-</table>
+<!-- Comment -->
+<!-- CARDS
+
+* https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction
+  {target = _self}
+  {title = Automate content extraction}
+  {description = Learn how to automate the extraction of content from a PDF documents using the PDF Extract API}
+  {image = https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium}
+  {cta = Watch}
+
+-->
+<!-- End Comment -->
+
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Automate content extraction">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" title="Automatisation de l’extraction de contenu" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium" alt="Automatisation de l’extraction de contenu"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" title="Automatisation de l’extraction de contenu">Automatisation de l'extraction de contenu</a>
+                    </p>
+                    <p class="is-size-6">Découvrez comment automatiser l’extraction de contenu d’un document de PDF à l’aide de l’API d’extraction de PDF</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Regarder</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7487
 thumbnail: KT-7487.jpg
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Dans la partie 1, découvrez comment commencer à utiliser tout ce dont vous ave
 **Ce dont vous avez besoin**
 
 * Ressources de tutoriel [télécharger](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial)
-* Adobe ID [en obtenir un ici](https://accounts.adobe.com/fr)
+* Adobe ID [en obtenir un ici](https://account.adobe.com/fr)
 * Serveur Web (Nœud JS, PHP, etc.)
 * Connaissances pratiques de HTML / JavaScript / CSS
 
@@ -75,7 +75,7 @@ Dans la partie 1, découvrez comment commencer à utiliser tout ce dont vous ave
 
 ### Obtention des informations d’identification
 
-1. Accédez au site web [Adobe.io](https://www.adobe.io/).
+1. Accédez au site web [Adobe.io](https://developer.adobe.com/).
 1. Cliquez sur **[!UICONTROL En savoir plus]** sous Créer des expériences de document attrayantes.
 
    ![Capture d&#39;écran du bouton En savoir plus](assets/ControlPDF_1.png)
@@ -114,7 +114,7 @@ Dans la deuxième partie, vous apprendrez à intégrer facilement l’API PDF Em
 
 Nous avons créé du code que vous pouvez utiliser. Vous pouvez utiliser votre propre code, mais les démonstrations s’inscriront dans le contexte des ressources du tutoriel. Téléchargez l&#39;exemple de code [ici](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial).
 
-1. Accédez au [[!DNL Adobe Acrobat Services] site web](https://www.adobe.io/apis/documentcloud/dcsdk/).
+1. Accédez au [[!DNL Adobe Acrobat Services] site web](https://developer.adobe.com/document-services/homepage/).
 
    ![Capture d&#39;écran du site web [!DNL Adobe Acrobat Services]](assets/ControlPDF_6.png)
 
@@ -218,7 +218,7 @@ Maintenant que vous avez réussi à créer une page web avec l’API PDF Embed q
 
 De nombreux événements JavaScript différents sont disponibles dans le cadre de l’API PDF Embed. Vous pouvez y accéder depuis la documentation [!DNL Adobe Acrobat Services].
 
-1. Accédez au site [documentation](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html).
+1. Accédez au site [documentation](https://developer.adobe.com/document-services/docs/overview).
 1. Passez en revue les différents types d’événements disponibles dans le cadre de l’API. Ils sont utiles pour référence et seront également utiles pour vos projets futurs.
 
    ![Capture d&#39;écran du guide de référence](assets/ControlPDF_17.png)
@@ -326,4 +326,4 @@ Vous pouvez maintenant voir la démonstration.
 
 ## Autres ressources
 
-Des ressources supplémentaires sont disponibles [ici](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html).
+Des ressources supplémentaires sont disponibles [ici](https://developer.adobe.com/document-services/docs/overview).

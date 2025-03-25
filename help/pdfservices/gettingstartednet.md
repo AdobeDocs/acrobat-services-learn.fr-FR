@@ -9,7 +9,7 @@ jira: KT-6675
 thumbnail: KT-6675.jpg
 keywords: En vedette
 exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -75,12 +75,12 @@ L’API PDF Services peut vous aider à éliminer les processus manuels en autom
 
 * API des services de PDF [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
-* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) pour les questions API des services PDF
+* [FAQ](https://community.adobe.com/t5/contentarchivals/contentarchivedpage/message-uid/10726197) pour les questions API des services PDF
 
 * [Contactez-nous](https://www.adobe.com/go/pdftoolsapi_requestform) pour toute question sur les licences et les prix
 
 * Articles connexes
 
-  [La nouvelle API PDF Services offre encore plus de fonctionnalités pour les workflows de documents](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
+  [La nouvelle API PDF Services offre encore plus de fonctionnalités pour les workflows de documents](https://community.adobe.com/t5/acrobat-services-api-discussions/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
 
   [Version de juillet de [!DNL Adobe Acrobat Services] : services PDF Embed et PDF](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)

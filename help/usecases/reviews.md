@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![Bannière principale de cas d&#39;utilisation](assets/UseCaseReviewsHero.jpg)
 
-La collaboration interéquipe à distance est devenue nécessaire pour de nombreuses entreprises pendant la pandémie de COVID-19. Le [partage et la révision de documents numériques](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) présentent une série de défis pour les équipes et les ressources interfonctionnelles.
+La collaboration interéquipe à distance est devenue nécessaire pour de nombreuses entreprises pendant la pandémie de COVID-19. Le [partage et la révision de documents numériques](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval) présentent une série de défis pour les équipes et les ressources interfonctionnelles.
 
 Ces défis incluent le partage de documents dans différents formats de fichiers, la révision et les commentaires efficaces sur le contenu, ainsi que la synchronisation avec les modifications les plus récentes. Les API [!DNL Adobe Acrobat Services] sont conçues pour permettre aux développeurs d&#39;applications de résoudre ces problèmes pour leurs utilisateurs.
 
@@ -51,7 +51,7 @@ L’application présente les fonctionnalités suivantes :
 
 ## Création d’identifiants d’API Adobe
 
-Avant de commencer le code, vous devez [créer des informations d&#39;identification](https://www.adobe.com/go/dcsdks_credentials) pour l&#39;API Adobe PDF Embed et l&#39;API Adobe PDF Services. L’API PDF Embed est gratuite. L&#39;API des services de PDF est gratuite pendant six mois, puis vous pouvez passer à une [formule prépayée](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) à seulement \$0,05 par transaction de document.
+Avant de commencer le code, vous devez [créer des informations d&#39;identification](https://www.adobe.com/go/dcsdks_credentials) pour l&#39;API Adobe PDF Embed et l&#39;API Adobe PDF Services. L’API PDF Embed est gratuite. L&#39;API des services de PDF est gratuite pendant six mois, puis vous pouvez passer à une [formule prépayée](https://developer.adobe.com/document-services/pricing/main) à seulement \$0,05 par transaction de document.
 
 Lors de la création des informations d&#39;identification pour l&#39;API des services de PDF, sélectionnez l&#39;option **Créer un exemple de code personnalisé** et sélectionnez Node.js pour la langue. Enregistrez le fichier ZIP et extrayez pdftools-api-credentials.json et private.key dans le répertoire racine de votre projet Node.js Express.
 
@@ -101,7 +101,7 @@ Vous êtes maintenant prêt à travailler avec les API [!DNL Acrobat Services].
 
 Pour la première partie du flux de production de documents, l’utilisateur final doit charger des documents à partager. Pour ce faire, vous ajoutez une fonction de téléchargement et regroupez les différents formats de fichiers de document dans des PDF afin de les préparer au processus de révision.
 
-Commencez par créer une fonction pour convertir des documents en PDF en fonction de l&#39;[exemple d&#39;extrait de code pour l&#39;API PDF Services](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html). Cet exemple montre également des extraits de code pour de nombreuses autres fonctionnalités essentielles, notamment la reconnaissance optique de caractères (OCR), la protection et la suppression par mot de passe, ainsi que la compression.
+Commencez par créer une fonction pour convertir des documents en PDF en fonction de l&#39;[exemple d&#39;extrait de code pour l&#39;API PDF Services](https://developer.adobe.com/document-services/apis/pdf-services). Cet exemple montre également des extraits de code pour de nombreuses autres fonctionnalités essentielles, notamment la reconnaissance optique de caractères (OCR), la protection et la suppression par mot de passe, ainsi que la compression.
 
 ```
 function fileToPDF( filename, outputFilename, callback ) {
@@ -443,8 +443,8 @@ Enfin, ajoutez un lien dans la page web index.html principale à ce point d’en
 
 ## Marche à suivre
 
-Ce tutoriel pratique a montré comment les API [!DNL Acrobat Services] intègrent un [workflow de partage et de révision de documents](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) dans une application web. L&#39;application permet aux travailleurs à distance de partager des fichiers et de collaborer avec leurs coéquipiers, ce qui est particulièrement utile pour les employés et les entrepreneurs qui travaillent à domicile.
+Ce tutoriel pratique a montré comment les API [!DNL Acrobat Services] intègrent un [workflow de partage et de révision de documents](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval) dans une application web. L&#39;application permet aux travailleurs à distance de partager des fichiers et de collaborer avec leurs coéquipiers, ce qui est particulièrement utile pour les employés et les entrepreneurs qui travaillent à domicile.
 
 Vous pouvez utiliser ces techniques pour activer la collaboration dans votre application ou explorer les [exemples de SDK de nœud PDF Services](https://github.com/adobe/pdftools-node-sdk-samples) et les [exemples d’API PDF Embed](https://github.com/adobe/pdf-embed-api-samples) sur GitHub pour trouver l’inspiration sur la façon d’utiliser les API d’Adobe autrement.
 
-Prêt à activer le partage et la révision de documents dans votre propre application ? Inscrivez-vous à votre compte développeur [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Accédez gratuitement à Adobe PDF Embed et profitez d’un essai gratuit de six mois des autres API. Après votre évaluation, vous pouvez [payer à l&#39;utilisation](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) pour seulement \$0,05 par transaction de document à mesure que votre entreprise se développe.
+Prêt à activer le partage et la révision de documents dans votre propre application ? Inscrivez-vous à votre compte développeur [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Accédez gratuitement à Adobe PDF Embed et profitez d’un essai gratuit de six mois des autres API. Après votre évaluation, vous pouvez [payer à l&#39;utilisation](https://developer.adobe.com/document-services/pricing/main) pour seulement \$0,05 par transaction de document à mesure que votre entreprise se développe.

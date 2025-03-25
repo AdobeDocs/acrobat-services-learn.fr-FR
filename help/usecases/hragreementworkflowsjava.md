@@ -1,6 +1,6 @@
 ---
 title: Workflows de document de RH en Java
-description: « [!DNL Adobe Acrobat Services] API intègrent facilement des fonctionnalités de PDF dans vos applications Web de RH »
+description: Les API [!DNL Adobe Acrobat Services] incorporent facilement des fonctionnalités de PDF dans vos applications Web de RH
 feature: Use Cases
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7474
 thumbnail: KT-7474.jpg
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: ad13c28a0c218fc0027afc02445e5ed532c2340d
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Dans ce tutoriel pratique, découvrez comment mettre en œuvre un formulaire de 
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
+* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
 * [Code de projet](https://github.com/dawidborycki/adobe-sign)
 
@@ -392,9 +392,9 @@ Pour obtenir un jeton d’autorisation, vous devez effectuer plusieurs étapes :
 
 Commencez par enregistrer un [compte développeur](https://acrobat.adobe.com/fr/fr/sign/developer-form.html).
 
-Créez l&#39;application CLIENT dans le [portail Adobe Sign](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
+Créez l&#39;application CLIENT dans le [portail Adobe Sign](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
 
-Configurez OAuth pour l’application comme décrit [ici](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) et [ici](https://secure.eu1.adobesign.com/public/static/oauthDoc.jsp). Notez votre identifiant client et votre secret client. Vous pouvez ensuite utiliser `https://www.google.com` comme URI de redirection et les portées suivantes :
+Configurez OAuth pour l’application comme décrit [ici](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) et [ici](https://secure.eu1.adobesign.com/public/static/oauthDoc.jsp). Notez votre identifiant client et votre secret client. Vous pouvez ensuite utiliser `https://www.google.com` comme URI de redirection et les portées suivantes :
 
 * user_login : self
 
@@ -602,4 +602,4 @@ Comme vous pouvez le voir, en utilisant les démarrages rapides, vous pouvez met
 
 En poussant l’exemple plus loin, vous pouvez créer des formulaires que les destinataires peuvent signer à distance et en toute sécurité. Lorsque vous avez besoin de plusieurs signatures, vous pouvez même transmettre automatiquement les formulaires à plusieurs personnes dans un workflow. L&#39;intégration de vos employés est améliorée et votre service des RH vous aimera.
 
-Consultez [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/) pour ajouter dès aujourd&#39;hui une multitude de fonctionnalités de PDF à vos applications.
+Consultez [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) pour ajouter dès aujourd&#39;hui une multitude de fonctionnalités de PDF à vos applications.

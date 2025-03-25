@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10382
 thumbnail: KT-10382.jpg
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 1%
@@ -116,7 +116,7 @@ Comme décrit au début de ce tutoriel, créez un flux, ajoutez une étape et re
 
 Comme le montre la capture d’écran ci-dessus, vous pouvez passer à un compte professionnel ou configurer un nouveau compte d’organisation. Une fois que vous l’avez fait, vous pouvez ajouter l’action Adobe PDF Services.
 
-Pour en savoir plus sur la création de votre premier flux Microsoft Power Automate avec [!DNL Adobe Acrobat Services], consultez [Création de votre premier workflow dans Microsoft Power Automate](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/create-workflow-power-automate.html).
+Pour en savoir plus sur la création de votre premier flux Microsoft Power Automate avec [!DNL Adobe Acrobat Services], consultez [Création de votre premier workflow dans Microsoft Power Automate](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate).
 
 ## Autres ressources
 

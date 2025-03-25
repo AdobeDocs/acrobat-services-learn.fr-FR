@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8098
 thumbnail: KT-8098.jpg
 exl-id: f4ec0182-a46e-43aa-aea3-bf1d19f1a4ec
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -29,11 +29,11 @@ Ce tutoriel pratique explique comment créer un modèle d’accord de confidenti
 
 ## Ressources et API pertinentes
 
-Avec [!DNL Adobe Acrobat Services], vous pouvez générer des documents de PDF à la volée à l&#39;aide de données dynamiques. [!DNL Acrobat Services] offre une suite d&#39;outils de PDF, notamment l&#39;API Adobe Document Generation pour automatiser la [création d&#39;un accord de confidentialité](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html).
+Avec [!DNL Adobe Acrobat Services], vous pouvez générer des documents de PDF à la volée à l&#39;aide de données dynamiques. [!DNL Acrobat Services] offre une suite d&#39;outils de PDF, notamment l&#39;API Adobe Document Generation pour automatiser la [création d&#39;un accord de confidentialité](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/nda-creation).
 
-* [API Document Generation Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [API Document Generation Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
+* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
 * [Balisage de génération de document Adobe](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
@@ -93,7 +93,7 @@ Voici les fonctionnalités du champ `authorizedSigner`. Les autres champs sont e
 
 ## Création des balises
 
-N&#39;hésitez pas à créer un modèle ou à importer un [modèle existant](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade) dans Microsoft Word. Une fois que vous avez configuré votre document, ajoutez des balises à chaque champ en cliquant sur les jetons correspondants dans le complément.
+N&#39;hésitez pas à créer un modèle ou à importer un [modèle existant](https://developer.adobe.com/document-services/apis/doc-generation#sample-blade) dans Microsoft Word. Une fois que vous avez configuré votre document, ajoutez des balises à chaque champ en cliquant sur les jetons correspondants dans le complément.
 
 Le modèle suivant dans un fichier Microsoft Word :
 
@@ -173,7 +173,7 @@ res.status(500).render("crash", { error: error });
 
 Vous pouvez afficher [l&#39;exemple de code complet](https://github.com/afzaal-ahmad-zeeshan/adobe-docugen-sample) sur GitHub.
 
-Ce code utilise un document JSON et le modèle Microsoft Word dans l&#39;appel API au SDK [!DNL Adobe Acrobat Services]. Dans la réponse, vous recevez la sortie et l’enregistrez dans le système de fichiers de l’application. Vous pouvez transférer le document généré à vos clients par e-mail ou leur afficher un aperçu dans le navigateur à l&#39;aide de l&#39;[API Adobe PDF Embed](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) gratuite.
+Ce code utilise un document JSON et le modèle Microsoft Word dans l&#39;appel API au SDK [!DNL Adobe Acrobat Services]. Dans la réponse, vous recevez la sortie et l’enregistrez dans le système de fichiers de l’application. Vous pouvez transférer le document généré à vos clients par e-mail ou leur afficher un aperçu dans le navigateur à l&#39;aide de l&#39;[API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed) gratuite.
 
 Cet appel crée le document NDA suivant :
 
@@ -181,13 +181,13 @@ Cet appel crée le document NDA suivant :
 
 Les API [!DNL Adobe Acrobat Services] insèrent du contenu pour créer un document de PDF. Sans ces outils, vous devrez peut-être écrire le code pour traiter les documents Office et travailler avec des formats de fichiers Raw PDF. Avec l’aide des services Adobe PDF, vous pouvez effectuer toutes ces étapes avec un seul appel API.
 
-Utilisez désormais l&#39;[API Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html) pour demander des signatures sur les avis de confidentialité et remettre le document final signé à toutes les parties. Adobe Sign vous avertit de l&#39;[utilisation d&#39;un webhook](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md). À l’aide de ce webhook, vous pouvez récupérer l’état de l’accord de confidentialité.
+Utilisez désormais l&#39;[API Adobe Sign](https://developer.adobe.com/adobesign-api/) pour demander des signatures sur les avis de confidentialité et remettre le document final signé à toutes les parties. Adobe Sign vous avertit de l&#39;[utilisation d&#39;un webhook](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/webhooks.md). À l’aide de ce webhook, vous pouvez récupérer l’état de l’accord de confidentialité.
 
-Pour une explication plus détaillée du processus d&#39;Adobe Sign, [consultez la documentation](https://www.adobe.io/apis/documentcloud/sign/docs.html) ou lisez cet article de blog détaillé.
+Pour une explication plus détaillée du processus d&#39;Adobe Sign, [consultez la documentation](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html) ou lisez cet article de blog détaillé.
 
 ## Marche à suivre
 
-Dans ce tutoriel pratique, le Baliseur de génération de documents Adobe a été utilisé pour générer dynamiquement des documents de PDF à l’aide de modèles Microsoft Word et de fichiers de données JSON. Le complément a permis de [créer automatiquement des avis de conformité](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html) personnalisés pour chaque partie, puis de recueillir des signatures à l’aide de l’API Sign.
+Dans ce tutoriel pratique, le Baliseur de génération de documents Adobe a été utilisé pour générer dynamiquement des documents de PDF à l’aide de modèles Microsoft Word et de fichiers de données JSON. Le complément a permis de [créer automatiquement des avis de conformité](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/nda-creation) personnalisés pour chaque partie, puis de recueillir des signatures à l’aide de l’API Sign.
 
-Vous pouvez utiliser ces techniques pour créer dynamiquement vos propres avis de confidentialité ou d’autres documents, ce qui permet à votre équipe de se concentrer sur un travail productif. Explorez [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) pour trouver des API et des SDK pour la langue et le runtime de votre choix afin de pouvoir ajouter des fonctions de PDF directement à vos applications pour créer rapidement des documents de PDF. [Commencez](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) avec un essai gratuit de six mois, puis
-[paiement à l&#39;utilisation](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) pour seulement 0,05 $ par transaction de document.
+Vous pouvez utiliser ces techniques pour créer dynamiquement vos propres avis de confidentialité ou d’autres documents, ce qui permet à votre équipe de se concentrer sur un travail productif. Explorez [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/apis/pdf-services) pour trouver des API et des SDK pour la langue et le runtime de votre choix afin de pouvoir ajouter des fonctions de PDF directement à vos applications pour créer rapidement des documents de PDF. [Commencez](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) avec un essai gratuit de six mois, puis
+[paiement à l&#39;utilisation](https://developer.adobe.com/document-services/pricing/main) pour seulement 0,05 $ par transaction de document.

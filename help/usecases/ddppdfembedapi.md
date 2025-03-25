@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8090
 thumbnail: KT-8090.jpg
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 0%
@@ -21,12 +21,12 @@ ht-degree: 0%
 
 Les documents électroniques sont partout - en fait, il y a probablement [billions de PDF](https://itextpdf.com/en/blog/technical-notes/do-you-know-how-many-pdf-documents-exist-world) dans le monde, et ce nombre augmente chaque jour. En incorporant une visionneuse de PDF dans vos pages web, vous permettez aux utilisateurs de visualiser les documents sans avoir à remanier votre HTML et votre feuille de style CSS, ni à entraver l’accès à votre site web.
 
-Explorons un scénario populaire. Une entreprise publie [des livres blancs sur son site web](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html)
+Explorons un scénario populaire. Une entreprise publie [des livres blancs sur son site web](https://developer.adobe.com/document-services/use-cases/content-publishing/digital-content-publishing)
 pour fournir du contexte pour leurs applications et services. Le spécialiste du marketing du site Web veut mieux comprendre comment les utilisateurs interagissent avec le contenu de leur PDF et l&#39;incorporer à leur page Web et à leur marque. Ils ont décidé de publier les livres blancs en tant que [contenu sécurisé](https://whatis.techtarget.com/definition/gated-content-ungated-content#:~:text=Gated%20content%20is%20online%20materials,about%20their%20jobs%20and%20organizations.), afin de contrôler qui peut les télécharger.
 
 ## Ce que vous pouvez apprendre
 
-Dans ce tutoriel pratique, découvrez comment afficher des documents de PDF incorporés dans des pages web à l&#39;aide de l&#39;[API Adobe PDF Embed](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html), qui est gratuite et facile à utiliser. Ces exemples utilisent JavaScript, Node.js, Express.js, HTML et CSS. Vous pouvez afficher le code de projet complet sur [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
+Dans ce tutoriel pratique, découvrez comment afficher des documents de PDF incorporés dans des pages web à l&#39;aide de l&#39;[API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed), qui est gratuite et facile à utiliser. Ces exemples utilisent JavaScript, Node.js, Express.js, HTML et CSS. Vous pouvez afficher le code de projet complet sur [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
 
 ## Ressources et API pertinentes
 
@@ -126,7 +126,7 @@ Réexécutez maintenant npm start et ouvrez <http://localhost:3000> pour affiche
 
 ![Capture d&#39;écran des vignettes des livres blancs](assets/ddp_4.png)
 
-Dans les sections suivantes, vous allez améliorer le site Web et utiliser l&#39;[API PDF Embed](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) pour afficher les documents du PDF sur la page Web. L’API PDF Embed est gratuite : il vous suffit d’obtenir un identifiant d’API.
+Dans les sections suivantes, vous allez améliorer le site Web et utiliser l&#39;[API PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed) pour afficher les documents du PDF sur la page Web. L’API PDF Embed est gratuite : il vous suffit d’obtenir un identifiant d’API.
 
 ## Obtention des informations d’identification de l’API PDF Embed
 
@@ -547,16 +547,16 @@ Maintenant, réexécutez l’application et ouvrez les outils de développement 
 
 ![Capture d&#39;écran du code](assets/ddp_16.png)
 
-Vous pouvez envoyer ces données à [Adobe Analytics](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=view) ou à d&#39;autres outils d&#39;analyse.
+Vous pouvez envoyer ces données à [Adobe Analytics](https://developer.adobe.com/document-services/docs/overview/pdf-embed-api) ou à d&#39;autres outils d&#39;analyse.
 
 ## Marche à suivre
 
 Les API [!DNL Acrobat Services] aident les développeurs à résoudre facilement les problèmes de publication numérique à l’aide d’un workflow centré sur le PDF. Vous avez vu comment créer un exemple d&#39;application web Node pour afficher une collection de livres blancs. Ensuite, obtenez un [identifiant d&#39;API gratuit](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) et créez un accès restreint aux livres blancs, qui peuvent être affichés dans l&#39;un des quatre [modes incorporés](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf).
 
-L&#39;assemblage de ce workflow aide le [spécialiste du marketing hypothétique](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html) à rassembler les coordonnées du responsable en exchange pour les téléchargements de livre blanc et à afficher des statistiques sur les personnes qui interagissent avec les PDF. Vous pouvez incorporer ces fonctionnalités à votre site Web pour piloter et surveiller l&#39;engagement des utilisateurs.
+L&#39;assemblage de ce workflow aide le [spécialiste du marketing hypothétique](https://developer.adobe.com/document-services/use-cases/content-publishing/digital-content-publishing) à rassembler les coordonnées du responsable en exchange pour les téléchargements de livre blanc et à afficher des statistiques sur les personnes qui interagissent avec les PDF. Vous pouvez incorporer ces fonctionnalités à votre site Web pour piloter et surveiller l&#39;engagement des utilisateurs.
 
 Si vous êtes développeur Angular ou React, vous aurez peut-être envie de tester [des exemples supplémentaires](https://github.com/adobe/pdf-embed-api-samples) expliquant comment intégrer l’API PDF Embed aux projets React et Angular.
 
-Adobe vous permet de développer votre expérience client de bout en bout avec des solutions innovantes. Consultez [l&#39;API Adobe PDF Embed](https://www.adobe.io/apis/documentcloud/viesdk) gratuitement. Pour découvrir ce que vous pouvez faire d&#39;autre, essayez l&#39;API Adobe PDF Services avec [paiement à l&#39;acte](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)[givrage](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
+Adobe vous permet de développer votre expérience client de bout en bout avec des solutions innovantes. Consultez [l&#39;API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed/) gratuitement. Pour découvrir ce que vous pouvez faire d&#39;autre, essayez l&#39;API Adobe PDF Services avec [paiement à l&#39;acte](https://developer.adobe.com/document-services/pricing/main)[givrage](https://developer.adobe.com/document-services/pricing/main).
 
 [Commencer](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) avec [!DNL Adobe Acrobat Services] API dès aujourd&#39;hui.

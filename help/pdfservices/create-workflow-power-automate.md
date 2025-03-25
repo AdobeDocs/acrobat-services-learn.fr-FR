@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10379
 thumbnail: KT-10379.jpg
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1955'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Dans ce tutoriel pratique, découvrez comment :
 ### Ce dont vous avez besoin
 
 * **Informations d’identification de la version d’essai ou de production pour Adobe PDF Services**
-En savoir plus sur l&#39;obtention et la configuration des informations d&#39;identification dans Microsoft Power Automate [ici](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/getting-credentials-power-automate.html).
+En savoir plus sur l&#39;obtention et la configuration des informations d&#39;identification dans Microsoft Power Automate [ici](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
 * **Microsoft Power Automate avec connecteurs Premium**
 Découvrez comment vérifier le niveau de licence de Power Automate [ici](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types).
 * **OneDrive**
@@ -46,7 +46,7 @@ Il existe deux [exemples de fichiers](assets/sample-assets.zip) que vous devez d
 
 ### Obtention des informations d’identification
 
-Pour terminer ce tutoriel, vous devez disposer des informations d’identification déjà configurées dans Microsoft Power Automate pour Adobe PDF Services. Si vous n&#39;avez pas terminé cette étape, consultez les [instructions ici](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/getting-credentials-power-automate.html).
+Pour terminer ce tutoriel, vous devez disposer des informations d’identification déjà configurées dans Microsoft Power Automate pour Adobe PDF Services. Si vous n&#39;avez pas terminé cette étape, consultez les [instructions ici](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
 
 ## Partie 1 : Création d’un nouvel enchaînement et conversion de Word en PDF
 

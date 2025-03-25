@@ -1,6 +1,6 @@
 ---
 title: Workflows d’accord dans Node.js
-description: « [!DNL Adobe Acrobat Services] API intègrent facilement des fonctionnalités de PDF dans vos applications web »
+description: Les API [!DNL Adobe Acrobat Services] intègrent facilement des fonctionnalités de PDF dans vos applications web
 feature: Use Cases
 role: Developer
 level: Beginner
@@ -9,7 +9,7 @@ jira: KT-7473
 thumbnail: KT-7473.jpg
 keywords: En vedette
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
-source-git-commit: f8a31b8f98d99bf1f3787e0f0f19cc9f26e24d8d
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Dans ce tutoriel pratique, découvrez comment ajouter des services de PDF à une
 
 * [API PDF Embed](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [API Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
+* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
 * [Code de projet](https://github.com/adobe/pdftools-node-sdk-samples)
 
@@ -294,7 +294,7 @@ Sur la page qui affiche le PDF, ajoutez un élément `<div />` pour contenir le 
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 ```
 
-Le dernier morceau de code dont vous avez besoin est une fonction qui affiche le document une fois que l’API Adobe PDF Embed JavaScript est chargée. Lorsque vous recevez une notification indiquant que le script est chargé via un événement adobe_dc_view\_sdk.ready, créez un nouvel objet AdobeDC.View. Cet objet a besoin de votre ID client et de l’ID de l’élément créé précédemment. Recherchez votre ID client dans [Adobe Developer Console](https://console.adobe.io/). Lorsque vous affichez les paramètres de l’application que vous avez créée lors de la génération des informations d’identification, l’ID client s’affiche.
+Le dernier morceau de code dont vous avez besoin est une fonction qui affiche le document une fois que l’API Adobe PDF Embed JavaScript est chargée. Lorsque vous recevez une notification indiquant que le script est chargé via un événement adobe_dc_view\_sdk.ready, créez un nouvel objet AdobeDC.View. Cet objet a besoin de votre ID client et de l’ID de l’élément créé précédemment. Recherchez votre ID client dans [Adobe Developer Console](https://developer.adobe.com/console/). Lorsque vous affichez les paramètres de l’application que vous avez créée lors de la génération des informations d’identification, l’ID client s’affiche.
 
 ![Image de la clé du client API](assets/AWNjs_6.png)
 
@@ -312,7 +312,7 @@ Vous pouvez activer et désactiver diverses options et voir immédiatement comme
 
 Lorsqu’un document est prêt, vous pouvez ajouter des signatures numériques pour approbation à l’aide d’Adobe Sign. Cette fonctionnalité fonctionne un peu différemment de celle que vous avez utilisée jusqu’à présent. Pour les signatures numériques, une application doit être configurée pour utiliser OAuth pour l’authentification des utilisateurs.
 
-La première étape de la configuration de votre application consiste à [enregistrer votre application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md) pour utiliser OAuth pour Adobe Sign. Une fois connecté, accédez à l&#39;écran pour créer des applications en cliquant sur *Compte*, puis ouvrez la section *API Adobe Sign* et cliquez sur *Applications API* pour ouvrir la liste des applications enregistrées.
+La première étape de la configuration de votre application consiste à [enregistrer votre application](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/create_app.md) pour utiliser OAuth pour Adobe Sign. Une fois connecté, accédez à l&#39;écran pour créer des applications en cliquant sur *Compte*, puis ouvrez la section *API Adobe Sign* et cliquez sur *Applications API* pour ouvrir la liste des applications enregistrées.
 
 ![Image de la première étape d&#39;enregistrement de votre application](assets/AWNjs_9.png)
 
@@ -519,4 +519,4 @@ Comme vous pouvez le voir à partir des démarrages rapides et du code fourni, i
 
 Pour découvrir les portées requises pour un appel ou voir comment l&#39;appel est généré, vous pouvez créer des exemples d&#39;appels à partir de la [documentation de l&#39;API Rest](https://secure.na4.adobesign.com/public/docs/restapi/v6). Les [Démarrages rapides](https://github.com/adobe/pdftools-node-sdk-samples) illustrent également d&#39;autres fonctionnalités et formats de fichiers des processus des API [!DNL Adobe Acrobat Services].
 
-Vous pouvez ajouter une multitude de fonctionnalités de PDF à vos applications, permettant ainsi à vos utilisateurs de consulter et de signer rapidement et facilement leurs documents et bien plus encore. Pour commencer, consultez [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/) dès aujourd&#39;hui.
+Vous pouvez ajouter une multitude de fonctionnalités de PDF à vos applications, permettant ainsi à vos utilisateurs de consulter et de signer rapidement et facilement leurs documents et bien plus encore. Pour commencer, consultez [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) dès aujourd&#39;hui.

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8089
 thumbnail: KT-8089.jpg
 exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83
-source-git-commit: 2f01f306f5d13bfbaa61442e0e7a89537a62c33c
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 0%
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 # Prise en main de l’API Adobe Sign
 
-L&#39;[API Acrobat Sign](https://www.adobe.io/apis/documentcloud/sign.html) est un excellent moyen d&#39;améliorer la façon dont vous gérez les accords signés. Les développeurs peuvent facilement intégrer leurs systèmes à l’API Sign, qui fournit un moyen fiable et facile de charger des documents, de les envoyer pour signature, d’envoyer des rappels et de collecter des signatures électroniques.
+L&#39;[API Acrobat Sign](https://developer.adobe.com/adobesign-api/) est un excellent moyen d&#39;améliorer la façon dont vous gérez les accords signés. Les développeurs peuvent facilement intégrer leurs systèmes à l’API Sign, qui fournit un moyen fiable et facile de charger des documents, de les envoyer pour signature, d’envoyer des rappels et de collecter des signatures électroniques.
 
 ## Ce que vous pouvez apprendre
 
-Ce tutoriel pratique explique comment les développeurs peuvent utiliser l’API Sign pour améliorer les applications et les workflows créés avec [!DNL Adobe Acrobat Services]. [!DNL Acrobat Services] comprend [l’API Adobe PDF Services](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html), [l’API Adobe PDF Embed](https://www.adobe.io/apis/documentcloud/viesdk) (gratuite) et [l’API Adobe Document Generation](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Ce tutoriel pratique explique comment les développeurs peuvent utiliser l’API Sign pour améliorer les applications et les workflows créés avec [!DNL Adobe Acrobat Services]. [!DNL Acrobat Services] comprend [l’API Adobe PDF Services](https://developer.adobe.com/document-services/apis/pdf-services), [l’API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed/) (gratuite) et [l’API Adobe Document Generation](https://developer.adobe.com/document-services/apis/doc-generation).
 
-Plus précisément, découvrez comment inclure l’API Acrobat Sign dans votre application pour collecter des signatures et d’autres informations, telles que les informations sur les employés figurant sur un formulaire d’assurance. Des étapes génériques avec des requêtes et des réponses HTTP simplifiées sont utilisées. Vous pouvez implémenter ces demandes dans votre langue préférée. Vous pouvez créer un PDF à l’aide d’une combinaison d’[[!DNL Acrobat Services] API](https://www.adobe.io/apis/documentcloud/dcsdk/), le charger dans l’API Sign en tant que document [temporaire](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) et demander les signatures de l’utilisateur final à l’aide de l’accord ou du workflow [widget](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md).
+Plus précisément, découvrez comment inclure l’API Acrobat Sign dans votre application pour collecter des signatures et d’autres informations, telles que les informations sur les employés figurant sur un formulaire d’assurance. Des étapes génériques avec des requêtes et des réponses HTTP simplifiées sont utilisées. Vous pouvez implémenter ces demandes dans votre langue préférée. Vous pouvez créer un PDF à l’aide d’une combinaison d’[[!DNL Acrobat Services] API](https://developer.adobe.com/document-services/homepage/), le charger dans l’API Sign en tant que document [temporaire](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/overview/terminology.md) et demander les signatures de l’utilisateur final à l’aide de l’accord ou du workflow [widget](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/overview/terminology.md).
 
 ## Création d’un document de PDF
 
-Commencez par créer un modèle Microsoft Word et enregistrez-le comme PDF. Vous pouvez également automatiser votre pipeline à l’aide de l’API Document Generation pour télécharger un modèle créé dans Word, puis générer un document de PDF. L’API Document Generation fait partie de [!DNL Acrobat Services]. Elle est [gratuite pendant six mois, puis disponible au fur et à mesure pour seulement 0,05 $ par transaction de document](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
+Commencez par créer un modèle Microsoft Word et enregistrez-le comme PDF. Vous pouvez également automatiser votre pipeline à l’aide de l’API Document Generation pour télécharger un modèle créé dans Word, puis générer un document de PDF. L’API Document Generation fait partie de [!DNL Acrobat Services]. Elle est [gratuite pendant six mois, puis disponible au fur et à mesure pour seulement 0,05 $ par transaction de document](https://developer.adobe.com/document-services/pricing/main).
 
 Dans cet exemple, le modèle est un simple document avec quelques champs de signataire à remplir. Nommez les champs pour l’instant, puis insérez-les ultérieurement dans ce tutoriel.
 
@@ -276,7 +276,7 @@ Company Name","","","2021-03-07 19:32:59"
 
 L’envoi d’un document à des destinataires spécifiés pour signature ou approbation crée un accord. Vous pouvez suivre le statut et l’achèvement d’un accord à l’aide des API.
 
-Vous pouvez créer un accord à l’aide d’un [document temporaire](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), d’un [document de bibliothèque](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) ou d’une URL. Dans cet exemple, l’accord est basé sur `transientDocumentId`, tout comme le formulaire web créé précédemment.
+Vous pouvez créer un accord à l’aide d’un [document temporaire](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), d’un [document de bibliothèque](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) ou d’une URL. Dans cet exemple, l’accord est basé sur `transientDocumentId`, tout comme le formulaire web créé précédemment.
 
 ```
 POST /api/rest/v6/agreements HTTP/1.1
@@ -434,10 +434,10 @@ Company Name","CBJCHBCAABAA5Z84zy69q_Ilpuy5DzUAahVfcNZillDt"
 
 L’API Acrobat Sign vous permet de gérer des documents, des formulaires web et des accords. Les workflows simplifiés mais complets créés à l’aide de formulaires web et d’accords sont réalisés d’une manière générique qui permet aux développeurs de les mettre en œuvre dans n’importe quel langage.
 
-Pour obtenir un aperçu du fonctionnement de l&#39;API Sign, vous pouvez trouver des exemples dans le [Guide du développeur d&#39;utilisation d&#39;API](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/api_usage.md). Cette documentation contient de courts articles sur la plupart des étapes suivies tout au long de l’article, ainsi que d’autres sujets connexes.
+Pour obtenir un aperçu du fonctionnement de l&#39;API Sign, vous pouvez trouver des exemples dans le [Guide du développeur d&#39;utilisation d&#39;API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/api_usage.md). Cette documentation contient de courts articles sur la plupart des étapes suivies tout au long de l’article, ainsi que d’autres sujets connexes.
 
-L’API Acrobat Sign est disponible via plusieurs niveaux de [formules de signature électronique mono et multi-utilisateurs](https://acrobat.adobe.com/fr/fr/sign/pricing/plans.html). Vous pouvez donc choisir le modèle de tarification le mieux adapté à vos besoins. Maintenant que vous savez à quel point il est facile d’incorporer l’API Sign dans vos applications, d’autres fonctionnalités peuvent vous intéresser, comme [Acrobat Sign Webhooks](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md), un modèle de programmation basée sur le push. Au lieu d’exiger que votre application effectue des vérifications fréquentes dans les événements Acrobat Sign, les webhooks vous permettent d’enregistrer une URL HTTP pour laquelle l’API Sign exécute une demande de rappel de POST chaque fois qu’un événement se produit. Les webhooks permettent une programmation robuste en alimentant votre application avec des mises à jour en temps réel et instantanées.
+L’API Acrobat Sign est disponible via plusieurs niveaux de [formules de signature électronique mono et multi-utilisateurs](https://acrobat.adobe.com/fr/fr/sign/pricing/plans.html). Vous pouvez donc choisir le modèle de tarification le mieux adapté à vos besoins. Maintenant que vous savez à quel point il est facile d’incorporer l’API Sign dans vos applications, d’autres fonctionnalités peuvent vous intéresser, comme [Acrobat Sign Webhooks](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/webhooks.md), un modèle de programmation basée sur le push. Au lieu d’exiger que votre application effectue des vérifications fréquentes dans les événements Acrobat Sign, les webhooks vous permettent d’enregistrer une URL HTTP pour laquelle l’API Sign exécute une demande de rappel de POST chaque fois qu’un événement se produit. Les webhooks permettent une programmation robuste en alimentant votre application avec des mises à jour en temps réel et instantanées.
 
-Consultez la [tarification à l’utilisation](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html), qui vous indiquera la fin de votre période d’essai gratuite de six mois pour l’API Adobe PDF Services, et l’API gratuite Adobe PDF Embed.
+Consultez la [tarification à l’utilisation](https://developer.adobe.com/document-services/pricing/main), qui vous indiquera la fin de votre période d’essai gratuite de six mois pour l’API Adobe PDF Services, et l’API gratuite Adobe PDF Embed.
 
 Pour ajouter des fonctionnalités passionnantes telles que la création automatique de documents et la signature de documents à votre application, commencez par [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html).

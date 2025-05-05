@@ -19,4 +19,4 @@ ht-degree: 2%
 
 Obtenez un aperçu du Baliseur Adobe Document Generation conçu pour être utilisé avec l’API Adobe Document Generation.
 
->[!VIDEO](https://video.tv.adobe.com/v/332120?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411719?hidetitle=true&captions=fre_fr)

@@ -22,4 +22,4 @@ Découvrez comment créer un document temporaire utilisable avec l’API Acrobat
 >
 >Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
->[!VIDEO](https://video.tv.adobe.com/v/347351?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3444772?hidetitle=true&captions=fre_fr)

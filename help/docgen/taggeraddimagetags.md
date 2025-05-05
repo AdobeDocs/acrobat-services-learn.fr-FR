@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Découvrez comment ajouter des balises d’image aux modèles Microsoft Word à l’aide du Baliseur de génération de documents Adobe pour insérer dynamiquement des images dans des documents à l’aide de l’API Adobe Document Generation.
 
->[!VIDEO](https://video.tv.adobe.com/v/332114?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411731?hidetitle=true&captions=fre_fr)

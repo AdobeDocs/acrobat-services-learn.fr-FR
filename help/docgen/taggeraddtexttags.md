@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Découvrez comment ajouter des balises de texte aux modèles Microsoft Word à l’aide du Baliseur de génération de documents Adobe à utiliser avec l’API Adobe Document Generation.
 
->[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3409658?hidetitle=true&captions=fre_fr)

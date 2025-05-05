@@ -23,4 +23,4 @@ Découvrez comment créer un lien d’incorporation pour OAuth, la méthode par 
 >
 >Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
->[!VIDEO](https://video.tv.adobe.com/v/347349?hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3445410?hidetitle=true&captions=fre_fr){transcript=true}

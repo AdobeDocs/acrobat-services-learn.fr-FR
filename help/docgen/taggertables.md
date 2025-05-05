@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Découvrez comment ajouter des tableaux et des balises de liste à des modèles Microsoft Word à l’aide du Baliseur de génération de document Adobe pour ajouter dynamiquement des lignes de tableau ou de liste en fonction des données à l’aide de l’API Adobe Document Generation.
 
->[!VIDEO](https://video.tv.adobe.com/v/332115?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411725?hidetitle=true&captions=fre_fr)

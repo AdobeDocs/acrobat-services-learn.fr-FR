@@ -23,4 +23,4 @@ Découvrez comment créer un compte Développeur pour Acrobat Sign, qui est enti
 >
 >Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
->[!VIDEO](https://video.tv.adobe.com/v/347347?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3445920?hidetitle=true&captions=fre_fr)

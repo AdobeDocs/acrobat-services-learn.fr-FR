@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Découvrez comment définir des sections dans les modèles Microsoft Word à l’aide du Baliseur de génération de document Adobe pour inclure ou exclure dynamiquement des sections d’un document en fonction de données à l’aide de l’API Adobe Document Generation.
 
->[!VIDEO](https://video.tv.adobe.com/v/332117?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411737?hidetitle=true&captions=fre_fr)

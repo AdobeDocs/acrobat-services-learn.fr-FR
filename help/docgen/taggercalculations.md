@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Découvrez comment définir des balises de calcul numériques dans les modèles Microsoft Word à l’aide de la balise Adobe Document Generation pour calculer des agrégations ou l’arithmétique de valeurs de données à l’aide de l’API Adobe Document Generation.
 
->[!VIDEO](https://video.tv.adobe.com/v/332118?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3411744?hidetitle=true&captions=fre_fr)

@@ -18,7 +18,7 @@ Ce projet respecte l&#39;Adobe [code de conduite](code-of-conduct.md). En partic
 
 ## Documentation du guide du contributeur
 
-Consultez la [Guide du contributeur](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consultez la [Guide du contributeur](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
 
 ## Vous Avez Une Question ?
 
@@ -44,4 +44,4 @@ Nous aimons les contributions de notre communauté ! Si vous souhaitez aller au-
 
 ## Problèmes de sécurité
 
-Les problèmes de sécurité ne doivent pas être signalés dans ce dispositif de suivi des problèmes. Au lieu de cela, [signaler un problème à nos experts de la sécurité](https://helpx.adobe.com/security/alertus.html)
+Les problèmes de sécurité ne doivent pas être signalés dans ce dispositif de suivi des problèmes. Au lieu de cela, [signaler un problème à nos experts de la sécurité](https://helpx.adobe.com/fr/security/alertus.html)

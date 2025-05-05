@@ -557,6 +557,6 @@ L&#39;assemblage de ce workflow aide le [spécialiste du marketing hypothétique
 
 Si vous êtes développeur Angular ou React, vous aurez peut-être envie de tester [des exemples supplémentaires](https://github.com/adobe/pdf-embed-api-samples) expliquant comment intégrer l’API PDF Embed aux projets React et Angular.
 
-Adobe vous permet de développer votre expérience client de bout en bout avec des solutions innovantes. Consultez [l&#39;API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed/) gratuitement. Pour découvrir ce que vous pouvez faire d&#39;autre, essayez l&#39;API Adobe PDF Services avec [paiement à l&#39;acte](https://developer.adobe.com/document-services/pricing/main)[givrage](https://developer.adobe.com/document-services/pricing/main).
+Adobe vous permet de développer votre expérience client de bout en bout avec des solutions innovantes. Consultez [l&#39;API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed/) gratuitement. Pour découvrir ce que vous pouvez faire d&#39;autre, essayez l&#39;API Adobe PDF Services avec [paiement à l&#39;acte](https://developer.adobe.com/document-services/pricing/main) [givrage](https://developer.adobe.com/document-services/pricing/main).
 
 [Commencer](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) avec [!DNL Adobe Acrobat Services] API dès aujourd&#39;hui.

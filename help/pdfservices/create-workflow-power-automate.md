@@ -75,7 +75,7 @@ Ensuite, récupérez le contenu des fichiers d’exemple.
 
 1. Dans [Power Automate](https://flow.microsoft.com/fr-fr/), sélectionnez **[!UICONTROL + Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Dans le champ **[!UICONTROL Fichier]**, sélectionnez l’icône Dossier pour accéder au fichier *WordDocument01.docx* dans OneDrive.
 
@@ -101,7 +101,7 @@ Une fois le document généré, enregistrez à nouveau le fichier dans OneDrive.
 
 1. Dans [Microsoft Power Automate](https://flow.microsoft.com/fr-fr/), sélectionnez **[!UICONTROL + Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
@@ -152,7 +152,7 @@ Pour générer un document, vous devez d’abord obtenir le contenu du fichier d
 
 1. Dans Power Automate, sélectionnez + **[!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Dans le champ **[!UICONTROL Fichier]**, sélectionnez l’icône Dossier pour accéder au fichier *WordDocument02.docx* dans OneDrive.
 
@@ -204,7 +204,7 @@ Une fois le document généré, vous pouvez réenregistrer le fichier dans OneDr
 
 1. Dans Power Automate, sélectionnez **+ [!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
 1. Dans le champ **[!UICONTROL Chemin du dossier]**, sélectionnez l&#39;icône de dossier pour spécifier où enregistrer le fichier dans OneDrive.
@@ -252,7 +252,7 @@ Une fois le document combiné, vous pouvez le réenregistrer dans OneDrive.
 
 1. Dans Power Automate, sélectionnez **+ [!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
 1. Dans le champ **[!UICONTROL Chemin du dossier]**, sélectionnez l&#39;icône de dossier pour spécifier où enregistrer le fichier dans OneDrive.

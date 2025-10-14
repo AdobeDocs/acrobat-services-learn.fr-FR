@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10222
 thumbnail: KT-10222.jpg
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: b7a20f30a2eb175053c7a25be0411f80dd88899f
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -130,7 +130,7 @@ Ensuite, accédez au panneau Balises de génération de document pour placer des
 
    ![Capture d&#39;écran de l&#39;insertion de la balise](assets/accsales_5.png)
 
-   Ce processus place une balise appelée {{company.name}}, car la balise se trouve sous le chemin dans le fichier JSON.
+   Ce processus place une balise appelée `{{company.name}}`, car la balise se trouve sous le chemin dans le fichier JSON.
 
    ```
    {
@@ -189,7 +189,7 @@ Les calculs numériques permettent de calculer des sommes et d&#39;autres calcul
 1. Sous *[!UICONTROL Sélectionner le type de calcul]*, choisissez **[!UICONTROL Agrégation]**.
 1. Sous *[!UICONTROL Sélectionner le type]*, choisissez **[!UICONTROL Somme]**.
 1. Sous *[!UICONTROL Sélectionner des enregistrements]*, choisissez **[!UICONTROL Ordre des références]**.
-1. Sous *[!UICONTROL Sélectionner l&#39;élément pour effectuer l&#39;agrégation]&#x200B;**, choisissez &#x200B;** [!UICONTROL totalPaymentsDue.price]**.
+1. Sous *[!UICONTROL Sélectionner l&#39;élément pour effectuer l&#39;agrégation]**, choisissez **[!UICONTROL totalPaymentsDue.price]**.
 1. Sélectionnez **[!UICONTROL Insérer un calcul]**.
 
 Ce processus insère une balise de calcul qui fournit la somme des valeurs. Des calculs plus avancés peuvent être effectués à l’aide de calculs JSONata. Par exemple :
@@ -272,6 +272,7 @@ Une balise est insérée dans le document.
 ![Capture d&#39;écran de la balise de signature dans le document](assets/accsales_15.png)
 
 Acrobat Sign propose plusieurs autres types de champs que vous pouvez placer, tels que les champs de date.
+
 1. Dans le type *Champ*, sélectionnez **[!UICONTROL Date]**.
 1. Déplacez le curseur sur l’emplacement Date dans le document.
 1. Sélectionnez **[!UICONTROL Insérer une balise de texte Adobe Sign]**.

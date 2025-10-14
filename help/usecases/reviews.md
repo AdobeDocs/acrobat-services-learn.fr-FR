@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: b7a20f30a2eb175053c7a25be0411f80dd88899f
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -136,7 +136,7 @@ const fileUpload = require( "express-fileupload" );
 app.use( fileUpload() );
 ```
 
-Maintenant, ajoutez un point de terminaison `/upload `et enregistrez le fichier chargé dans le dossier Brouillons en utilisant le même nom de fichier. Ensuite, appelez la fonction que vous avez écrite précédemment pour créer un fichier PDF du même document s’il n’est pas déjà au format PDF. Vous pouvez générer un nom de fichier pour le nouveau fichier de PDF en fonction du nom du document chargé d’origine :
+Maintenant, ajoutez un point de terminaison `/upload` et enregistrez le fichier chargé dans le dossier Brouillons en utilisant le même nom de fichier. Ensuite, appelez la fonction que vous avez écrite précédemment pour créer un fichier PDF du même document s’il n’est pas déjà au format PDF. Vous pouvez générer un nom de fichier pour le nouveau fichier de PDF en fonction du nom du document chargé d’origine :
 
 ```
 // Create a PDF file from an uploaded file

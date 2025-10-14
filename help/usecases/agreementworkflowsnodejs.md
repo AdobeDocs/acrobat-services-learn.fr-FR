@@ -302,7 +302,7 @@ Le dernier morceau de code dont vous avez besoin est une fonction qui affiche le
 
 La [démonstration de l&#39;API Adobe PDF Embed](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) vous permet de prévisualiser les différentes autres options d&#39;incorporation de documents de PDF.
 
-![Image des options d&#39;incorporation du PDF ](assets/AWNjs_7.png)
+![Image des options d&#39;incorporation du PDF &#x200B;](assets/AWNjs_7.png)
 
 Vous pouvez activer et désactiver diverses options et voir immédiatement comment elles s’affichent. Lorsque vous avez trouvé une combinaison qui vous plaît, cliquez sur le bouton *\&lt;/\> Générer le code* pour générer le code de HTML réel à l&#39;aide de ces options.
 

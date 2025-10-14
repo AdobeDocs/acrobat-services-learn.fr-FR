@@ -26,7 +26,7 @@ pour fournir du contexte pour leurs applications et services. Le spécialiste du
 
 ## Ce que vous pouvez apprendre
 
-Dans ce tutoriel pratique, découvrez comment afficher des documents de PDF incorporés dans des pages web à l&#39;aide de l&#39;[API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed), qui est gratuite et facile à utiliser. Ces exemples utilisent JavaScript, Node.js, Express.js, HTML et CSS. Vous pouvez afficher le code de projet complet sur [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
+Dans ce tutoriel pratique, découvrez comment afficher des documents de PDF incorporés dans des pages web à l&#39;aide de l&#39;[API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed), qui est gratuite et facile à utiliser. Ces exemples utilisent JavaScript, Node.js, Express.js, HTML et CSS. Vous pouvez afficher le code de projet complet sur [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
 
 ## Ressources et API pertinentes
 
@@ -34,7 +34,7 @@ Dans ce tutoriel pratique, découvrez comment afficher des documents de PDF inco
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Code de projet](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
+* [Code de projet](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
 
 ## Création d&#39;une application web de nœud
 
@@ -347,7 +347,7 @@ Exécutez maintenant l&#39;application avec la commande npm start et ouvrez le s
 
 Enfin, choisissez un livre blanc et cliquez sur **Afficher le document** pour ouvrir une nouvelle page avec le PDF intégré en ligne :
 
-![Capture d&#39;écran du livre blanc du PDF ](assets/ddp_11.png)
+![Capture d&#39;écran du livre blanc du PDF &#x200B;](assets/ddp_11.png)
 
 Notez la présence des options Télécharger le PDF et Imprimer le PDF.
 

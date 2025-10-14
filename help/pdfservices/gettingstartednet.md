@@ -71,7 +71,7 @@ L’API PDF Services peut vous aider à éliminer les processus manuels en autom
 
 ## Ressources et étapes suivantes
 
-* Pour obtenir de l&#39;aide et une assistance supplémentaires, consultez le forum de la communauté des [[!DNL Adobe Acrobat Services] API](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&amp;sort=latest_replies&amp;filter=all)
+* Pour obtenir de l&#39;aide et une assistance supplémentaires, consultez le forum de la communauté des [[!DNL Adobe Acrobat Services] API](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all)
 
 * API des services de PDF [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 

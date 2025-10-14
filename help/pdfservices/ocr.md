@@ -99,7 +99,7 @@ En suivant ces étapes simples à l’aide des fichiers d’exemple, vous devrie
 
 ## Ressources et étapes suivantes
 
-* Pour obtenir une aide et une assistance supplémentaires, consultez le forum de la communauté des [[!DNL Acrobat Services] API](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&amp;sort=latest_replies&amp;filter=all) d&#39;Adobe
+* Pour obtenir une aide et une assistance supplémentaires, consultez le forum de la communauté des [[!DNL Acrobat Services] API](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) d&#39;Adobe
 
 * API des services de PDF [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 

@@ -189,7 +189,7 @@ Les calculs numériques permettent de calculer des sommes et d&#39;autres calcul
 1. Sous *[!UICONTROL Sélectionner le type de calcul]*, choisissez **[!UICONTROL Agrégation]**.
 1. Sous *[!UICONTROL Sélectionner le type]*, choisissez **[!UICONTROL Somme]**.
 1. Sous *[!UICONTROL Sélectionner des enregistrements]*, choisissez **[!UICONTROL Ordre des références]**.
-1. Sous *[!UICONTROL Sélectionner l&#39;élément pour effectuer l&#39;agrégation]**, choisissez **[!UICONTROL totalPaymentsDue.price]**.
+1. Sous *[!UICONTROL Sélectionner l&#39;élément pour effectuer l&#39;agrégation]&#x200B;**, choisissez &#x200B;** [!UICONTROL totalPaymentsDue.price]**.
 1. Sélectionnez **[!UICONTROL Insérer un calcul]**.
 
 Ce processus insère une balise de calcul qui fournit la somme des valeurs. Des calculs plus avancés peuvent être effectués à l’aide de calculs JSONata. Par exemple :

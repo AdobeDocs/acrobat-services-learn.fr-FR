@@ -197,7 +197,7 @@ Voici une capture d’écran de la console du navigateur web :
 
 Cette capture d’écran montre que l’étudiant a ouvert le fichier de devoirs, qu’il a lu la première page — soit il n’a pas fait défiler l’écran jusqu’à des pages supplémentaires, soit le document n’avait qu’une seule page — puis qu’il a téléchargé le fichier. Vous pouvez collecter ces mesures pour effectuer des analyses et étudier le comportement de vos élèves.
 
-En outre, [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html) est intégré à l&#39;API PDF Embed, de sorte que si vous disposez d&#39;un abonnement à la suite Adobe Analytics, vous pouvez publier vos mesures dans votre abonnement. Pour publier les mesures dans Adobe Analytics, il vous suffit de transmettre votre ID de suite au constructeur d’API PDF Embed. (Notez que vous devez utiliser vos identifiants d’API PDF Embed, et non vos identifiants d’API PDF Services).
+En outre, [Adobe Analytics](https://business.adobe.com/fr/products/adobe-analytics.html) est intégré à l&#39;API PDF Embed, de sorte que si vous disposez d&#39;un abonnement à la suite Adobe Analytics, vous pouvez publier vos mesures dans votre abonnement. Pour publier les mesures dans Adobe Analytics, il vous suffit de transmettre votre ID de suite au constructeur d’API PDF Embed. (Notez que vous devez utiliser vos identifiants d’API PDF Embed, et non vos identifiants d’API PDF Services).
 
 Voici un exemple de code qui montre comment transmettre l’ID de suite au constructeur d’API PDF Embed :
 

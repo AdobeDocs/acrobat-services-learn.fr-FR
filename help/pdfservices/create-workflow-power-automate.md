@@ -31,7 +31,7 @@ Dans ce tutoriel pratique, découvrez comment :
 ### Ce dont vous avez besoin
 
 * **Informations d’identification de la version d’essai ou de production pour Adobe PDF Services**
-En savoir plus sur l&#39;obtention et la configuration des informations d&#39;identification dans Microsoft Power Automate [ici](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
+En savoir plus sur l&#39;obtention et la configuration des informations d&#39;identification dans Microsoft Power Automate [ici](https://experienceleague.adobe.com/fr/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
 * **Microsoft Power Automate avec connecteurs Premium**
 Découvrez comment vérifier le niveau de licence de Power Automate [ici](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types).
 * **OneDrive**
@@ -46,7 +46,7 @@ Il existe deux [exemples de fichiers](assets/sample-assets.zip) que vous devez d
 
 ### Obtention des informations d’identification
 
-Pour terminer ce tutoriel, vous devez disposer des informations d’identification déjà configurées dans Microsoft Power Automate pour Adobe PDF Services. Si vous n&#39;avez pas terminé cette étape, consultez les [instructions ici](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
+Pour terminer ce tutoriel, vous devez disposer des informations d’identification déjà configurées dans Microsoft Power Automate pour Adobe PDF Services. Si vous n&#39;avez pas terminé cette étape, consultez les [instructions ici](https://experienceleague.adobe.com/fr/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
 
 ## Partie 1 : Création d’un nouvel enchaînement et conversion de Word en PDF
 

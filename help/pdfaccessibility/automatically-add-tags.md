@@ -18,5 +18,5 @@ ht-degree: 0%
 
 Découvrez comment baliser automatiquement l’accessibilité à grande échelle à l’aide de l’IA. Le balisage automatique réduit le temps et les coûts nécessaires pour atteindre la conformité.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428310?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3446261?captions=fre_fr&hidetitle=true)
 

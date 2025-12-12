@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: b7a20f30a2eb175053c7a25be0411f80dd88899f
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -448,3 +448,4 @@ Ce tutoriel pratique a montré comment les API [!DNL Acrobat Services] intègren
 Vous pouvez utiliser ces techniques pour activer la collaboration dans votre application ou explorer les [exemples de SDK de nœud PDF Services](https://github.com/adobe/pdftools-node-sdk-samples) et les [exemples d’API PDF Embed](https://github.com/adobe/pdf-embed-api-samples) sur GitHub pour trouver l’inspiration sur la façon d’utiliser les API d’Adobe autrement.
 
 Prêt à activer le partage et la révision de documents dans votre propre application ? Inscrivez-vous à votre compte développeur [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Accédez gratuitement à Adobe PDF Embed et profitez d’un essai gratuit de six mois des autres API. Après votre évaluation, vous pouvez [payer à l&#39;utilisation](https://developer.adobe.com/document-services/pricing/main) pour seulement \$0,05 par transaction de document à mesure que votre entreprise se développe.
+

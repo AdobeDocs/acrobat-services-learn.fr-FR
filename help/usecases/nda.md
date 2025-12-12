@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8098
 thumbnail: KT-8098.jpg
 exl-id: f4ec0182-a46e-43aa-aea3-bf1d19f1a4ec
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -191,3 +191,4 @@ Dans ce tutoriel pratique, le Baliseur de génération de documents Adobe a ét�
 
 Vous pouvez utiliser ces techniques pour créer dynamiquement vos propres avis de confidentialité ou d’autres documents, ce qui permet à votre équipe de se concentrer sur un travail productif. Explorez [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/apis/pdf-services) pour trouver des API et des SDK pour la langue et le runtime de votre choix afin de pouvoir ajouter des fonctions de PDF directement à vos applications pour créer rapidement des documents de PDF. [Commencez](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) avec un essai gratuit de six mois, puis
 [paiement à l&#39;utilisation](https://developer.adobe.com/document-services/pricing/main) pour seulement 0,05 $ par transaction de document.
+

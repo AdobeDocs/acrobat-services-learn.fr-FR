@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8145
 thumbnail: KT-8145.jpg
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 C&#39;est formidable quand les affaires sont florissantes, mais la productivité en souffre quand vient le temps de préparer toutes ces factures. La génération manuelle de factures prend du temps et vous courez le risque de commettre une erreur, de perdre de l’argent ou d’irriter un client en lui indiquant un montant incorrect.
 
-Pensez à Danielle, par exemple, qui travaille dans le [service de comptabilité](https://developer.adobe.com/document-services/use-cases/financial/invoices) [&#x200B; d’une société de fournitures médicales](https://developer.adobe.com/document-services/use-cases/financial/invoices). C&#39;est la fin du mois, alors elle extrait des informations de plusieurs systèmes différents, vérifie leur exactitude et met en forme les factures. Après tout ce travail, elle est enfin prête à convertir les documents en PDF (afin que tout le monde puisse les consulter sans acheter de logiciel spécifique) et à envoyer à chaque client sa facture personnalisée.
+Pensez à Danielle, par exemple, qui travaille dans le [service de comptabilité](https://developer.adobe.com/document-services/use-cases/financial/invoices) [ d’une société de fournitures médicales](https://developer.adobe.com/document-services/use-cases/financial/invoices). C&#39;est la fin du mois, alors elle extrait des informations de plusieurs systèmes différents, vérifie leur exactitude et met en forme les factures. Après tout ce travail, elle est enfin prête à convertir les documents en PDF (afin que tout le monde puisse les consulter sans acheter de logiciel spécifique) et à envoyer à chaque client sa facture personnalisée.
 
 Même lorsque la facturation mensuelle est terminée, Danielle ne peut pas échapper à ces factures. Certains clients ont des cycles de facturation non mensuels, elle crée donc toujours une facture pour quelqu&#39;un. Il arrive qu’un client modifie sa facture et qu’il ne paie pas suffisamment. Danielle passe ensuite du temps à résoudre cette incompatibilité de facture. À ce rythme, elle doit embaucher un assistant pour se tenir au courant de tout le travail !
 
@@ -232,3 +232,4 @@ Maintenant que vous avez vu à quel point c’est facile, vous pouvez développe
 
 Pour explorer toutes les possibilités et commencer à créer votre propre application pratique, créez un compte gratuit [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) pour commencer dès aujourd’hui. Profitez d&#39;un essai gratuit de six mois, puis de [paiements à l&#39;acte](https://developer.adobe.com/document-services/pricing/main)
 à seulement 0,05 $ par transaction de document à mesure que votre entreprise prend de l&#39;expansion.
+

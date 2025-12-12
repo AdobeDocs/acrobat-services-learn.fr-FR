@@ -8,7 +8,7 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: 3dda76423509e444defc962c12a26c835d63cafa
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 5%
@@ -18,9 +18,9 @@ ht-degree: 5%
 
 # [!DNL Adobe Acrobat Services] Tutorials API {#tutorials}
 
-+ [Présentation](overview.md)
++ [Vue d’ensemble](overview.md)
 + API PDF Services {#pdfservices}
-   + [Présentation](pdfservices/overview-pdfservices.md)
+   + [Vue d’ensemble](pdfservices/overview-pdfservices.md)
    + [Obtention des informations d’identification pour Microsoft Power Automate](pdfservices/getting-credentials-power-automate.md)
    + [Création de votre premier flux dans Microsoft Power Automate](pdfservices/create-workflow-power-automate.md)
    + [Créer un PDF à partir du HTML](pdfservices/createpdffromhtml.md)
@@ -29,7 +29,7 @@ ht-degree: 5%
    + [Prise en main de l’API Adobe PDF Services et de .Net](pdfservices/gettingstartednet.md)
    + [Utilisation de l’API Adobe PDF Services pour la reconnaissance optique des caractères des fichiers du PDF](pdfservices/ocr.md)
 + API Document Generation {#docgen}
-   + [Présentation](docgen/overview-docgen.md)
+   + [Vue d’ensemble](docgen/overview-docgen.md)
    + [Automatisation de la génération des documents](docgen/automate-doc-gen.md)
    + Créer des modèles {#docgentemplates}
       + [Présentation de la balise Adobe Document Generation](docgen/taggeroverview.md)
@@ -39,19 +39,19 @@ ht-degree: 5%
       + [Définition de balises de calcul numériques](docgen/taggercalculations.md)
       + [Définition du contenu conditionnel](docgen/taggerconditional.md)
 + API de balisage automatique d’accessibilité du PDF {#pdfaccessibility}
-   + [Présentation](pdfaccessibility/overview-accessibility.md)
+   + [Vue d’ensemble](pdfaccessibility/overview-accessibility.md)
    + [Balisage automatique des documents pour l’accessibilité](pdfaccessibility/automatically-add-tags.md)
 + API PDF Extract {#pdfextract}
-   + [Présentation](pdfextract/overview-extract.md)
+   + [Vue d’ensemble](pdfextract/overview-extract.md)
    + [Automatisation de l’extraction de contenu](pdfextract/automate-content-extraction.md)
 + API de cachet électronique PDF {#eseal}
-   + [Présentation](pdfelectronicseal/overview-electronic-seal.md)
+   + [Vue d’ensemble](pdfelectronicseal/overview-electronic-seal.md)
    + [Appliquer automatiquement le cachet électronique](pdfelectronicseal/automatically-apply-electronic-seal.md)
 + API PDF Embed {#pdfembed}
-   + [Présentation](pdfembed/overview-embed.md)
+   + [Vue d’ensemble](pdfembed/overview-embed.md)
    + [Contrôlez l’expérience en ligne de votre PDF et collectez des analyses](pdfembed/controlpdfexperience.md)
 + API Acrobat Sign {#acrobatsign}
-   + [Présentation](acrobatsign/overview-sign.md)
+   + [Vue d’ensemble](acrobatsign/overview-sign.md)
    + [Prise en main de l’API Adobe Sign](acrobatsign/signapi.md)
    + Partenaire OEM/intégré {#oem}
       + [Ouvrir un compte développeur](acrobatsign/sign-up-developer-account.md)
@@ -60,7 +60,7 @@ ht-degree: 5%
       + [Génération d’un jeton d’accès](acrobatsign/generating-an-access-token.md)
       + [Création d’un document temporaire](acrobatsign/creating-a-transient-document.md)
 + Cas d’utilisation {#usecases}
-   + [Présentation](usecases/overview-usecases.md)
+   + [Vue d’ensemble](usecases/overview-usecases.md)
    + [Automatisation des workflows juridiques](usecases/automatelegalworkflows.md)
    + [Modernisation de l’intégration des employés](usecases/employeeonboarding.md)
    + [Accélérez votre processus de vente](usecases/acceleratesales.md)
@@ -79,3 +79,4 @@ ht-degree: 5%
    + [Gestion des factures](usecases/invoices.md)
    + [Publication de documents numériques](usecases/ddppdfembedapi.md)
 + [Fichier masqué pour test](hidden-file.md)
+

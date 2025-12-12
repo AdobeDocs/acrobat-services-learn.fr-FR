@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8095
 thumbnail: KT-8095.jpg
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -432,3 +432,4 @@ Maintenant que vous avez une bonne compréhension de l&#39;utilisation des API [
 
 Prêt à activer le partage et la révision de documents dans votre propre application ? S&#39;abonner à [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
 compte développeur. Profitez d&#39;un essai gratuit de six mois, puis d&#39;[un paiement à l&#39;utilisation](https://developer.adobe.com/document-services/pricing/main) pour seulement \$0,05 par transaction de document à mesure que votre entreprise se développe.
+

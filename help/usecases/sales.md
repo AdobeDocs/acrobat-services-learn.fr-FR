@@ -79,7 +79,7 @@ Après avoir généré les balises, vous pouvez les insérer dans le document. L
 
 ## Utilisation des API
 
-Accédez à la [!DNL Acrobat Services]page d&#39;accueil[ des API ](https://developer.adobe.com/document-services/apis/doc-generation). Pour commencer à utiliser les API [!DNL Acrobat Services], vous devez disposer des informations d&#39;identification pour votre application. Faites défiler l&#39;écran jusqu&#39;en bas et sélectionnez **Commencer l&#39;essai gratuit** pour créer des informations d&#39;identification. Vous pouvez utiliser ces services [gratuitement pendant six mois, puis payer au fur et à mesure](https://developer.adobe.com/document-services/pricing/main) pour seulement 0,05 $ par transaction de document, de sorte que vous ne payez que ce dont vous avez besoin.
+Accédez à la [!DNL Acrobat Services]page d&#39;accueil[&#x200B; des API &#x200B;](https://developer.adobe.com/document-services/apis/doc-generation). Pour commencer à utiliser les API [!DNL Acrobat Services], vous devez disposer des informations d&#39;identification pour votre application. Faites défiler l&#39;écran jusqu&#39;en bas et sélectionnez **Commencer l&#39;essai gratuit** pour créer des informations d&#39;identification. Vous pouvez utiliser ces services [gratuitement pendant six mois, puis payer au fur et à mesure](https://developer.adobe.com/document-services/pricing/main) pour seulement 0,05 $ par transaction de document, de sorte que vous ne payez que ce dont vous avez besoin.
 
 Sélectionnez **API des services de PDF** comme service de votre choix et renseignez les autres détails comme indiqué ci-dessous.
 

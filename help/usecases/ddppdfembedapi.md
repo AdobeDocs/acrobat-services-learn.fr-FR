@@ -347,7 +347,7 @@ Exécutez maintenant l&#39;application avec la commande npm start et ouvrez le s
 
 Enfin, choisissez un livre blanc et cliquez sur **Afficher le document** pour ouvrir une nouvelle page avec le PDF intégré en ligne :
 
-![Capture d&#39;écran du livre blanc du PDF ](assets/ddp_11.png)
+![Capture d&#39;écran du livre blanc du PDF &#x200B;](assets/ddp_11.png)
 
 Notez la présence des options Télécharger le PDF et Imprimer le PDF.
 
@@ -557,7 +557,7 @@ L&#39;assemblage de ce workflow aide le [spécialiste du marketing hypothétique
 
 Si vous êtes développeur Angular ou React, vous aurez peut-être envie de tester [des exemples supplémentaires](https://github.com/adobe/pdf-embed-api-samples) expliquant comment intégrer l’API PDF Embed aux projets React et Angular.
 
-Adobe vous permet de développer votre expérience client de bout en bout avec des solutions innovantes. Consultez [l&#39;API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed/) gratuitement. Pour découvrir ce que vous pouvez faire d&#39;autre, essayez l&#39;API Adobe PDF Services avec [paiement à l&#39;acte](https://developer.adobe.com/document-services/pricing/main)[givrage](https://developer.adobe.com/document-services/pricing/main).
+Adobe vous permet de développer votre expérience client de bout en bout avec des solutions innovantes. Consultez [l&#39;API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed/) gratuitement. Pour découvrir ce que vous pouvez faire d&#39;autre, essayez l&#39;API Adobe PDF Services avec [paiement à l&#39;acte](https://developer.adobe.com/document-services/pricing/main) [givrage](https://developer.adobe.com/document-services/pricing/main).
 
 [Commencer](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) avec [!DNL Adobe Acrobat Services] API dès aujourd&#39;hui.
 

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10222
 thumbnail: KT-10222.jpg
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -189,7 +189,7 @@ Les calculs numériques permettent de calculer des sommes et d&#39;autres calcul
 1. Sous *[!UICONTROL Sélectionner le type de calcul]*, choisissez **[!UICONTROL Agrégation]**.
 1. Sous *[!UICONTROL Sélectionner le type]*, choisissez **[!UICONTROL Somme]**.
 1. Sous *[!UICONTROL Sélectionner des enregistrements]*, choisissez **[!UICONTROL Ordre des références]**.
-1. Sous *[!UICONTROL Sélectionner l&#39;élément pour effectuer l&#39;agrégation]&#x200B;**, choisissez &#x200B;** [!UICONTROL totalPaymentsDue.price]**.
+1. Sous *[!UICONTROL Sélectionner l&#39;élément pour effectuer l&#39;agrégation]**, choisissez **[!UICONTROL totalPaymentsDue.price]**.
 1. Sélectionnez **[!UICONTROL Insérer un calcul]**.
 
 Ce processus insère une balise de calcul qui fournit la somme des valeurs. Des calculs plus avancés peuvent être effectués à l’aide de calculs JSONata. Par exemple :
@@ -370,10 +370,11 @@ Vous souhaitez en savoir plus ? Jetez un œil à quelques autres façons d&#39;u
 * Utilisez les exemples de scripts du dossier /src pour voir comment tirer parti de PDF
 * Suivez le [Blog sur les technologies d&#39;Adobe](https://medium.com/adobetech/tagged/adobe-document-cloud) pour obtenir les derniers conseils et astuces
 * Abonnez-vous à [Paper Clips (diffusion mensuelle en direct)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) pour en savoir plus sur l&#39;automatisation à l&#39;aide de [!DNL Adobe Acrobat Services].
+
 =======
+
 * En savoir plus sur la [documentation](https://developer.adobe.com/document-services/docs/overview/)
 * Voir d’autres tutoriels sur Adobe Experience League
 * Utilisez les exemples de scripts du dossier /src pour voir comment tirer parti de PDF
 * Suivez le [Blog sur les technologies d&#39;Adobe](https://medium.com/adobetech/tagged/adobe-document-cloud) pour obtenir les derniers conseils et astuces
 * Abonnez-vous à [Paper Clips (diffusion mensuelle en direct)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) pour en savoir plus sur l&#39;automatisation à l&#39;aide de [!DNL Adobe Acrobat Services]
-

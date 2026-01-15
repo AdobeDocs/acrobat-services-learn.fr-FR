@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10203
 thumbnail: KT-10203.jpg
 exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -209,4 +209,3 @@ Le modèle peut être téléchargé sur le tableau de bord Acrobat Sign, puis ut
 Tout ce qui est décrit dans cet article peut être testé dès maintenant. L&#39;API [!DNL Adobe Acrobat Services] [essai gratuit](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) vous donne actuellement 1 000 demandes gratuites sur une période de six mois. Acrobat Sign [version d’essai gratuite](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial) vous permet d’envoyer des accords filigranés à des fins de test.
 
 Vous avez des questions ? Le [forum de support](https://community.adobe.com/t5/acrobat-services-api/ct-p/ct-Document-Cloud-SDK) est surveillé quotidiennement par les développeurs et les personnes chargées du support Adobe. Enfin, pour plus d&#39;inspiration, n&#39;oubliez pas d&#39;assister au prochain épisode de [Paper Clips](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF). Il y a régulièrement des réunions en direct avec des nouvelles, des démonstrations et des discussions avec les clients.
-

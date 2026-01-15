@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7474
 thumbnail: KT-7474.jpg
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Dans ce tutoriel pratique, découvrez comment mettre en œuvre un formulaire de 
 
 ## Génération des identifiants d’API
 
-Commencez par vous inscrire à l’essai gratuit de l’API Adobe PDF Services. Accédez au [site web de l&#39;Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) [3&rbrace; et cliquez sur le bouton &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)Commencer *sous* Créer de nouvelles informations d&#39;identification *.* L’essai gratuit fournit 1 000 transactions de document qui peuvent être utilisées sur six mois. Sur la page suivante (voir ci-dessous), sélectionnez le service (API des services PDF), définissez le nom des informations d’identification (par exemple, HRDocumentWFCredentials), puis saisissez une description.
+Commencez par vous inscrire à l’essai gratuit de l’API Adobe PDF Services. Accédez au [site web de l&#39;Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) [3} et cliquez sur le bouton ](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)Commencer *sous* Créer de nouvelles informations d&#39;identification *.* L’essai gratuit fournit 1 000 transactions de document qui peuvent être utilisées sur six mois. Sur la page suivante (voir ci-dessous), sélectionnez le service (API des services PDF), définissez le nom des informations d’identification (par exemple, HRDocumentWFCredentials), puis saisissez une description.
 
 Sélectionnez la langue (Java dans cet exemple) et cochez *Créer des exemples de code personnalisés*. La dernière étape permet de s’assurer que les échantillons de code contiennent déjà le fichier prérempli pdftools-api-credentials.json que vous utilisez, ainsi que la clé privée pour authentifier votre application dans l&#39;API.
 
@@ -422,7 +422,7 @@ https://www.google.com/?code=<YOUR_CODE>&api_access_point=https://api.eu1.adobes
 
 Notez les valeurs indiquées pour \&lt;VOTRE_CODE\> et api_access_point.
 
-Pour envoyer une demande de POST HTTP qui vous fournit le jeton d’accès, utilisez les valeurs d’ID client, \&lt;VOTRE_CODE\> et de point d’accès_api. Vous pouvez utiliser [Postman](https://helpx.adobe.com/fr/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) ou cURL :
+Pour envoyer une demande de POST HTTP qui vous fournit le jeton d’accès, utilisez les valeurs d’ID client, \&lt;VOTRE_CODE\> et de point d’accès_api. Vous pouvez utiliser [Postman](https://helpx.adobe.com/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) ou cURL :
 
 ```
 curl --location --request POST "https://**api.eu1.adobesign.com**/oauth/token"
@@ -603,4 +603,3 @@ Comme vous pouvez le voir, en utilisant les démarrages rapides, vous pouvez met
 En poussant l’exemple plus loin, vous pouvez créer des formulaires que les destinataires peuvent signer à distance et en toute sécurité. Lorsque vous avez besoin de plusieurs signatures, vous pouvez même transmettre automatiquement les formulaires à plusieurs personnes dans un workflow. L&#39;intégration de vos employés est améliorée et votre service des RH vous aimera.
 
 Consultez [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) pour ajouter dès aujourd&#39;hui une multitude de fonctionnalités de PDF à vos applications.
-

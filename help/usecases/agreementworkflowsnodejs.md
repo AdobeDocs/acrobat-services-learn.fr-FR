@@ -9,7 +9,7 @@ jira: KT-7473
 thumbnail: KT-7473.jpg
 keywords: En vedette
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 0%
@@ -302,7 +302,7 @@ Le dernier morceau de code dont vous avez besoin est une fonction qui affiche le
 
 La [démonstration de l&#39;API Adobe PDF Embed](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) vous permet de prévisualiser les différentes autres options d&#39;incorporation de documents de PDF.
 
-![Image des options d&#39;incorporation du PDF &#x200B;](assets/AWNjs_7.png)
+![Image des options d&#39;incorporation du PDF ](assets/AWNjs_7.png)
 
 Vous pouvez activer et désactiver diverses options et voir immédiatement comment elles s’affichent. Lorsque vous avez trouvé une combinaison qui vous plaît, cliquez sur le bouton *\&lt;/\> Générer le code* pour générer le code de HTML réel à l&#39;aide de ces options.
 
@@ -520,5 +520,3 @@ Comme vous pouvez le voir à partir des démarrages rapides et du code fourni, i
 Pour découvrir les portées requises pour un appel ou voir comment l&#39;appel est généré, vous pouvez créer des exemples d&#39;appels à partir de la [documentation de l&#39;API Rest](https://secure.na4.adobesign.com/public/docs/restapi/v6). Les [Démarrages rapides](https://github.com/adobe/pdftools-node-sdk-samples) illustrent également d&#39;autres fonctionnalités et formats de fichiers des processus des API [!DNL Adobe Acrobat Services].
 
 Vous pouvez ajouter une multitude de fonctionnalités de PDF à vos applications, permettant ainsi à vos utilisateurs de consulter et de signer rapidement et facilement leurs documents et bien plus encore. Pour commencer, consultez [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) dès aujourd&#39;hui.
-
-

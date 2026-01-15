@@ -7,7 +7,7 @@ level: Beginner
 type: Tutorial
 thumbnail: KT-11076.jpg
 exl-id: fddd5745-afa4-4ce8-b94d-c78254d7fb00
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%
@@ -22,6 +22,4 @@ Découvrez comment créer un document temporaire utilisable avec l’API Acrobat
 >
 >Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444772?captions=fre_fr&hidetitle=true)
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/347351?hidetitle=true)

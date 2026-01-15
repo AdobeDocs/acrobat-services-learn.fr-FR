@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8089
 thumbnail: KT-8089.jpg
 exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1905'
 ht-degree: 0%
@@ -276,7 +276,7 @@ Company Name","","","2021-03-07 19:32:59"
 
 L’envoi d’un document à des destinataires spécifiés pour signature ou approbation crée un accord. Vous pouvez suivre le statut et l’achèvement d’un accord à l’aide des API.
 
-Vous pouvez créer un accord à l’aide d’un [document temporaire](https://helpx.adobe.com/fr/sign/kb/how-to-send-an-agreement-through-REST-API.html), d’un [document de bibliothèque](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) ou d’une URL. Dans cet exemple, l’accord est basé sur `transientDocumentId`, tout comme le formulaire web créé précédemment.
+Vous pouvez créer un accord à l’aide d’un [document temporaire](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), d’un [document de bibliothèque](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) ou d’une URL. Dans cet exemple, l’accord est basé sur `transientDocumentId`, tout comme le formulaire web créé précédemment.
 
 ```
 POST /api/rest/v6/agreements HTTP/1.1
@@ -441,4 +441,3 @@ L’API Acrobat Sign est disponible via plusieurs niveaux de [formules de signat
 Consultez la [tarification à l’utilisation](https://developer.adobe.com/document-services/pricing/main), qui vous indiquera la fin de votre période d’essai gratuite de six mois pour l’API Adobe PDF Services, et l’API gratuite Adobe PDF Embed.
 
 Pour ajouter des fonctionnalités passionnantes telles que la création automatique de documents et la signature de documents à votre application, commencez par [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html).
-

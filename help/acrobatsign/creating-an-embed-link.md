@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-11073
 thumbnail: KT-11073.jpg
 exl-id: 6fc50cc7-bb65-4d4b-9e4f-3b4a3ab8adab
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -24,4 +24,3 @@ Découvrez comment créer un lien d’incorporation pour OAuth, la méthode par 
 >Ce tutoriel est spécialement conçu pour les partenaires OEM qui élaborent et intègrent un processus de signature dans leur application.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3445410?captions=fre_fr&hidetitle=true){transcript=true}
-

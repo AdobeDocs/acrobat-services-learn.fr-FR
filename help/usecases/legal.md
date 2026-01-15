@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8097
 thumbnail: KT-8097.jpg
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -429,4 +429,3 @@ L&#39;application complétée facilite considérablement le balisage des [modèl
 Les organisations utilisent les API [!DNL Adobe Acrobat Services] pour leur exhaustivité et leur facilité d&#39;utilisation. Mieux encore, vous pouvez bénéficier d&#39;un essai gratuit de [six mois, puis d&#39;une formule prépayée](https://developer.adobe.com/document-services/pricing/main). Vous ne payez que pour ce que vous utilisez. De plus, l’API PDF Embed est toujours gratuite.
 
 Prêt à stimuler la productivité en améliorant votre flux de documents ? [Commencez](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) dès aujourd&#39;hui.
-

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 0%
@@ -146,4 +146,3 @@ Vous avez commencé avec un processus inefficace et fastidieux qui nécessitait 
 En utilisant Microsoft Forms, vous obteniez de vos clients des données critiques qui entraient dans leurs propositions uniques. Vous avez créé un modèle de devis dans Microsoft Word pour fournir le texte statique que vous ne vouliez pas recréer à chaque fois. Vous avez ensuite utilisé les API [!DNL Acrobat Services] pour fusionner les données du formulaire et du modèle afin de créer un PDF de devis pour vos clients de manière plus efficace.
 
 Ce tutoriel pratique n’est qu’un aperçu de ce qui est possible avec ces API. Pour découvrir d&#39;autres solutions, consultez la page des API [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Utilisez tous ces outils gratuitement pendant six mois. Ensuite, ne payez que 0,05 $ par transaction documentaire sur la formule [paiement à l&#39;utilisation](https://developer.adobe.com/document-services/pricing/main), afin de ne payer que lorsque votre équipe ajoute des prospects à votre pipeline de ventes.
-

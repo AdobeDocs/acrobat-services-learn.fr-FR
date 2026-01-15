@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8093
 thumbnail: KT-8093.jpg
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%
@@ -220,4 +220,3 @@ Ce tutoriel pratique explique comment utiliser l’API des services de PDF pour 
 Cette application basée sur l&#39;Adobe aide vos [clients des tableaux de bord des médias sociaux](https://developer.adobe.com/document-services/use-cases/content-publishing/on-demand-report-creation) à obtenir et à partager les rapports dont ils ont besoin, sans se soucier du fait que les destinataires disposent tous de Microsoft Office ou d&#39;un autre logiciel installé sur leur appareil. Vous pouvez utiliser les mêmes techniques dans votre propre application pour aider vos utilisateurs à afficher, combiner et télécharger des documents. Vous pouvez également consulter les nombreuses autres API d’Adobe pour ajouter et suivre les signatures et bien plus encore.
 
 Pour commencer, réclamez votre compte gratuit [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html), puis créez des expériences de création de rapports attrayantes pour vos employés et vos clients. Profitez de votre compte gratuitement pendant six mois, puis [payez au fur et à mesure](https://developer.adobe.com/document-services/pricing/main) à mesure que vos efforts de marketing se développent, à raison de 0,05 $ par transaction de document.
-

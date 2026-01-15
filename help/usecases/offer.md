@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8096
 thumbnail: KT-8096.jpg
 exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%
@@ -296,4 +296,3 @@ L&#39;exemple de document unique fourni ci-dessus peut être utilisé comme base
 
 [!DNL Adobe Acrobat Services] est gratuit pendant six mois, puis [paiement à l&#39;utilisation](https://developer.adobe.com/document-services/pricing/main) à seulement 0,05 $ par transaction de document, afin que vous puissiez l&#39;essayer et adapter votre workflow de lettre d&#39;offre au fur et à mesure que votre entreprise se développe. Pour [commencer](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
 pour créer vos propres modèles, [inscrivez votre compte développeur](https://developer.adobe.com/).
-

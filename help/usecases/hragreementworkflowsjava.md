@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7474
 thumbnail: KT-7474.jpg
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -603,4 +603,3 @@ Comme vous pouvez le voir, en utilisant les démarrages rapides, vous pouvez met
 En poussant l’exemple plus loin, vous pouvez créer des formulaires que les destinataires peuvent signer à distance et en toute sécurité. Lorsque vous avez besoin de plusieurs signatures, vous pouvez même transmettre automatiquement les formulaires à plusieurs personnes dans un workflow. L&#39;intégration de vos employés est améliorée et votre service des RH vous aimera.
 
 Consultez [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) pour ajouter dès aujourd&#39;hui une multitude de fonctionnalités de PDF à vos applications.
-

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8091
 thumbnail: KT-8091.jpg
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -216,4 +216,3 @@ Ce tutoriel pratique explique comment utiliser l’API PDF Services et l’API P
 Maintenant que vous savez comment annoter des rapports de PDF, archiver les annotations et suivre l’utilisation des rapports de PDF, vous pouvez commencer à implémenter ces solutions dans vos propres projets.
 
 Vous pouvez utiliser les API [!DNL Adobe Acrobat Services] pour créer des expériences de PDF interactives et conviviales sur votre site Web. Profitez de l’API des services Adobe PDF gratuitement pendant six mois, puis seulement [paiement à l’utilisation](https://developer.adobe.com/document-services/pricing/main) (via AWS ou un accord direct) pour seulement \$0,05 par transaction de document. Utilisez Adobe PDF Embed gratuitement sans limite de temps. Créez un compte gratuit pour [commencer](https://www.adobe.com/go/dcsdks_credentials) dès aujourd&#39;hui.
-

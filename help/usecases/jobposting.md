@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8092
 thumbnail: KT-8092.jpg
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -283,4 +283,3 @@ Ce tutoriel pratique explique comment utiliser Node.js avec [!DNL Acrobat Servic
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 Pour commencer à ajouter des fonctionnalités conviviales de gestion des documents à votre site web, [inscrivez-vous à votre essai gratuit](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). L’API Adobe PDF Embed est toujours libre d’utilisation et l’API Adobe PDF Services est gratuite pendant six mois, puis il ne s’agit que de \$0,05 par transaction de document afin que vous puissiez [payer à l’utilisation](https://developer.adobe.com/document-services/pricing/main) à mesure que votre entreprise se développe.
-

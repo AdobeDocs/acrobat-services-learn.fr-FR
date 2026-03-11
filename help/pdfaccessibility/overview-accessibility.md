@@ -7,9 +7,9 @@ level: Beginner, Intermediate, Experienced
 type: Tutorial
 jira: KT-15327
 exl-id: dfd018a7-8e1f-4c00-9e1f-6b7b8435fbfa
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+source-git-commit: 4d076f7a05fd20b7e864929e74885957f42c5728
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 0%
 Cette API basée sur l’IA balise automatiquement les tableaux, les paragraphes, les listes, les en-têtes et plus encore pour améliorer l’expérience de lecture des PDF natifs ou numérisés avec des technologies d’assistance. Il identifie également l’ordre de lecture afin d’assurer le flux logique des informations avec plusieurs colonnes ou éléments sur les pages. Appliquez cette option aux journaux des documents ou aux nouveaux workflows de documents et évoluez plus facilement vers la conformité.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/fr/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags
   {target = _self}

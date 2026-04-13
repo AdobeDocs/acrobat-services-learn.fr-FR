@@ -8,9 +8,9 @@ feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation 
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+source-git-commit: 2b989e4de21881476330b8085636d8335f34f172
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 5%
 
 ---
@@ -78,5 +78,5 @@ ht-degree: 5%
    + [Gestion des workflows de documents financiers en Java](/help/usecases/financeworkflowsjava.md)
    + [Gestion des factures](/help/usecases/invoices.md)
    + [Publication de documents numériques](/help/usecases/ddppdfembedapi.md)
-+ [Fichier masqué pour test](/help/hidden-file.md)
++ {hide-from-toc}[Fichier masqué pour test](/help/hidden-file.md)
 

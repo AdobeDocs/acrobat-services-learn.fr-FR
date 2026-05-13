@@ -8,13 +8,21 @@ type: Tutorial
 jira: KT-10379
 thumbnail: KT-10379.jpg
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/xltwAkEl5vPjcTGB1YX1VSC02fIVDWK7nElLTbiMkHo
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: 2046
 ht-degree: 1%
 
 ---
-
 
 # Création de votre premier flux dans Microsoft Power Automate
 
@@ -75,7 +83,7 @@ Ensuite, récupérez le contenu des fichiers d’exemple.
 
 1. Dans [Power Automate](https://flow.microsoft.com/fr-fr/), sélectionnez **[!UICONTROL + Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **[!UICONTROL ou]** OneDrive **[!UICONTROL pour choisir votre compte OneDrive professionnel ou personnel.]**
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Dans le champ **[!UICONTROL Fichier]**, sélectionnez l’icône Dossier pour accéder au fichier *WordDocument01.docx* dans OneDrive.
 
@@ -101,7 +109,7 @@ Une fois le document généré, enregistrez à nouveau le fichier dans OneDrive.
 
 1. Dans [Microsoft Power Automate](https://flow.microsoft.com/fr-fr/), sélectionnez **[!UICONTROL + Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **[!UICONTROL ou]** OneDrive **[!UICONTROL pour choisir votre compte OneDrive professionnel ou personnel.]**
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
@@ -152,7 +160,7 @@ Pour générer un document, vous devez d’abord obtenir le contenu du fichier d
 
 1. Dans Power Automate, sélectionnez + **[!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **[!UICONTROL ou]** OneDrive **[!UICONTROL pour choisir votre compte OneDrive professionnel ou personnel.]**
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Dans le champ **[!UICONTROL Fichier]**, sélectionnez l’icône Dossier pour accéder au fichier *WordDocument02.docx* dans OneDrive.
 
@@ -204,7 +212,7 @@ Une fois le document généré, vous pouvez réenregistrer le fichier dans OneDr
 
 1. Dans Power Automate, sélectionnez **+ [!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **[!UICONTROL ou]** OneDrive **[!UICONTROL pour choisir votre compte OneDrive professionnel ou personnel.]**
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
 1. Dans le champ **[!UICONTROL Chemin du dossier]**, sélectionnez l&#39;icône de dossier pour spécifier où enregistrer le fichier dans OneDrive.
@@ -252,7 +260,7 @@ Une fois le document combiné, vous pouvez le réenregistrer dans OneDrive.
 
 1. Dans Power Automate, sélectionnez **+ [!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **[!UICONTROL ou]** OneDrive **[!UICONTROL pour choisir votre compte OneDrive professionnel ou personnel.]**
+1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
 1. Dans le champ **[!UICONTROL Chemin du dossier]**, sélectionnez l&#39;icône de dossier pour spécifier où enregistrer le fichier dans OneDrive.

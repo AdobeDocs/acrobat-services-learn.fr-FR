@@ -8,9 +8,24 @@ type: Tutorial
 jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/Jj-xhGUcWVWOMooS2fOPcYmELcH70cG1eRRaPPy66Yk
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: b4b3dc0f-b1be-46b4-b8ca-134a4629084a
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: 1442
 ht-degree: 0%
 
 ---
@@ -29,7 +44,7 @@ Dans ce tutoriel pratique, découvrez comment implémenter des données et des w
 
 ## Ressources et API pertinentes
 
-* [Microsoft Word](https://www.office.com/)
+* [Microsoft Word](https://www.office.com/)
 
 * [Node.js](https://nodejs.org/en/)
 
@@ -37,11 +52,11 @@ Dans ce tutoriel pratique, découvrez comment implémenter des données et des w
 
 * [[!DNL Acrobat Services] API](https://developer.adobe.com/document-services/homepage/)
 
-* [API Document Generation Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
+* [API Adobe Document Generation](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
+* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
-* [Balisage de génération de document Adobe](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
+* [Baliseur de génération de document Adobe](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
 ## Résoudre le problème
 
@@ -79,7 +94,7 @@ Après avoir généré les balises, vous pouvez les insérer dans le document. L
 
 ## Utilisation des API
 
-Accédez à la [!DNL Acrobat Services]page d&#39;accueil[&#x200B; des API &#x200B;](https://developer.adobe.com/document-services/apis/doc-generation). Pour commencer à utiliser les API [!DNL Acrobat Services], vous devez disposer des informations d&#39;identification pour votre application. Faites défiler l&#39;écran jusqu&#39;en bas et sélectionnez **Commencer l&#39;essai gratuit** pour créer des informations d&#39;identification. Vous pouvez utiliser ces services [gratuitement pendant six mois, puis payer au fur et à mesure](https://developer.adobe.com/document-services/pricing/main) pour seulement 0,05 $ par transaction de document, de sorte que vous ne payez que ce dont vous avez besoin.
+Accédez à la [page d&#39;accueil](https://developer.adobe.com/document-services/apis/doc-generation) des API [!DNL Acrobat Services]. Pour commencer à utiliser les API [!DNL Acrobat Services], vous devez disposer des informations d&#39;identification pour votre application. Faites défiler l&#39;écran jusqu&#39;en bas et sélectionnez **Commencer l&#39;essai gratuit** pour créer des informations d&#39;identification. Vous pouvez utiliser ces services [gratuitement pendant six mois, puis payer au fur et à mesure](https://developer.adobe.com/document-services/pricing/main) pour seulement 0,05 $ par transaction de document, de sorte que vous ne payez que ce dont vous avez besoin.
 
 Sélectionnez **API des services de PDF** comme service de votre choix et renseignez les autres détails comme indiqué ci-dessous.
 
@@ -87,9 +102,9 @@ Sélectionnez **API des services de PDF** comme service de votre choix et rensei
 
 Une fois vos informations d’identification créées, vous obtenez des exemples de code. Sélectionnez la langue de votre choix (ce tutoriel utilise Node.js). Vos identifiants d’API se trouvent dans un fichier zip. Extrayez les fichiers vers PDFToolsSDK-Node.jsSamples.
 
-Pour commencer, créez un dossier vide appelé auto-doc\*\*.\*\* Dans le dossier, exécutez la commande suivante pour initialiser un projet Node.js : `npm init`. Nommez votre projet « auto-doc »*.*
+Pour commencer, créez un dossier vide appelé auto-doc\*\*.\*\* Dans ce dossier, exécutez la commande suivante pour initialiser un projet Node.js : `npm init`. Nommez votre projet « auto-doc »*.*
 
-Dans le dossier ./PDFToolsSDK-Node.jsSamples/adobe-dc-pdf-tools-sdk-node-samples, il existe un fichier appelé pdftools-api-credentials.json. Déplacez-le avec private.key dans le dossier auto-doc. Il contient vos identifiants d’API. En outre, dans le dossier auto-doc, créez un sous-dossier appelé « resources ». Il contient les données au format JSON reçues des clients chaque fois que vous générez une proposition de vente. Dans le même dossier, enregistrez le modèle de devis à partir de Microsoft Word.
+Dans le dossier ./PDFToolsSDK-Node.jsSamples/adobe-dc-pdf-tools-sdk-node-samples, il y a un fichier appelé pdftools-api-credentials.json. Déplacez-le avec private.key dans le dossier auto-doc. Il contient vos identifiants d’API. En outre, dans le dossier auto-doc, créez un sous-dossier appelé « resources ». Il contient les données au format JSON reçues des clients chaque fois que vous générez une proposition de vente. Dans le même dossier, enregistrez le modèle de devis à partir de Microsoft Word.
 
 Maintenant, vous êtes prêt à faire de la magie ! Étant donné que vous utilisez Node.js dans ce tutoriel, vous devez installer le SDK [!DNL Acrobat Services] Node.js. Pour ce faire, dans le dossier auto-doc, exécutez yarn add @adobe/documentservices-pdftools-node-sdk.
 
@@ -135,7 +150,7 @@ console.log('Exception encountered while executing operation', err);
 }
 ```
 
-Ce code obtient votre fichier JSON à partir du formulaire Microsoft à l’aide des balises que vous avez créées à l’aide de [!DNL Acrobat Services]. Il fusionne ensuite les données avec le modèle de devis que vous avez créé dans Microsoft Word pour générer un tout nouveau PDF. Le PDF est enregistré dans le fichier nouvellement créé.dossier /output.
+Ce code obtient votre fichier JSON à partir du formulaire Microsoft à l’aide des balises que vous avez créées à l’aide de [!DNL Acrobat Services]. Il fusionne ensuite les données avec le modèle de devis que vous avez créé dans Microsoft Word pour générer un tout nouveau PDF. Le PDF est enregistré dans le dossier ./output nouvellement créé.
 
 En outre, le code utilise l&#39;[API Adobe Sign](https://developer.adobe.com/adobesign-api/) pour que les deux sociétés signent la proposition de vente générée. Consultez cet article de blog pour obtenir une explication détaillée de cette API.
 

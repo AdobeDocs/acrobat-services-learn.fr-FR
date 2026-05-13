@@ -8,9 +8,22 @@ type: Tutorial
 jira: KT-8145
 thumbnail: KT-8145.jpg
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/cRSC1vIKbwdoQhwz8HkU-L6sO7ENukJhOqgw2C1O-6Y
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: 1487
 ht-degree: 0%
 
 ---
@@ -37,11 +50,11 @@ Le code complet de ce projet est [disponible sur GitHub](https://github.com/afza
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API Document Generation Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
+* [API Adobe Document Generation](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
+* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
-* [Code de projet](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation)
+* [Code du projet](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation)
 
 ## Préparation des données
 
@@ -230,5 +243,5 @@ Dans ce tutoriel pratique, vous avez créé une application simple pour aider Da
 
 Maintenant que vous avez vu à quel point c’est facile, vous pouvez développer cette application simple à l’aide d’autres outils Adobes pour intégrer des factures sur votre site Web. Par exemple, pour que les clients puissent consulter leurs factures ou leur solde à tout moment. [L&#39;API Adobe PDF Embed](https://developer.adobe.com/document-services/apis/pdf-embed) est gratuite. Vous pouvez même passer au service des ressources humaines ou des ventes, ce qui permet d’automatiser leurs accords et de collecter des signatures électroniques.
 
-Pour explorer toutes les possibilités et commencer à créer votre propre application pratique, créez un compte gratuit [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) pour commencer dès aujourd’hui. Profitez d&#39;un essai gratuit de six mois, puis de [paiements à l&#39;acte](https://developer.adobe.com/document-services/pricing/main)
+Pour explorer toutes les possibilités et commencer à créer votre propre application pratique, créez un compte gratuit [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) pour commencer dès aujourd’hui. Profitez d’un essai gratuit de six mois, puis de [paiement à l’utilisation](https://developer.adobe.com/document-services/pricing/main)
 à seulement 0,05 $ par transaction de document à mesure que votre entreprise prend de l&#39;expansion.

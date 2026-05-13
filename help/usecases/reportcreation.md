@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8093
 thumbnail: KT-8093.jpg
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/E6grXk4Sptkhetpgt-MoDndf-Ezm97qnutLbUqD-a20
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: 1391
 ht-degree: 0%
 
 ---
@@ -19,7 +26,7 @@ ht-degree: 0%
 
 ![Bannière principale de cas d&#39;utilisation](assets/UseCaseReportHero.jpg)
 
-Les secteurs de la finance, de l’éducation, du marketing et autres utilisent les PDF pour partager des données avec leurs clients et parties prenantes. Les PDF facilitent le partage de documents riches, avec des tableaux, des graphiques et du contenu interactif, dans un format accessible à tous. Les API [!DNL Adobe Acrobat Services] aident ces sociétés à générer des rapports de PDF partageables à partir de Microsoft Word, Microsoft Excel, de graphiques et d’autres formats de documents divers.
+Les secteurs de la finance, de l’éducation, du marketing et autres utilisent les PDF pour partager des données avec leurs clients et parties prenantes. Les PDF facilitent le partage de documents riches, avec des tableaux, des graphiques et du contenu interactif, dans un format accessible à tous. [!DNL Adobe Acrobat Services] Les API aident ces sociétés à générer des rapports de PDF partageables à partir de Microsoft Word, Microsoft Excel, des graphiques et d’autres formats de documents divers.
 
 Supposons que vous [teniez une entreprise de suivi des réseaux sociaux](https://developer.adobe.com/document-services/use-cases/content-publishing/on-demand-report-creation). Vos clients se connectent à une partie de votre site protégée par un mot de passe pour consulter leurs analyses de campagne. Ils veulent souvent partager ces statistiques avec leurs dirigeants, leurs actionnaires, leurs donateurs ou d’autres parties prenantes. Les documents téléchargeables du PDF sont un excellent moyen pour vos clients de partager des chiffres, des graphiques, etc.
 

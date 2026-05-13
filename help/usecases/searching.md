@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8095
 thumbnail: KT-8095.jpg
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/ceJsh2lv-S4b6mScT7DF83x1C85BAu-bPa5ju4JcYu4
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: 1389
 ht-degree: 0%
 
 ---
@@ -33,7 +40,7 @@ Pour suivre, vous devez avoir installé [Node.js](https://nodejs.org/) et une co
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Code de projet](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git)
+* [Code du projet](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git)
 
 ## Configuration du projet
 
@@ -430,5 +437,5 @@ L&#39;utilisation de [!DNL Acrobat Services] pour la transformation de documents
 
 Maintenant que vous avez une bonne compréhension de l&#39;utilisation des API [!DNL Acrobat Services], vous pouvez perfectionner vos compétences en vous entraînant. Vous pouvez cloner le référentiel utilisé dans ce tutoriel et mettre à l’essai certaines des compétences que vous venez d’acquérir. Mieux encore, vous pouvez tenter de reconstruire cette application tout en explorant les possibilités illimitées des API [!DNL Acrobat Services].
 
-Prêt à activer le partage et la révision de documents dans votre propre application ? S&#39;abonner à [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
+Prêt à activer le partage et la révision de documents dans votre propre application ? Inscrivez-vous à votre [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
 compte développeur. Profitez d&#39;un essai gratuit de six mois, puis d&#39;[un paiement à l&#39;utilisation](https://developer.adobe.com/document-services/pricing/main) pour seulement \$0,05 par transaction de document à mesure que votre entreprise se développe.

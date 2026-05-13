@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8097
 thumbnail: KT-8097.jpg
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/Gd7B7jUfhZPSRujwKVp7hRzb2Nj9-VJFKLYxqwO-GFM
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: 2045
 ht-degree: 0%
 
 ---
@@ -31,13 +38,13 @@ Ce tutoriel implique une certaine programmation pour explorer la conversion des 
 
 ## Ressources et API pertinentes
 
-* [API Document Generation Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
+* [API Adobe Document Generation](https://developer.adobe.com/document-services/apis/doc-generation)
 
 * [API PDF Embed](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
+* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
-* [Code de projet](https://github.com/agavitalis/adobe_legal_contracts.git)
+* [Code du projet](https://github.com/agavitalis/adobe_legal_contracts.git)
 
 ## Création d’un modèle de document
 
@@ -87,7 +94,7 @@ Outre les balises de base créées à l’aide du modèle de données JSON impor
 
 Ces fonctionnalités avancées ne sont pas différentes des balises de base. Pour inclure une logique conditionnelle, sélectionnez la partie du document à remplir. Ensuite, configurez la règle qui détermine l’insertion de la balise.
 
-Pour illustrer davantage, disons que dans l&#39;accord, il y a une section que vous voulez inclure, mais seulement sous condition. Dans le champ Sélectionner le type de contenu, sélectionnez **Section.** Dans le champ Sélectionner des enregistrements, sélectionnez l&#39;option qui détermine si la section conditionnelle s&#39;affiche. Sélectionnez l’opérateur conditionnel souhaité et définissez la valeur que vous testez dans le champ Valeur. Cliquez ensuite sur **Insérer une condition.** La capture d&#39;écran ci-dessous illustre ce processus.
+Pour illustrer davantage, disons que dans l&#39;accord, il y a une section que vous voulez inclure, mais seulement sous condition. Dans le champ Sélectionner le type de contenu, sélectionnez **Section**. Dans le champ Sélectionner des enregistrements, sélectionnez l’option qui détermine si la section conditionnelle doit s’afficher. Sélectionnez l’opérateur conditionnel souhaité et définissez la valeur que vous testez dans le champ Valeur. Cliquez ensuite sur **Insérer une condition.** La capture d’écran ci-dessous illustre ce processus.
 
 ![Capture d&#39;écran de l&#39;insertion de contenu conditionnel](assets/legal_5.png)
 

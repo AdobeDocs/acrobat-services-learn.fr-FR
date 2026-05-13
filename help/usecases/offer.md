@@ -8,10 +8,17 @@ type: Tutorial
 jira: KT-8096
 thumbnail: KT-8096.jpg
 exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/ZfvtA3o-CQ28V-HdyzMR2TWgw-DpddXoh3zMOAUAqhY
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 0%
+source-wordcount: 1851
+ht-degree: 1%
 
 ---
 
@@ -19,7 +26,7 @@ ht-degree: 0%
 
 ![Bannière principale de cas d&#39;utilisation](assets/UseCaseOfferHero.jpg)
 
-Les lettres d’offre aux employés sont l’une des premières expériences que les employés ont avec votre organisation. Par conséquent, vous voulez vous assurer que vos lettres d’offre sont conformes à la marque, mais vous ne voulez pas avoir à créer une lettre dans votre logiciel de traitement de texte à partir de zéro à chaque fois. Les API [!DNL Adobe Acrobat Services] offrent un moyen rapide, facile et efficace de gérer les éléments clés de la [génération et de la distribution de lettres d&#39;offre aux nouveaux employés](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters).
+Les lettres d’offre aux employés sont l’une des premières expériences que les employés ont avec votre organisation. Par conséquent, vous voulez vous assurer que vos lettres d’offre sont conformes à la marque, mais vous ne voulez pas avoir à créer une lettre dans votre logiciel de traitement de texte à partir de zéro à chaque fois. [!DNL Adobe Acrobat Services] Les API offrent un moyen rapide, facile et efficace de gérer les éléments clés de la [génération et de la distribution de lettres d&#39;offre aux nouveaux employés](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters).
 
 ## Ce que vous pouvez apprendre
 
@@ -29,11 +36,11 @@ Ce tutoriel pratique explique la configuration d’un projet Node Express qui af
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API Document Generation Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
+* [API Adobe Document Generation](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
+* [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
-* [Complément Word Document Generation Tagger](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin)
+* [Complément Word pour balises Document Generation](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin)
 
 * [Exemple de projet](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters)
 
@@ -249,7 +256,7 @@ Bienvenue
 
 Enregistrez le document sous le nom « OfferLetter-Template.docx » dans un dossier appelé « resources » à la racine de votre projet. Notez les trois X dans le document. Ces X sont des espaces réservés temporaires pour vos informations JSON. Bien que vous puissiez utiliser une syntaxe spéciale pour remplacer ces espaces réservés, Adobe fournit un complément Word qui simplifie cette tâche. Pour installer le complément, accédez à l&#39;Adobe [Complément Word Document Generation Tagger](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin).
 
-Dans votre modèle de lettre d&#39;offre, cliquez sur le nouveau bouton **Génération de document**. Un panneau latéral s’ouvre. Cliquez sur **Commencer**. Une zone de texte vous est fournie pour coller les exemples de données JSON. Copiez l’extrait de code « offer-data » du fichier JSON du haut dans la zone de texte. Elle doit se présenter comme suit :
+Dans votre modèle de lettre d&#39;offre, cliquez sur le nouveau bouton **Génération de document**. Un panneau latéral s’ouvre. Cliquez sur **Démarrer**. Une zone de texte vous est fournie pour coller les exemples de données JSON. Copiez l’extrait de code « offer-data » du fichier JSON du haut dans la zone de texte. Elle doit se présenter comme suit :
 
 ![Capture d&#39;écran de la lettre et du code](assets/offer_3.png)
 

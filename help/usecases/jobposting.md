@@ -9,21 +9,12 @@ jira: KT-8092
 thumbnail: KT-8092.jpg
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
 TQID: https://experienceleague.adobe.com/5QKJELbrD1HA89U5E7m-3ekce2YXSqigek23mqrre2c
-product_v2:
-  - id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2:
-  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
-  - id: c4d07275-6387-4756-8bf7-681e581ffd27
-subfeature_v2:
-  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
-  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 1565
@@ -41,7 +32,7 @@ Imaginez le scénario suivant : vous disposez d&#39;un site Web qui permet aux e
 
 ## Ce que vous pouvez apprendre
 
-Ce tutoriel pratique présente un exemple Node.js qui utilise [!DNL Adobe Acrobat Services] et son [SDK Node.js](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) pour ajouter ces fonctionnalités à un site de publication d&#39;offres d&#39;emploi. On crée ainsi un site Web plus facile à utiliser et plus attrayant pour les employeurs et les demandeurs d&#39;emploi. Voici le [&#128279;](https://github.com/contentlab-io/adobe_job_posting)code de projet[complet](https://github.com/contentlab-io/adobe_job_posting), au cas où vous voudriez suivre pendant que vous lisez.
+Ce tutoriel pratique présente un exemple Node.js qui utilise [!DNL Adobe Acrobat Services] et son [SDK Node.js](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) pour ajouter ces fonctionnalités à un site de publication d&#39;offres d&#39;emploi. On crée ainsi un site Web plus facile à utiliser et plus attrayant pour les employeurs et les demandeurs d&#39;emploi. Voici le [code de projet[complet](https://github.com/contentlab-io/adobe_job_posting)](https://github.com/contentlab-io/adobe_job_posting), au cas où vous voudriez suivre pendant que vous lisez.
 
 Pour commencer, configurez une application web Node.js simple basée sur Express. [Express](https://expressjs.com/) est un cadre d&#39;application web minimaliste offrant des fonctionnalités telles que le routage et le modèle. Le code de l&#39;application est disponible sur [GitHub](https://github.com/contentlab-io/adobe_job_posting). Installez également la [base de données PostgreSQL](https://www.postgresql.org/) et configurez-la pour stocker le PDF.
 

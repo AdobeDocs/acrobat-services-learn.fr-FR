@@ -9,21 +9,12 @@ jira: KT-8091
 thumbnail: KT-8091.jpg
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
 TQID: https://experienceleague.adobe.com/POsohxFP16AENPclwoaNwxcW0xmPP0iWmGUaKX4H0P4
-product_v2:
-  - id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2:
-  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
-  - id: c4d07275-6387-4756-8bf7-681e581ffd27
-subfeature_v2:
-  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
-  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 1543
@@ -187,7 +178,7 @@ Les étudiants peuvent utiliser des annotations pour poser des questions ou part
 
 Il est important pour les enseignants et les écoles de voir comment les étudiants utilisent les plateformes en ligne. Cela aide les enseignants à soutenir leurs élèves avec des ressources qui les aident à mieux effectuer leurs devoirs. L’API PDF Embed s’intègre à des outils d’analyse que vous pouvez utiliser pour mesurer tous les événements qui se produisent, par exemple lorsque les utilisateurs ouvrent, lisent et ferment des documents. Avec l’API PDF Services, les enseignants peuvent également désactiver l’impression, le téléchargement et la modification des fichiers pour préserver l’intégrité académique.
 
-Si vous disposez d&#39;une licence [Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/), vous pouvez utiliser son [intégration prête à l&#39;emploi](https://experienceleague.adobe.com/fr/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics). Sinon, utilisez des rappels pour intégrer vos Services de PDF à d&#39;autres fournisseurs d&#39;analyses, tels que [Google](https://experienceleague.adobe.com/fr/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics).
+Si vous disposez d&#39;une licence [Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/), vous pouvez utiliser son [intégration prête à l&#39;emploi](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics). Sinon, utilisez des rappels pour intégrer vos Services de PDF à d&#39;autres fournisseurs d&#39;analyses, tels que [Google](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics).
 
 Pour permettre la mesure des événements de document, associez les gestionnaires d&#39;événements à l&#39;aide de la méthode `registerCallback` avec l&#39;instance Adobe DC View. Vous pouvez afficher des mesures de base, telles que l’ouverture d’un document ou la lecture d’une page, sur la console. Vous pouvez également enregistrer les mesures dans un journal ou les publier dans d’autres magasins d’analyses.
 
@@ -213,7 +204,7 @@ Voici une capture d’écran de la console du navigateur web :
 
 Cette capture d’écran montre que l’étudiant a ouvert le fichier de devoirs, qu’il a lu la première page — soit il n’a pas fait défiler l’écran jusqu’à des pages supplémentaires, soit le document n’avait qu’une seule page — puis qu’il a téléchargé le fichier. Vous pouvez collecter ces mesures pour effectuer des analyses et étudier le comportement de vos élèves.
 
-En outre, [Adobe Analytics](https://business.adobe.com/fr/products/adobe-analytics.html) est intégré à l&#39;API PDF Embed, de sorte que si vous disposez d&#39;un abonnement à la suite Adobe Analytics, vous pouvez publier vos mesures dans votre abonnement. Pour publier les mesures dans Adobe Analytics, il vous suffit de transmettre votre ID de suite au constructeur d’API PDF Embed. (Notez que vous devez utiliser vos identifiants d’API PDF Embed, et non vos identifiants d’API PDF Services).
+En outre, [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html) est intégré à l&#39;API PDF Embed, de sorte que si vous disposez d&#39;un abonnement à la suite Adobe Analytics, vous pouvez publier vos mesures dans votre abonnement. Pour publier les mesures dans Adobe Analytics, il vous suffit de transmettre votre ID de suite au constructeur d’API PDF Embed. (Notez que vous devez utiliser vos identifiants d’API PDF Embed, et non vos identifiants d’API PDF Services).
 
 Voici un exemple de code qui montre comment transmettre l’ID de suite au constructeur d’API PDF Embed :
 

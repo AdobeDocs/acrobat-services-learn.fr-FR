@@ -10,21 +10,12 @@ thumbnail: KT-7473.jpg
 keywords: En vedette
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
 TQID: https://experienceleague.adobe.com/8SQivYwIRQxLqcHWCvrZ7b4t2BOqGyWKZvvNSpomrlo
-product_v2:
-  - id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2:
-  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
-  - id: c4d07275-6387-4756-8bf7-681e581ffd27
-subfeature_v2:
-  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
-  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 2187
@@ -318,7 +309,7 @@ Le dernier morceau de code dont vous avez besoin est une fonction qui affiche le
 
 La [démonstration de l&#39;API Adobe PDF Embed](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) vous permet de prévisualiser les différentes autres options d&#39;incorporation de documents de PDF.
 
-![Image des options d&#39;incorporation du PDF &#x200B;](assets/AWNjs_7.png)
+![Image des options d&#39;incorporation du PDF ](assets/AWNjs_7.png)
 
 Vous pouvez activer et désactiver diverses options et voir immédiatement comment elles s’affichent. Lorsque vous avez trouvé une combinaison qui vous plaît, cliquez sur le bouton *\&lt;/\> Générer le code* pour générer le code de HTML réel à l&#39;aide de ces options.
 

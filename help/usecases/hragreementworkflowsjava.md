@@ -9,17 +9,11 @@ jira: KT-7474
 thumbnail: KT-7474.jpg
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
 TQID: https://experienceleague.adobe.com/3XG9hVuP8EXiHP19m-werP4yFx8ae-VIPuS7N0V2jpQ
-product_v2:
-  - id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2:
-  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
-  - id: c4d07275-6387-4756-8bf7-681e581ffd27
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 1960
@@ -47,7 +41,7 @@ Dans ce tutoriel pratique, découvrez comment mettre en œuvre un formulaire de 
 
 ## Génération des identifiants d’API
 
-Commencez par vous inscrire à l’essai gratuit de l’API Adobe PDF Services. Accédez au [site web de l&#39;Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) [3&rbrace; et cliquez sur le bouton *Commencer* sous *Créer de nouvelles informations d&#39;identification*. &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)L’essai gratuit fournit 1 000 transactions de document qui peuvent être utilisées sur six mois. Sur la page suivante (voir ci-dessous), sélectionnez le service (API des services PDF), définissez le nom des informations d’identification (par exemple, HRDocumentWFCredentials), puis saisissez une description.
+Commencez par vous inscrire à l’essai gratuit de l’API Adobe PDF Services. Accédez au [site web de l&#39;Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) [3} et cliquez sur le bouton *Commencer* sous *Créer de nouvelles informations d&#39;identification*. ](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)L’essai gratuit fournit 1 000 transactions de document qui peuvent être utilisées sur six mois. Sur la page suivante (voir ci-dessous), sélectionnez le service (API des services PDF), définissez le nom des informations d’identification (par exemple, HRDocumentWFCredentials), puis saisissez une description.
 
 Sélectionnez la langue (Java dans cet exemple) et cochez *Créer des exemples de code personnalisés*. La dernière étape permet de s’assurer que les échantillons de code contiennent déjà le fichier prérempli pdftools-api-credentials.json que vous utilisez, ainsi que la clé privée pour authentifier votre application dans l&#39;API.
 
@@ -434,7 +428,7 @@ https://www.google.com/?code=<YOUR_CODE>&api_access_point=https://api.eu1.adobes
 
 Notez les valeurs indiquées pour \&lt;VOTRE_CODE\> et api_access_point.
 
-Pour envoyer une demande de POST HTTP qui vous fournit le jeton d’accès, utilisez les valeurs d’ID client, \&lt;VOTRE_CODE\> et de point d’accès_api. Vous pouvez utiliser [Postman](https://helpx.adobe.com/fr/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) ou cURL :
+Pour envoyer une demande de POST HTTP qui vous fournit le jeton d’accès, utilisez les valeurs d’ID client, \&lt;VOTRE_CODE\> et de point d’accès_api. Vous pouvez utiliser [Postman](https://helpx.adobe.com/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) ou cURL :
 
 ```
 curl --location --request POST "https://**api.eu1.adobesign.com**/oauth/token"

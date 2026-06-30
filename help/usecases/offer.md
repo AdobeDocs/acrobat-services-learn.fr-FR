@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
+source-git-commit: 613f10928c919ed475347a894af97f692ed233bb
 workflow-type: tm+mt
 source-wordcount: 1851
 ht-degree: 1%
@@ -269,15 +269,15 @@ Dans votre modèle de lettre d&#39;offre, cliquez sur le nouveau bouton **Géné
 
 ![Capture d&#39;écran de la lettre et du code](assets/offer_3.png)
 
-Cliquez sur le bouton **Générer des balises**. Vous obtenez un menu déroulant de balises à insérer aux points appropriés dans le document. Mettez en surbrillance le premier X du document et sélectionnez **[!UICONTROL prénom]**. Cliquez sur **[!UICONTROL Insérer du texte]** et « Cher X » est remplacé par « Cher ```{{`offer_letter`.firstname}}``` ». Ce format de balise est correct pour `documentMergeOperation`. Continuez et ajoutez les trois balises restantes à l’emplacement Xs approprié. N’oubliez pas d’enregistrer OfferLetter-template.docx. Il devrait ressembler à ceci :
+Cliquez sur le bouton **Générer des balises**. Vous obtenez un menu déroulant de balises à insérer aux points appropriés dans le document. Mettez en surbrillance le premier X du document et sélectionnez **[!UICONTROL prénom]**. Cliquez sur **[!UICONTROL Insérer du texte]** et « Cher X » est remplacé par « Cher ``{{`offer_letter`.firstname}}`` ». Ce format de balise est correct pour `documentMergeOperation`. Continuez et ajoutez les trois balises restantes à l’emplacement Xs approprié. N’oubliez pas d’enregistrer OfferLetter-template.docx. Il devrait ressembler à ceci :
 
-Bonjour ```{{`offer_letter`.firstname}} {{`offer_letter`.lastname}}```,
+Bonjour ``{{`offer_letter`.firstname}} {{`offer_letter`.lastname}}``,
 
-Nous sommes ravis de vous proposer un poste de ```{{`offer_letter`.salary}}``` $ par an. Votre date de début sera le ```{{`offer_letter`.startdate}}```.
+Nous sommes ravis de vous proposer un poste de ``{{`offer_letter`.salary}}`` $ par an. Votre date de début sera le ``{{`offer_letter`.startdate}}``.
 
 Bienvenue
 
-Le modèle Word comporte désormais un balisage correspondant au format JSON. Par exemple, ```{{`offer_letter`.`firstname`}}``` au début du document Word est remplacé par la valeur dans la section « firstname » des données JSON.
+Le modèle Word comporte désormais un balisage correspondant au format JSON. Par exemple, ``{{`offer_letter`.`firstname`}}`` au début du document Word est remplacé par la valeur dans la section « firstname » des données JSON.
 
 Revenez à votre fonction `generateLetter`. Pour sécuriser votre appel REST, créez un nouveau fichier intitulé pdftools-api-credentials.json dans la racine du projet. Collez les données JSON suivantes et ajustez-les avec les détails de la section Compte de service (JWT) de votre [console de développement](https://developer.adobe.com/console/).
 

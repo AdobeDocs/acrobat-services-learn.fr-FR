@@ -27,4 +27,4 @@ ht-degree: 0%
 
 Découvrez comment automatiser l’extraction de contenu d’un document de PDF à l’aide de l’API d’extraction de PDF. L’extraction du contenu du PDF permet de déverrouiller les données stratégiques de l’entreprise, qui peuvent ensuite être utilisées pour divers processus en aval.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428294?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3446680?captions=fre_fr&hidetitle=true)

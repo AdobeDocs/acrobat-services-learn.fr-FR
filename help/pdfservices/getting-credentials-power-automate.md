@@ -8,27 +8,34 @@ type: Tutorial
 jira: KT-10382
 thumbnail: KT-10382.jpg
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
-TQID: https://experienceleague.adobe.com/NagNLc23IZyxJtLrW-Ig3-r38gqNECoQq2Pn2ZdxKC8
+TQID: 'https://experienceleague.adobe.com/NagNLc23IZyxJtLrW-Ig3-r38gqNECoQq2Pn2ZdxKC8'
 product_v2:
   - id: acdc2bde-2937-4877-90d9-031dd66278c9
+    internal-label: Acrobat Services
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+    internal-label: Acrobat Services APIs
+subfeature_v2:
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+    internal-label: PDF Services API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
+    internal-label: Beginner
+source-git-commit: 48c04e921143cde1421215096e1e02fd5e24b6e2
 workflow-type: tm+mt
-source-wordcount: 930
+source-wordcount: '930'
 ht-degree: 2%
-
 ---
-
 # Obtention des informations d’identification pour Microsoft Power Automate
 
 [Microsoft Power Automate](https://powerautomate.microsoft.com/) offre aux développeurs et aux développeurs citoyens un moyen efficace de créer des processus automatisés puissants pour améliorer leurs activités sans écrire de code. Le connecteur [Adobe PDF Services](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/), dans le cadre de [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services), permet aux utilisateurs d’effectuer l’une des actions disponibles dans l’API Adobe PDF Services dans Microsoft Power Automate.
 
 Dans ce tutoriel, découvrez comment obtenir des informations d’identification pour commencer à utiliser ou à tester les services Adobe PDF. Selon que vous êtes un utilisateur de la version d’évaluation ou un client existant, ce tutoriel décrit les étapes à suivre pour obtenir des informations d’identification.
 
-## Comment les utilisateurs de Microsoft Power Automate peuvent-ils commencer à utiliser le connecteur Adobe PDF Services ?
+## Comment les utilisateurs de Microsoft Power Automate peuvent-ils commencer à utiliser le connecteur Services Adobe PDF ?
 
 Les utilisateurs Microsoft Power Automate existants peuvent [obtenir des informations d’identification de version d’essai](https://www.adobe.com/go/powerautomate_getstarted_fr) pour les services Adobe PDF. Le lien ci-dessus est un lien d’inscription spécial pour vous aider dans ce processus, destiné spécifiquement aux utilisateurs de Microsoft Power Automate.
 
@@ -55,7 +62,7 @@ Ces informations d’identification couvrent cinq valeurs différentes :
 
 ![Nouvelles informations d&#39;identification](assets/credentials_3.png)
 
-Un fichier JSON contenant toutes ces valeurs est également automatiquement téléchargé sur votre système. Ce fichier est nommé `pdfservices-api-pa-credentials.json` et se présente comme suit :
+Un Fichier JSON contenant toutes ces valeurs est également automatiquement téléchargé sur votre système. Ce fichier est nommé `pdfservices-api-pa-credentials.json` et se présente comme suit :
 
 ```json
 {
@@ -105,7 +112,7 @@ Malheureusement, vous ne pouvez pas télécharger la clé privée précédente, 
 
 ## Utilisation d’informations d’identification Adobe PDF Services existantes
 
-Si vous disposez déjà d&#39;identifiants d&#39;API Adobe PDF Services générés à partir du site Web [!DNL Adobe Acrobat Services], vous pouvez les utiliser avec Microsoft Power Automate. Si vous avez téléchargé un SDK lors de votre inscription, vos informations d’identification existantes se présentaient sous la forme d’un fichier JSON probablement nommé `pdfservices-api-credentials.json`. Ce fichier JSON contient les cinq clés nécessaires à la création de vos informations de connexion. Copiez chaque valeur du fichier JSON dans le champ de connexion correspondant.
+Si vous disposez déjà d&#39;identifiants d&#39;API Adobe PDF Services générés à partir du site Web [!DNL Adobe Acrobat Services], vous pouvez les utiliser avec Microsoft Power Automate. Si vous avez téléchargé un SDK lors de votre inscription, vos informations d’identification existantes se présentaient sous la forme d’un Fichier JSON probablement nommé `pdfservices-api-credentials.json`. Ce Fichier JSON contient les cinq clés nécessaires à la création de vos informations de connexion. Copiez chaque valeur du Fichier JSON dans le champ de connexion correspondant.
 
 Votre valeur de clé privée provient d&#39;un deuxième fichier nommé `private.key`.
 
@@ -123,7 +130,7 @@ Comme décrit au début de ce tutoriel, créez un flux, ajoutez une étape et re
 
 Comme le montre la capture d’écran ci-dessus, vous pouvez passer à un compte professionnel ou configurer un nouveau compte d’organisation. Une fois que vous l’avez fait, vous pouvez ajouter l’action Adobe PDF Services.
 
-Pour en savoir plus sur la création de votre premier flux Microsoft Power Automate avec [!DNL Adobe Acrobat Services], consultez [Création de votre premier workflow dans Microsoft Power Automate](https://experienceleague.adobe.com/fr/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate).
+Pour en savoir plus sur la création de votre premier flux Microsoft Power Automate avec [!DNL Adobe Acrobat Services], consultez [Création de votre premier workflow dans Microsoft Power Automate](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate).
 
 ## Autres ressources
 

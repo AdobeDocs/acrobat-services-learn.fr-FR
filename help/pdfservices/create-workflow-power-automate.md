@@ -1,6 +1,6 @@
 ---
 title: Création de votre premier workflow dans Microsoft Power Automate
-description: Découvrez comment utiliser le connecteur Adobe PDF Services dans Microsoft Power Automate
+description: Découvrez comment utiliser le connecteur de services Adobe PDF dans Microsoft Power Automate
 feature: PDF Services API
 role: Developer
 level: Beginner
@@ -8,22 +8,30 @@ type: Tutorial
 jira: KT-10379
 thumbnail: KT-10379.jpg
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
-TQID: https://experienceleague.adobe.com/xltwAkEl5vPjcTGB1YX1VSC02fIVDWK7nElLTbiMkHo
+TQID: 'https://experienceleague.adobe.com/xltwAkEl5vPjcTGB1YX1VSC02fIVDWK7nElLTbiMkHo'
 product_v2:
   - id: acdc2bde-2937-4877-90d9-031dd66278c9
+    internal-label: Acrobat Services
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+    internal-label: Acrobat Services APIs
+subfeature_v2:
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+    internal-label: PDF Services API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
+    internal-label: Customer experience
+source-git-commit: 48c04e921143cde1421215096e1e02fd5e24b6e2
 workflow-type: tm+mt
-source-wordcount: 2046
+source-wordcount: '2046'
 ht-degree: 1%
-
 ---
-
 # Création de votre premier flux dans Microsoft Power Automate
 
 Découvrez comment créer votre premier flux dans [Microsoft Power Automate](https://flow.microsoft.com/fr-fr/) à l&#39;aide du connecteur [Adobe PDF Services](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/).
@@ -39,7 +47,7 @@ Dans ce tutoriel pratique, découvrez comment :
 ### Ce dont vous avez besoin
 
 * **Informations d’identification de la version d’essai ou de production pour Adobe PDF Services**
-En savoir plus sur l&#39;obtention et la configuration des informations d&#39;identification dans Microsoft Power Automate [ici](https://experienceleague.adobe.com/fr/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
+En savoir plus sur l&#39;obtention et la configuration des informations d&#39;identification dans Microsoft Power Automate [ici](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
 * **Microsoft Power Automate avec connecteurs Premium**
 Découvrez comment vérifier le niveau de licence de Power Automate [ici](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types).
 * **OneDrive**
@@ -54,7 +62,7 @@ Il existe deux [exemples de fichiers](assets/sample-assets.zip) que vous devez d
 
 ### Obtention des informations d’identification
 
-Pour terminer ce tutoriel, vous devez disposer des informations d’identification déjà configurées dans Microsoft Power Automate pour Adobe PDF Services. Si vous n&#39;avez pas terminé cette étape, consultez les [instructions ici](https://experienceleague.adobe.com/fr/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
+Pour terminer ce tutoriel, vous devez disposer des informations d’identification déjà configurées dans Microsoft Power Automate pour Adobe PDF Services. Si vous n&#39;avez pas terminé cette étape, consultez les [instructions ici](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
 
 ## Partie 1 : Création d’un nouvel enchaînement et conversion de Word en PDF
 
@@ -83,7 +91,7 @@ Ensuite, récupérez le contenu des fichiers d’exemple.
 
 1. Dans [Power Automate](https://flow.microsoft.com/fr-fr/), sélectionnez **[!UICONTROL + Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
+1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Dans le champ **[!UICONTROL Fichier]**, sélectionnez l’icône Dossier pour accéder au fichier *WordDocument01.docx* dans OneDrive.
 
@@ -109,7 +117,7 @@ Une fois le document généré, enregistrez à nouveau le fichier dans OneDrive.
 
 1. Dans [Microsoft Power Automate](https://flow.microsoft.com/fr-fr/), sélectionnez **[!UICONTROL + Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
+1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
@@ -160,7 +168,7 @@ Pour générer un document, vous devez d’abord obtenir le contenu du fichier d
 
 1. Dans Power Automate, sélectionnez + **[!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
+1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
 1. Recherchez *Obtenir le contenu du fichier* dans la barre de recherche.
 1. Dans le champ **[!UICONTROL Fichier]**, sélectionnez l’icône Dossier pour accéder au fichier *WordDocument02.docx* dans OneDrive.
 
@@ -212,7 +220,7 @@ Une fois le document généré, vous pouvez réenregistrer le fichier dans OneDr
 
 1. Dans Power Automate, sélectionnez **+ [!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
+1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
 1. Dans le champ **[!UICONTROL Chemin du dossier]**, sélectionnez l&#39;icône de dossier pour spécifier où enregistrer le fichier dans OneDrive.
@@ -260,7 +268,7 @@ Une fois le document combiné, vous pouvez le réenregistrer dans OneDrive.
 
 1. Dans Power Automate, sélectionnez **+ [!UICONTROL Nouvelle étape]**.
 1. Recherchez *OneDrive* dans la barre de recherche.
-1. Sélectionnez votre compte OneDrive professionnel **ou**&#x200B;[!UICONTROL &#x200B; OneDrive &#x200B;]&#x200B;**pour choisir votre compte OneDrive professionnel ou personnel.**
+1. Sélectionnez votre compte OneDrive professionnel ]**ou**[!UICONTROL  OneDrive ]**pour choisir votre compte OneDrive professionnel ou personnel.**[!UICONTROL 
 1. Recherchez *Créer un fichier* dans la barre de recherche.
 1. Sélectionnez **[!UICONTROL Créer un fichier]**.
 1. Dans le champ **[!UICONTROL Chemin du dossier]**, sélectionnez l&#39;icône de dossier pour spécifier où enregistrer le fichier dans OneDrive.
@@ -318,7 +326,7 @@ Dans le dossier OneDrive, le mot de PDF associé vous invite à saisir un mot de
 
 ## Prochaines étapes
 
-Dans ce tutoriel, vous avez converti un document Word en mot de PDF, généré un document à partir de données, fusionné des documents et protégé par un mot de passe. Pour en savoir plus, explorez certaines des autres actions disponibles dans le connecteur Adobe PDF Services de Microsoft Power Automate :
+Dans ce tutoriel, vous avez converti un document Word en mot de PDF, généré un document à partir de données, fusionné des documents et protégé par un mot de passe. Pour en savoir plus, explorez quelques-unes des autres actions disponibles dans le connecteur Services Adobe PDF de Microsoft Power Automate :
 
 * Affichez les modèles précréés disponibles dans Microsoft Power Automate.
 * Consultez les [articles](https://medium.com/adobetech/tagged/microsoft-power-automate) du blog Adobe Tech.

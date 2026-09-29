@@ -1,6 +1,6 @@
 ---
 title: Création de votre premier workflow dans Microsoft Power Automate
-description: Découvrez comment utiliser le connecteur Adobe PDF Services dans Microsoft Power Automate
+description: Découvrez comment utiliser le connecteur de services Adobe PDF dans Microsoft Power Automate
 feature: PDF Services API
 role: Developer
 level: Beginner
@@ -8,22 +8,30 @@ type: Tutorial
 jira: KT-10379
 thumbnail: KT-10379.jpg
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
-TQID: https://experienceleague.adobe.com/xltwAkEl5vPjcTGB1YX1VSC02fIVDWK7nElLTbiMkHo
+TQID: 'https://experienceleague.adobe.com/xltwAkEl5vPjcTGB1YX1VSC02fIVDWK7nElLTbiMkHo'
 product_v2:
   - id: acdc2bde-2937-4877-90d9-031dd66278c9
+    internal-label: Acrobat Services
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+    internal-label: Acrobat Services APIs
+subfeature_v2:
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+    internal-label: PDF Services API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
+    internal-label: Customer experience
+source-git-commit: 48c04e921143cde1421215096e1e02fd5e24b6e2
 workflow-type: tm+mt
-source-wordcount: 2046
+source-wordcount: '2046'
 ht-degree: 1%
-
 ---
-
 # Création de votre premier flux dans Microsoft Power Automate
 
 Découvrez comment créer votre premier flux dans [Microsoft Power Automate](https://flow.microsoft.com/fr-fr/) à l&#39;aide du connecteur [Adobe PDF Services](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/).
@@ -318,7 +326,7 @@ Dans le dossier OneDrive, le mot de PDF associé vous invite à saisir un mot de
 
 ## Prochaines étapes
 
-Dans ce tutoriel, vous avez converti un document Word en mot de PDF, généré un document à partir de données, fusionné des documents et protégé par un mot de passe. Pour en savoir plus, explorez certaines des autres actions disponibles dans le connecteur Adobe PDF Services de Microsoft Power Automate :
+Dans ce tutoriel, vous avez converti un document Word en mot de PDF, généré un document à partir de données, fusionné des documents et protégé par un mot de passe. Pour en savoir plus, explorez quelques-unes des autres actions disponibles dans le connecteur Services Adobe PDF de Microsoft Power Automate :
 
 * Affichez les modèles précréés disponibles dans Microsoft Power Automate.
 * Consultez les [articles](https://medium.com/adobetech/tagged/microsoft-power-automate) du blog Adobe Tech.

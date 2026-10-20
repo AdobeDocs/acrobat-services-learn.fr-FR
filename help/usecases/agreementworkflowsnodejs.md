@@ -46,7 +46,7 @@ Dans ce tutoriel pratique, découvrez comment ajouter des services de PDF à une
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API PDF Embed](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [API PDF Embed](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/index.html)
 
 * [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 

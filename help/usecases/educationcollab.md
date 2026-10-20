@@ -62,7 +62,7 @@ Découvrez comment [!DNL Adobe Acrobat Services] offre une expérience enrichiss
 
 ## Ressources et API pertinentes
 
-* [API PDF Embed](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [API PDF Embed](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/index.html)
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 

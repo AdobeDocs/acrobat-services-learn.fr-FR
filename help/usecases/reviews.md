@@ -61,7 +61,7 @@ L’application présente les fonctionnalités suivantes :
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API PDF Embed](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [API PDF Embed](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/index.html)
 
 * [Code de projet](https://github.com/contentlab-io/adobe_reviews_and_approvals)
 
@@ -399,7 +399,7 @@ Enregistrez un rappel de vue de PDF pour l’API SAVE_API qui télécharge le co
   );
 ```
 
-Les commentaires et les annotations sur les brouillons de documents sont désormais enregistrés sur le serveur. Vous pouvez [en savoir plus sur la façon dont les rappels](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/howtos_ui.html#callbacks-workflows) s&#39;intègrent dans votre workflow. Par exemple, les [rappels d&#39;état](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/howtos_ui.html#status-callback) aident à gérer les conflits de fichiers si plusieurs personnes souhaitent réviser et commenter le même document simultanément.
+Les commentaires et les annotations sur les brouillons de documents sont désormais enregistrés sur le serveur. Vous pouvez [en savoir plus sur la façon dont les rappels](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/howtos_ui.html#callbacks-workflows) s&#39;intègrent dans votre workflow. Par exemple, les [rappels d&#39;état](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/howtos_ui.html#status-callback) aident à gérer les conflits de fichiers si plusieurs personnes souhaitent réviser et commenter le même document simultanément.
 
 À l’étape finale, vous pouvez regrouper tous les documents modifiés dans un seul fichier de PDF à l’aide de l’API des services de PDF.
 

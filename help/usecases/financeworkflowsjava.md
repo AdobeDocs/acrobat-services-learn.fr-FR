@@ -47,7 +47,7 @@ Dans ce tutoriel pratique, découvrez comment utiliser les API [!DNL Adobe Acrob
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API PDF Embed](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [API PDF Embed](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/index.html)
 
 * [Exemples de projet](https://github.com/adobe/pdftools-java-sdk-samples)
 

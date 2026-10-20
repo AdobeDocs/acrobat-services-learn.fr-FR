@@ -292,7 +292,7 @@ Si vous souhaitez ajouter la prise en charge d’Adobe Analytics à votre vision
 >
 >Adobe Analytics doit déjà être chargé sur votre page Web dans l’en-tête.
 
-Accédez à la [documentation Adobe Analytics](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/howtodata.html#adobe-analytics) et vérifiez si Adobe Analytics est déjà activé sur votre page Web. Suivez les instructions pour configurer une suite de rapports.
+Accédez à la [documentation Adobe Analytics](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/howtodata.html#adobe-analytics) et vérifiez si Adobe Analytics est déjà activé sur votre page Web. Suivez les instructions pour configurer une suite de rapports.
 
 ### Google Analytics
 

@@ -49,7 +49,7 @@ Dans ce tutoriel pratique, découvrez comment utiliser le SDK des services PDF d
 
 * [API PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API PDF Embed](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [API PDF Embed](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/index.html)
 
 ## Tableau de bord des rapports de campagne pour les clients
 

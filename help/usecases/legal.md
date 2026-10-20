@@ -50,7 +50,7 @@ Ce tutoriel implique une certaine programmation pour explorer la conversion des 
 
 * [API Adobe Document Generation](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API PDF Embed](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [API PDF Embed](https://www.adobe.com/fr/devnet-docs/dcsdk_io/viewSDK/index.html)
 
 * [API Adobe Sign](https://developer.adobe.com/adobesign-api/)
 

@@ -32,4 +32,4 @@ ht-degree: 0%
 
 Découvrez comment générer automatiquement des documents à grande échelle en appelant l’API Document Generation à l’aide du Connecteur Adobe PDF Services dans Microsoft Power Automate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428227?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3506373?captions=fre_fr&hidetitle=true)
